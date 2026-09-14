@@ -110,9 +110,76 @@
   .social-row a svg{width:19px;height:19px;display:block;}
   .social-row a:hover{background:var(--white);color:var(--charcoal);transform:translateY(-2px);}
   .social-row a:focus-visible{outline:2px solid var(--white);outline-offset:3px;}
+  button.cta{cursor:pointer;appearance:none;-webkit-appearance:none;}
+  .popup-overlay{
+    position:absolute;
+    inset:0;
+    z-index:3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:26px;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .35s ease;
+  }
+  .popup-overlay.visible{opacity:1;pointer-events:auto;}
+  .popup-box{
+    background:transparent;
+    border:1px solid var(--white);
+    border-radius:20px;
+    padding:38px 28px;
+    text-align:center;
+    max-width:300px;
+  }
+  .popup-headline{
+    font-family:'Cormorant Garamond',serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:2rem;
+    line-height:1.1;
+    color:var(--white);
+    margin:0 0 18px;
+  }
+  .popup-text{
+    font-family:'Jost',sans-serif;
+    font-size:.92rem;
+    line-height:1.5;
+    color:var(--white);
+    margin:0 0 18px;
+  }
+  .popup-ig{
+    display:inline-flex;
+    width:38px;height:38px;
+    border:1px solid var(--white);
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    color:var(--white);
+    text-decoration:none;
+    margin-bottom:26px;
+    transition:background .2s ease, color .2s ease;
+  }
+  .popup-ig svg{width:19px;height:19px;}
+  .popup-ig:hover{background:var(--white);color:var(--charcoal);}
+  .popup-next{
+    display:inline-block;
+    font-family:'Jost',sans-serif;
+    font-weight:500;
+    font-size:.85rem;
+    background:transparent;
+    color:var(--white);
+    padding:9px 28px;
+    border-radius:14px;
+    border:1px solid var(--white);
+    text-decoration:none;
+    letter-spacing:.02em;
+    transition:background .2s ease, color .2s ease;
+  }
+  .popup-next:hover{background:var(--white);color:var(--charcoal);}
   @media (prefers-reduced-motion: reduce){
     .content{animation:none;}
-    .cta,.social-row a{transition:none;}
+    .cta,.social-row a,.popup-overlay,.popup-ig,.popup-next{transition:none;}
   }
 </style>
 </head>
@@ -123,9 +190,9 @@
     </video>
     <div class="scrim-bottom"></div>
     <div class="content">
-      <div class="offer">
+      <div class="offer" id="mainOffer">
         <h1>20% Off</h1>
-        <a class="cta" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Book Now</a>
+        <button type="button" class="cta" id="bookNowBtn">Book Now</button>
         <p class="social-label">Follow us</p>
         <div class="social-row">
           <a href="https://www.instagram.com/ciobelasalon" target="_blank" rel="noopener" aria-label="Instagram">
@@ -139,8 +206,24 @@
           </a>
         </div>
       </div>
+      <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-box">
+          <p class="popup-headline">Additional 10% off.</p>
+          <p class="popup-text">Follow us &amp; post an image of you with the rose and tag us!</p>
+          <a class="popup-ig" href="https://www.instagram.com/ciobelasalon" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <br>
+          <a class="popup-next" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Next</a>
+        </div>
+      </div>
     </div>
   </div>
-
+<script>
+  document.getElementById('bookNowBtn').addEventListener('click', function(){
+    document.getElementById('mainOffer').style.display = 'none';
+    document.getElementById('popupOverlay').classList.add('visible');
+  });
+</script>
 </body>
 </html>
