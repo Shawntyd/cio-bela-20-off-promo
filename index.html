@@ -119,6 +119,16 @@
   .social-row a:hover{background:var(--white);color:var(--charcoal);transform:translateY(-2px);}
   .social-row a:focus-visible{outline:2px solid var(--white);outline-offset:3px;}
   button.cta{cursor:pointer;appearance:none;-webkit-appearance:none;}
+  .video-dim{
+    position:absolute;
+    inset:0;
+    z-index:2;
+    background:rgba(0,0,0,.45);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .35s ease;
+  }
+  .video-dim.visible{opacity:1;}
   .popup-overlay{
     position:absolute;
     inset:0;
@@ -225,6 +235,7 @@
       <source src="bg.mp4" type="video/mp4">
     </video>
     <div class="scrim-bottom"></div>
+    <div class="video-dim" id="videoDim"></div>
     <div class="content">
       <div class="offer" id="mainOffer">
         <h1>20% Off</h1>
@@ -263,6 +274,7 @@
   document.getElementById('bookNowBtn').addEventListener('click', function(){
     document.getElementById('mainOffer').style.display = 'none';
     document.getElementById('popupOverlay').classList.add('visible');
+    document.getElementById('videoDim').classList.add('visible');
   });
 </script>
 </body>
