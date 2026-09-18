@@ -208,6 +208,7 @@ function render(entries){
 
   const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
   const roseExits = roseEntries.filter(e => e.event === 'exit' && e.duration_seconds !== '');
+  const igClicks = roseEntries.filter(e => e.event === 'instagram_click');
   const posted = roseViews.filter(e => e.utm_content === 'posted').length;
   const skipped = roseViews.filter(e => e.utm_content === 'skip').length;
 
@@ -222,7 +223,7 @@ function render(entries){
   });
   const topPages = Object.entries(pageCounts).sort((a,b) => b[1]-a[1]);
 
-  const recent = roseViews.slice().reverse();
+  const recent = roseViews.concat(igClicks).sort((a,b) => new Date(b.ts) - new Date(a.ts));
 
   let html = '';
 
@@ -230,6 +231,9 @@ function render(entries){
   html += statCard(roseViews.length, 'Rose Campaign Page Views');
   html += statCard(posted, 'Tapped "Posted"');
   html += statCard(skipped, 'Tapped "Skip"');
+  html += statCard(igClicks.length, 'Tapped Instagram Icon');
+  html += '</div>';
+  html += '<div class="stat-grid" style="grid-template-columns:1fr;">';
   html += statCard(avgDuration !== null ? avgDuration + 's' : '—', 'Avg. Time on Page');
   html += '</div>';
 
@@ -249,9 +253,12 @@ function render(entries){
   } else {
     recent.forEach(e => {
       const time = e.ts ? new Date(e.ts).toLocaleString() : '';
-      const tag = '<span class="activity-tag">' + escapeHtml(e.utm_content || 'no tag') + '</span>';
+      const label = e.event === 'instagram_click' ? 'Tapped Instagram icon' : (e.page || '(unknown page)');
+      const tag = e.event === 'instagram_click'
+        ? '<span class="activity-tag">instagram</span>'
+        : '<span class="activity-tag">' + escapeHtml(e.utm_content || 'no tag') + '</span>';
       html += '<div class="activity-item"><span class="activity-time">' + time + '</span><br>'
-        + '<span class="activity-page">' + escapeHtml(e.page || '(unknown page)') + '</span>' + tag + '</div>';
+        + '<span class="activity-page">' + escapeHtml(label) + '</span>' + tag + '</div>';
     });
   }
   html += '</div>';
