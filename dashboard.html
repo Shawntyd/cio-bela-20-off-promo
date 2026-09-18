@@ -197,46 +197,43 @@ async function loadData(){
 
 function render(entries){
   const content = document.getElementById('content');
-  if (entries.length === 0){
-    content.innerHTML = '<div class="empty">No visits logged yet.</div>';
+
+  const isRose = e => e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr';
+  const roseEntries = entries.filter(isRose);
+
+  if (roseEntries.length === 0){
+    content.innerHTML = '<div class="empty">No rose campaign visits logged yet.</div>';
     return;
   }
 
-  const views = entries.filter(e => (e.event || 'view') === 'view');
-  const exits = entries.filter(e => e.event === 'exit' && e.duration_seconds !== '');
-  const roseTraffic = views.filter(e => e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr');
-  const posted = roseTraffic.filter(e => e.utm_content === 'posted').length;
-  const skipped = roseTraffic.filter(e => e.utm_content === 'skip').length;
+  const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
+  const roseExits = roseEntries.filter(e => e.event === 'exit' && e.duration_seconds !== '');
+  const posted = roseViews.filter(e => e.utm_content === 'posted').length;
+  const skipped = roseViews.filter(e => e.utm_content === 'skip').length;
 
-  const avgDuration = exits.length
-    ? Math.round(exits.reduce((sum,e) => sum + Number(e.duration_seconds || 0), 0) / exits.length)
+  const avgDuration = roseExits.length
+    ? Math.round(roseExits.reduce((sum,e) => sum + Number(e.duration_seconds || 0), 0) / roseExits.length)
     : null;
 
   const pageCounts = {};
-  roseTraffic.forEach(e => {
+  roseViews.forEach(e => {
     const p = e.page || '(unknown)';
     pageCounts[p] = (pageCounts[p] || 0) + 1;
   });
-  const topPages = Object.entries(pageCounts).sort((a,b) => b[1]-a[1]).slice(0, 8);
+  const topPages = Object.entries(pageCounts).sort((a,b) => b[1]-a[1]);
 
-  const recent = views.slice().reverse().slice(0, 12);
+  const recent = roseViews.slice().reverse();
 
   let html = '';
 
   html += '<div class="stat-grid">';
-  html += statCard(views.length, 'Total Page Views');
-  html += statCard(roseTraffic.length, 'From Rose Campaign');
+  html += statCard(roseViews.length, 'Rose Campaign Page Views');
   html += statCard(posted, 'Tapped "Posted"');
   html += statCard(skipped, 'Tapped "Skip"');
+  html += statCard(avgDuration !== null ? avgDuration + 's' : '—', 'Avg. Time on Page');
   html += '</div>';
 
-  if (avgDuration !== null){
-    html += '<div class="stat-grid" style="grid-template-columns:1fr;">';
-    html += statCard(avgDuration + 's', 'Avg. Time on Page (' + exits.length + ' recorded)');
-    html += '</div>';
-  }
-
-  html += '<div class="section"><h2>Top Pages (Rose Campaign)</h2>';
+  html += '<div class="section"><h2>All Pages Visited (Rose Campaign)</h2>';
   if (topPages.length === 0){
     html += '<div class="empty">No rose-campaign page visits yet.</div>';
   } else {
@@ -246,15 +243,17 @@ function render(entries){
   }
   html += '</div>';
 
-  html += '<div class="section"><h2>Recent Activity</h2>';
-  recent.forEach(e => {
-    const time = e.ts ? new Date(e.ts).toLocaleString() : '';
-    const tag = (e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr')
-      ? '<span class="activity-tag">rose campaign' + (e.utm_content ? ' &middot; ' + escapeHtml(e.utm_content) : '') + '</span>'
-      : '';
-    html += '<div class="activity-item"><span class="activity-time">' + time + '</span><br>'
-      + '<span class="activity-page">' + escapeHtml(e.page || '(unknown page)') + '</span>' + tag + '</div>';
-  });
+  html += '<div class="section"><h2>All Activity (Rose Campaign)</h2>';
+  if (recent.length === 0){
+    html += '<div class="empty">No rose-campaign activity yet.</div>';
+  } else {
+    recent.forEach(e => {
+      const time = e.ts ? new Date(e.ts).toLocaleString() : '';
+      const tag = '<span class="activity-tag">' + escapeHtml(e.utm_content || 'no tag') + '</span>';
+      html += '<div class="activity-item"><span class="activity-time">' + time + '</span><br>'
+        + '<span class="activity-page">' + escapeHtml(e.page || '(unknown page)') + '</span>' + tag + '</div>';
+    });
+  }
   html += '</div>';
 
   content.innerHTML = html;
