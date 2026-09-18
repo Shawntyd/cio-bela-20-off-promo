@@ -283,24 +283,46 @@
     </div>
   </div>
 <script>
-  document.getElementById('bookNowBtn').addEventListener('click', function(){
-    document.getElementById('mainOffer').style.display = 'none';
-    document.getElementById('popupOverlay').classList.add('visible');
-    document.getElementById('videoDim').classList.add('visible');
-  });
-  document.getElementById('igLink').addEventListener('click', function(){
+  var SESSION_ID = (function(){
+    try {
+      var stored = sessionStorage.getItem('rose_visitor_id');
+      if (stored) return stored;
+      var id = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : ('v-' + Date.now() + '-' + Math.random().toString(36).slice(2,10));
+      sessionStorage.setItem('rose_visitor_id', id);
+      return id;
+    } catch(e) { return 'unknown'; }
+  })();
+
+  function pingTracker(payload){
     try {
       fetch('https://roserosecampaign.shawntyd96.workers.dev', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({
-          event: 'instagram_click',
-          page: 'promo-popup',
+        body: JSON.stringify(Object.assign({
+          session_id: SESSION_ID,
           utm_source: 'rose_qr',
           utm_campaign: 'mall_rose_promo'
-        })
+        }, payload))
       }).catch(function(){});
     } catch(e) {}
+  }
+
+  pingTracker({event: 'view', page: '/rose-promo-landing'});
+
+  // pass the visitor id along to whichever button they click, so their journey stays connected on the Wix site
+  ['posted','skip'].forEach(function(kind){
+    var el = document.querySelector('.popup-' + (kind === 'posted' ? 'next' : 'skip'));
+    if (el) el.href = el.href + '&visitor=' + encodeURIComponent(SESSION_ID);
+  });
+
+  document.getElementById('bookNowBtn').addEventListener('click', function(){
+    document.getElementById('mainOffer').style.display = 'none';
+    document.getElementById('popupOverlay').classList.add('visible');
+    document.getElementById('videoDim').classList.add('visible');
+    pingTracker({event: 'book_now_click', page: '/rose-promo-landing'});
+  });
+  document.getElementById('igLink').addEventListener('click', function(){
+    pingTracker({event: 'instagram_click', page: 'promo-popup'});
   });
 </script>
 </body>
