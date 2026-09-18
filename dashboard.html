@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cio Bela | Rose Campaign Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F5F0E8;
+    --gold:#B8935A;
+    --gold-light:#D4B896;
+    --charcoal:#1A1410;
+    --bark:#2C2016;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--charcoal);
+    color:var(--cream);
+    font-family:'Jost',sans-serif;
+    min-height:100vh;
+    padding:28px 20px 60px;
+  }
+  .wrap{max-width:640px;margin:0 auto;}
+  h1{
+    font-family:'Cormorant Garamond',serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:2.2rem;
+    margin:0 0 4px;
+    color:var(--cream);
+  }
+  .subtitle{
+    font-size:.85rem;
+    color:var(--gold-light);
+    opacity:.9;
+    margin:0 0 24px;
+  }
+  .track-btn{
+    display:block;
+    width:100%;
+    font-family:'Jost',sans-serif;
+    font-weight:500;
+    font-size:1rem;
+    background:var(--gold);
+    color:var(--charcoal);
+    padding:14px 20px;
+    border-radius:10px;
+    border:none;
+    letter-spacing:.02em;
+    cursor:pointer;
+    margin-bottom:8px;
+  }
+  .track-btn:active{background:var(--gold-light);}
+  .last-updated{
+    text-align:center;
+    font-size:.72rem;
+    color:var(--cream);
+    opacity:.55;
+    margin-bottom:26px;
+  }
+  .stat-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-bottom:26px;
+  }
+  .stat-card{
+    background:var(--bark);
+    border:1px solid rgba(184,147,90,.35);
+    border-radius:12px;
+    padding:16px;
+    text-align:center;
+  }
+  .stat-num{
+    font-family:'Cormorant Garamond',serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:2rem;
+    color:var(--gold-light);
+    line-height:1;
+    margin-bottom:4px;
+  }
+  .stat-label{
+    font-size:.72rem;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    opacity:.75;
+  }
+  .section{
+    background:var(--bark);
+    border:1px solid rgba(184,147,90,.25);
+    border-radius:12px;
+    padding:18px 18px 8px;
+    margin-bottom:20px;
+  }
+  .section h2{
+    font-family:'Jost',sans-serif;
+    font-weight:500;
+    font-size:.85rem;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--gold-light);
+    margin:0 0 14px;
+  }
+  .row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 0;
+    border-bottom:1px solid rgba(245,240,232,.08);
+    font-size:.9rem;
+  }
+  .row:last-child{border-bottom:none;}
+  .row .path{color:var(--cream);word-break:break-word;padding-right:10px;}
+  .row .count{color:var(--gold-light);font-weight:500;flex-shrink:0;}
+  .activity-item{
+    padding:10px 0;
+    border-bottom:1px solid rgba(245,240,232,.08);
+    font-size:.82rem;
+  }
+  .activity-item:last-child{border-bottom:none;}
+  .activity-time{color:var(--gold-light);opacity:.85;}
+  .activity-page{color:var(--cream);}
+  .activity-tag{
+    display:inline-block;
+    font-size:.68rem;
+    background:rgba(184,147,90,.2);
+    color:var(--gold-light);
+    padding:2px 8px;
+    border-radius:20px;
+    margin-left:6px;
+  }
+  .empty{opacity:.6;font-size:.85rem;padding:10px 0;}
+  .loading{text-align:center;padding:40px 0;opacity:.7;font-size:.9rem;}
+  .error{
+    background:rgba(180,60,50,.15);
+    border:1px solid rgba(180,60,50,.4);
+    border-radius:10px;
+    padding:14px;
+    font-size:.85rem;
+    margin-bottom:20px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Rose Campaign Dashboard</h1>
+    <p class="subtitle">Live traffic from the QR code / rose promo funnel</p>
+    <button class="track-btn" id="trackBtn">Track Now</button>
+    <div class="last-updated" id="lastUpdated">Not checked yet</div>
+
+    <div id="content">
+      <div class="loading">Tap "Track Now" to load the latest data.</div>
+    </div>
+  </div>
+
+<script>
+const LOG_URL = 'https://raw.githubusercontent.com/Shawntyd/cio-bela-20-off-promo/main/visits.log';
+const TEST_CAMPAIGNS = ['connection_test', 'retry_check'];
+const TEST_PAGES = ['test', 'retry-test'];
+
+document.getElementById('trackBtn').addEventListener('click', loadData);
+
+async function loadData(){
+  const content = document.getElementById('content');
+  const btn = document.getElementById('trackBtn');
+  btn.disabled = true;
+  btn.textContent = 'Loading...';
+  content.innerHTML = '<div class="loading">Fetching latest visits...</div>';
+
+  try {
+    const resp = await fetch(LOG_URL + '?t=' + Date.now(), {cache:'no-store'});
+    if (!resp.ok) throw new Error('Could not reach the log (status ' + resp.status + ')');
+    const text = await resp.text();
+    const lines = text.split('\n').filter(l => l.trim().length > 0);
+    let entries = lines.map(l => {
+      try { return JSON.parse(l); } catch(e) { return null; }
+    }).filter(e => e !== null);
+
+    entries = entries.filter(e =>
+      !TEST_CAMPAIGNS.includes(e.utm_campaign) && !TEST_PAGES.includes(e.page)
+    );
+
+    render(entries);
+    document.getElementById('lastUpdated').textContent = 'Last checked: ' + new Date().toLocaleString();
+  } catch(e) {
+    content.innerHTML = '<div class="error">Couldn\'t load the data right now: ' + e.message + '. Try again in a moment.</div>';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Track Now';
+  }
+}
+
+function render(entries){
+  const content = document.getElementById('content');
+  if (entries.length === 0){
+    content.innerHTML = '<div class="empty">No visits logged yet.</div>';
+    return;
+  }
+
+  const views = entries.filter(e => (e.event || 'view') === 'view');
+  const exits = entries.filter(e => e.event === 'exit' && e.duration_seconds !== '');
+  const roseTraffic = views.filter(e => e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr');
+  const posted = roseTraffic.filter(e => e.utm_content === 'posted').length;
+  const skipped = roseTraffic.filter(e => e.utm_content === 'skip').length;
+
+  const avgDuration = exits.length
+    ? Math.round(exits.reduce((sum,e) => sum + Number(e.duration_seconds || 0), 0) / exits.length)
+    : null;
+
+  const pageCounts = {};
+  roseTraffic.forEach(e => {
+    const p = e.page || '(unknown)';
+    pageCounts[p] = (pageCounts[p] || 0) + 1;
+  });
+  const topPages = Object.entries(pageCounts).sort((a,b) => b[1]-a[1]).slice(0, 8);
+
+  const recent = views.slice().reverse().slice(0, 12);
+
+  let html = '';
+
+  html += '<div class="stat-grid">';
+  html += statCard(views.length, 'Total Page Views');
+  html += statCard(roseTraffic.length, 'From Rose Campaign');
+  html += statCard(posted, 'Tapped "Posted"');
+  html += statCard(skipped, 'Tapped "Skip"');
+  html += '</div>';
+
+  if (avgDuration !== null){
+    html += '<div class="stat-grid" style="grid-template-columns:1fr;">';
+    html += statCard(avgDuration + 's', 'Avg. Time on Page (' + exits.length + ' recorded)');
+    html += '</div>';
+  }
+
+  html += '<div class="section"><h2>Top Pages (Rose Campaign)</h2>';
+  if (topPages.length === 0){
+    html += '<div class="empty">No rose-campaign page visits yet.</div>';
+  } else {
+    topPages.forEach(([page, count]) => {
+      html += '<div class="row"><span class="path">' + escapeHtml(page) + '</span><span class="count">' + count + '</span></div>';
+    });
+  }
+  html += '</div>';
+
+  html += '<div class="section"><h2>Recent Activity</h2>';
+  recent.forEach(e => {
+    const time = e.ts ? new Date(e.ts).toLocaleString() : '';
+    const tag = (e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr')
+      ? '<span class="activity-tag">rose campaign' + (e.utm_content ? ' &middot; ' + escapeHtml(e.utm_content) : '') + '</span>'
+      : '';
+    html += '<div class="activity-item"><span class="activity-time">' + time + '</span><br>'
+      + '<span class="activity-page">' + escapeHtml(e.page || '(unknown page)') + '</span>' + tag + '</div>';
+  });
+  html += '</div>';
+
+  content.innerHTML = html;
+}
+
+function statCard(num, label){
+  return '<div class="stat-card"><div class="stat-num">' + num + '</div><div class="stat-label">' + label + '</div></div>';
+}
+
+function escapeHtml(str){
+  return String(str).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+</script>
+</body>
+</html>
