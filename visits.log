@@ -7,3 +7,4 @@
 {"ts":"2026-09-18T01:47:12.702Z","event":"view","page":"test","duration_seconds":"","referrer":"","utm_source":"test","utm_medium":"","utm_campaign":"connection_test","utm_content":""}
 {"ts":"2026-09-18T01:52:29.090Z","event":"view","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T01:59:13.325Z","event":"view","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-18T02:04:14.776Z","event":"view","page":"/","duration_seconds":"","referrer":"","utm_source":"rose_qr","utm_medium":"offline","utm_campaign":"mall_rose_promo","utm_content":"skip"}
