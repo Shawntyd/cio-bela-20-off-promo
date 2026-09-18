@@ -66,7 +66,7 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:12px;
-    margin-bottom:26px;
+    margin-bottom:20px;
   }
   .stat-card{
     background:var(--bark);
@@ -90,47 +90,85 @@
     text-transform:uppercase;
     opacity:.75;
   }
-  .section{
-    background:var(--bark);
-    border:1px solid rgba(184,147,90,.25);
-    border-radius:12px;
-    padding:18px 18px 8px;
-    margin-bottom:20px;
-  }
-  .section h2{
+  .section-title{
     font-family:'Jost',sans-serif;
     font-weight:500;
     font-size:.85rem;
     letter-spacing:.04em;
     text-transform:uppercase;
     color:var(--gold-light);
-    margin:0 0 14px;
+    margin:26px 0 12px;
   }
-  .row{
+  .visitor-card{
+    background:var(--bark);
+    border:1px solid rgba(184,147,90,.25);
+    border-radius:12px;
+    margin-bottom:10px;
+    overflow:hidden;
+  }
+  .visitor-header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:8px 0;
-    border-bottom:1px solid rgba(245,240,232,.08);
-    font-size:.9rem;
+    padding:14px 16px;
+    cursor:pointer;
   }
-  .row:last-child{border-bottom:none;}
-  .row .path{color:var(--cream);word-break:break-word;padding-right:10px;}
-  .row .count{color:var(--gold-light);font-weight:500;flex-shrink:0;}
-  .activity-item{
+  .visitor-name{
+    font-family:'Cormorant Garamond',serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:1.15rem;
+    color:var(--cream);
+  }
+  .visitor-meta{
+    font-size:.72rem;
+    opacity:.65;
+    margin-top:2px;
+  }
+  .visitor-chevron{
+    font-size:1.2rem;
+    color:var(--gold-light);
+    transition:transform .2s ease;
+    flex-shrink:0;
+    margin-left:10px;
+  }
+  .visitor-chevron.open{transform:rotate(180deg);}
+  .visitor-path{
+    display:none;
+    padding:0 16px 16px;
+    border-top:1px solid rgba(245,240,232,.08);
+  }
+  .visitor-path.open{display:block;}
+  .path-step{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
     padding:10px 0;
-    border-bottom:1px solid rgba(245,240,232,.08);
-    font-size:.82rem;
+    border-bottom:1px solid rgba(245,240,232,.06);
+    font-size:.85rem;
+    gap:10px;
   }
-  .activity-item:last-child{border-bottom:none;}
-  .activity-time{color:var(--gold-light);opacity:.85;}
-  .activity-page{color:var(--cream);}
-  .activity-tag{
+  .path-step:last-child{border-bottom:none;}
+  .path-step .step-left{flex:1;min-width:0;}
+  .path-num{
+    color:var(--gold-light);
+    font-size:.72rem;
+    margin-right:6px;
+  }
+  .step-label{color:var(--cream);word-break:break-word;}
+  .step-time{color:var(--cream);opacity:.5;font-size:.72rem;margin-top:2px;}
+  .step-duration{
+    color:var(--gold-light);
+    font-size:.78rem;
+    white-space:nowrap;
+    flex-shrink:0;
+  }
+  .tag-pill{
     display:inline-block;
-    font-size:.68rem;
+    font-size:.65rem;
     background:rgba(184,147,90,.2);
     color:var(--gold-light);
-    padding:2px 8px;
+    padding:1px 7px;
     border-radius:20px;
     margin-left:6px;
   }
@@ -195,10 +233,69 @@ async function loadData(){
   }
 }
 
+function isRose(e){
+  return e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr';
+}
+
+function stepLabel(e){
+  if (e.event === 'book_now_click') return 'Tapped "For Rose Holders Only"';
+  if (e.event === 'instagram_click') return 'Tapped Instagram icon';
+  return e.page || '(unknown page)';
+}
+
+function formatDuration(seconds){
+  if (seconds === null || seconds === undefined || isNaN(seconds)) return '';
+  if (seconds < 60) return seconds + 's';
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return m + 'm ' + s + 's';
+}
+
+function buildSessions(entries){
+  const groups = {};
+  entries.forEach(e => {
+    const sid = e.session_id || 'unlabeled-' + (e.ts || Math.random());
+    (groups[sid] = groups[sid] || []).push(e);
+  });
+
+  let sessions = Object.entries(groups).map(([sid, events]) => {
+    events.sort((a,b) => new Date(a.ts) - new Date(b.ts));
+    const steps = [];
+    events.forEach((e, i) => {
+      if (e.event === 'exit') return;
+      let duration = null;
+      const next = events[i+1];
+      if (next) {
+        duration = Math.round((new Date(next.ts) - new Date(e.ts)) / 1000);
+      } else {
+        const matchingExit = events.find(x => x.event === 'exit' && x.page === e.page && new Date(x.ts) >= new Date(e.ts));
+        if (matchingExit && matchingExit.duration_seconds !== '') duration = Number(matchingExit.duration_seconds);
+      }
+      steps.push({
+        ts: e.ts,
+        label: stepLabel(e),
+        duration: duration,
+        isPage: (e.event || 'view') === 'view',
+        tag: e.utm_content || ''
+      });
+    });
+    return {
+      id: sid,
+      firstSeen: events[0].ts,
+      pageCount: steps.filter(s => s.isPage).length,
+      steps
+    };
+  });
+
+  sessions = sessions.filter(s => s.steps.length > 0);
+  sessions.sort((a,b) => new Date(a.firstSeen) - new Date(b.firstSeen));
+  sessions.forEach((s, i) => s.number = i + 1);
+  sessions.sort((a,b) => new Date(b.firstSeen) - new Date(a.firstSeen));
+  return sessions;
+}
+
 function render(entries){
   const content = document.getElementById('content');
-
-  const isRose = e => e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr';
   const roseEntries = entries.filter(isRose);
 
   if (roseEntries.length === 0){
@@ -207,63 +304,51 @@ function render(entries){
   }
 
   const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
-  const roseExits = roseEntries.filter(e => e.event === 'exit' && e.duration_seconds !== '');
   const igClicks = roseEntries.filter(e => e.event === 'instagram_click');
-  const posted = roseViews.filter(e => e.utm_content === 'posted').length;
-  const skipped = roseViews.filter(e => e.utm_content === 'skip').length;
+  const posted = roseEntries.filter(e => e.utm_content === 'posted' && (e.event||'view')==='view').length;
 
-  const avgDuration = roseExits.length
-    ? Math.round(roseExits.reduce((sum,e) => sum + Number(e.duration_seconds || 0), 0) / roseExits.length)
-    : null;
-
-  const pageCounts = {};
-  roseViews.forEach(e => {
-    const p = e.page || '(unknown)';
-    pageCounts[p] = (pageCounts[p] || 0) + 1;
-  });
-  const topPages = Object.entries(pageCounts).sort((a,b) => b[1]-a[1]);
-
-  const recent = roseViews.concat(igClicks).sort((a,b) => new Date(b.ts) - new Date(a.ts));
+  const sessions = buildSessions(roseEntries);
 
   let html = '';
 
   html += '<div class="stat-grid">';
-  html += statCard(roseViews.length, 'Rose Campaign Page Views');
+  html += statCard(sessions.length, 'Visitors');
+  html += statCard(roseViews.length, 'Total Page Views');
   html += statCard(posted, 'Tapped "Posted"');
-  html += statCard(skipped, 'Tapped "Skip"');
-  html += statCard(igClicks.length, 'Tapped Instagram Icon');
-  html += '</div>';
-  html += '<div class="stat-grid" style="grid-template-columns:1fr;">';
-  html += statCard(avgDuration !== null ? avgDuration + 's' : '—', 'Avg. Time on Page');
+  html += statCard(igClicks.length, 'Tapped Instagram');
   html += '</div>';
 
-  html += '<div class="section"><h2>All Pages Visited (Rose Campaign)</h2>';
-  if (topPages.length === 0){
-    html += '<div class="empty">No rose-campaign page visits yet.</div>';
-  } else {
-    topPages.forEach(([page, count]) => {
-      html += '<div class="row"><span class="path">' + escapeHtml(page) + '</span><span class="count">' + count + '</span></div>';
-    });
-  }
-  html += '</div>';
+  html += '<div class="section-title">Visitor Paths (' + sessions.length + ')</div>';
 
-  html += '<div class="section"><h2>All Activity (Rose Campaign)</h2>';
-  if (recent.length === 0){
-    html += '<div class="empty">No rose-campaign activity yet.</div>';
-  } else {
-    recent.forEach(e => {
-      const time = e.ts ? new Date(e.ts).toLocaleString() : '';
-      const label = e.event === 'instagram_click' ? 'Tapped Instagram icon' : (e.page || '(unknown page)');
-      const tag = e.event === 'instagram_click'
-        ? '<span class="activity-tag">instagram</span>'
-        : '<span class="activity-tag">' + escapeHtml(e.utm_content || 'no tag') + '</span>';
-      html += '<div class="activity-item"><span class="activity-time">' + time + '</span><br>'
-        + '<span class="activity-page">' + escapeHtml(label) + '</span>' + tag + '</div>';
+  sessions.forEach((s, idx) => {
+    const first = new Date(s.firstSeen).toLocaleString();
+    html += '<div class="visitor-card">';
+    html += '<div class="visitor-header" onclick="toggleVisitor(' + idx + ')">';
+    html += '<div><div class="visitor-name">Visitor ' + s.number + '</div>';
+    html += '<div class="visitor-meta">' + s.pageCount + ' page' + (s.pageCount===1?'':'s') + ' &middot; started ' + first + '</div></div>';
+    html += '<div class="visitor-chevron" id="chev-' + idx + '">&#9662;</div>';
+    html += '</div>';
+    html += '<div class="visitor-path" id="path-' + idx + '">';
+    s.steps.forEach((step, si) => {
+      const time = step.ts ? new Date(step.ts).toLocaleTimeString() : '';
+      const durationText = step.duration !== null ? formatDuration(step.duration) : (si === s.steps.length-1 ? '—' : '');
+      html += '<div class="path-step"><div class="step-left">';
+      html += '<span class="path-num">' + (si+1) + '.</span><span class="step-label">' + escapeHtml(step.label) + '</span>';
+      if (step.tag) html += '<span class="tag-pill">' + escapeHtml(step.tag) + '</span>';
+      html += '<div class="step-time">' + time + '</div></div>';
+      html += '<div class="step-duration">' + durationText + '</div></div>';
     });
-  }
-  html += '</div>';
+    html += '</div></div>';
+  });
 
   content.innerHTML = html;
+}
+
+function toggleVisitor(idx){
+  const path = document.getElementById('path-' + idx);
+  const chev = document.getElementById('chev-' + idx);
+  path.classList.toggle('open');
+  chev.classList.toggle('open');
 }
 
 function statCard(num, label){
