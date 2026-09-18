@@ -313,13 +313,15 @@ function render(entries){
   if (roseEntries.length > 0){
     const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
     const igClicks = roseEntries.filter(e => e.event === 'instagram_click');
-    const posted = roseEntries.filter(e => e.utm_content === 'posted' && (e.event||'view')==='view').length;
     const roseSessions = buildSessions(roseEntries);
+    const posted = roseSessions.filter(s => s.steps.some(step => step.tag === 'posted')).length;
+    const skipped = roseSessions.filter(s => s.steps.some(step => step.tag === 'skip')).length;
 
     html += '<div class="stat-grid">';
     html += statCard(roseSessions.length, 'Rose Visitors');
     html += statCard(roseViews.length, 'Total Page Views');
     html += statCard(posted, 'Tapped "Posted"');
+    html += statCard(skipped, 'Tapped "Skip"');
     html += statCard(igClicks.length, 'Tapped Instagram');
     html += '</div>';
 
