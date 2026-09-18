@@ -237,6 +237,10 @@ function isRose(e){
   return e.utm_campaign === 'mall_rose_promo' || e.utm_source === 'rose_qr';
 }
 
+function isInstagram(e){
+  return e.utm_source === 'ig' || (e.referrer && e.referrer.indexOf('instagram') !== -1);
+}
+
 function stepLabel(e){
   if (e.event === 'book_now_click') return 'Tapped "For Rose Holders Only"';
   if (e.event === 'instagram_click') return 'Tapped Instagram icon';
@@ -297,38 +301,55 @@ function buildSessions(entries){
 function render(entries){
   const content = document.getElementById('content');
   const roseEntries = entries.filter(isRose);
+  const igEntries = entries.filter(isInstagram);
 
-  if (roseEntries.length === 0){
-    content.innerHTML = '<div class="empty">No rose campaign visits logged yet.</div>';
+  if (roseEntries.length === 0 && igEntries.length === 0){
+    content.innerHTML = '<div class="empty">No visits logged yet.</div>';
     return;
   }
 
-  const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
-  const igClicks = roseEntries.filter(e => e.event === 'instagram_click');
-  const posted = roseEntries.filter(e => e.utm_content === 'posted' && (e.event||'view')==='view').length;
-
-  const sessions = buildSessions(roseEntries);
-
   let html = '';
 
-  html += '<div class="stat-grid">';
-  html += statCard(sessions.length, 'Visitors');
-  html += statCard(roseViews.length, 'Total Page Views');
-  html += statCard(posted, 'Tapped "Posted"');
-  html += statCard(igClicks.length, 'Tapped Instagram');
-  html += '</div>';
+  if (roseEntries.length > 0){
+    const roseViews = roseEntries.filter(e => (e.event || 'view') === 'view');
+    const igClicks = roseEntries.filter(e => e.event === 'instagram_click');
+    const posted = roseEntries.filter(e => e.utm_content === 'posted' && (e.event||'view')==='view').length;
+    const roseSessions = buildSessions(roseEntries);
 
-  html += '<div class="section-title">Visitor Paths (' + sessions.length + ')</div>';
+    html += '<div class="stat-grid">';
+    html += statCard(roseSessions.length, 'Rose Visitors');
+    html += statCard(roseViews.length, 'Total Page Views');
+    html += statCard(posted, 'Tapped "Posted"');
+    html += statCard(igClicks.length, 'Tapped Instagram');
+    html += '</div>';
 
+    html += '<div class="section-title">Rose Campaign — Visitor Paths (' + roseSessions.length + ')</div>';
+    html += renderVisitorList(roseSessions, 'rose');
+  } else {
+    html += '<div class="empty">No rose campaign visits logged yet.</div>';
+  }
+
+  if (igEntries.length > 0){
+    const igSessions = buildSessions(igEntries);
+    html += '<div class="section-title" style="margin-top:34px;">Instagram Referral Traffic — Visitor Paths (' + igSessions.length + ')</div>';
+    html += renderVisitorList(igSessions, 'ig');
+  }
+
+  content.innerHTML = html;
+}
+
+function renderVisitorList(sessions, prefix){
+  let html = '';
   sessions.forEach((s, idx) => {
+    const domId = prefix + '-' + idx;
     const first = new Date(s.firstSeen).toLocaleString();
     html += '<div class="visitor-card">';
-    html += '<div class="visitor-header" onclick="toggleVisitor(' + idx + ')">';
+    html += '<div class="visitor-header" onclick="toggleVisitor(\'' + domId + '\')">';
     html += '<div><div class="visitor-name">Visitor ' + s.number + '</div>';
     html += '<div class="visitor-meta">' + s.pageCount + ' page' + (s.pageCount===1?'':'s') + ' &middot; started ' + first + '</div></div>';
-    html += '<div class="visitor-chevron" id="chev-' + idx + '">&#9662;</div>';
+    html += '<div class="visitor-chevron" id="chev-' + domId + '">&#9662;</div>';
     html += '</div>';
-    html += '<div class="visitor-path" id="path-' + idx + '">';
+    html += '<div class="visitor-path" id="path-' + domId + '">';
     s.steps.forEach((step, si) => {
       const time = step.ts ? new Date(step.ts).toLocaleTimeString() : '';
       const durationText = step.duration !== null ? formatDuration(step.duration) : (si === s.steps.length-1 ? '—' : '');
@@ -340,8 +361,7 @@ function render(entries){
     });
     html += '</div></div>';
   });
-
-  content.innerHTML = html;
+  return html;
 }
 
 function toggleVisitor(idx){
