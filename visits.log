@@ -16,3 +16,4 @@
 {"ts":"2026-09-18T03:14:36.750Z","event":"view","session_id":"57a3435a-195e-449a-9d41-7b154c3fc2b7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T03:14:41.326Z","event":"view","session_id":"57a3435a-195e-449a-9d41-7b154c3fc2b7","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T03:15:02.515Z","event":"view","session_id":"d65a9724-af11-476f-b868-8c8fbfe95b27","page":"/rose-promo-landing","duration_seconds":"","referrer":"","utm_source":"rose_qr","utm_medium":"","utm_campaign":"mall_rose_promo","utm_content":""}
+{"ts":"2026-09-18T03:15:16.090Z","event":"view","session_id":"ec2d2935-d90f-414e-aa4b-13b2d2402462","page":"/rose-promo-landing","duration_seconds":"","referrer":"","utm_source":"rose_qr","utm_medium":"","utm_campaign":"mall_rose_promo","utm_content":""}
