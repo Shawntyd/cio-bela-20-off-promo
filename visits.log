@@ -160,3 +160,4 @@
 {"ts":"2026-09-18T20:47:55.309Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T20:48:51.112Z","event":"view","session_id":"8199db2f-b9bb-4b22-9cea-b8bf3df0df92","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T21:16:57.256Z","event":"view","session_id":"856250c2-d050-4e39-8a87-8c4dd3bbf5e5","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-18T21:24:28.931Z","event":"view","session_id":"5a343ac0-6332-438c-9a9f-9a45e5ee5856","page":"/waxing-by-artist","duration_seconds":"","referrer":"https://www.ciobelasalons.com/wax-services-selection","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
