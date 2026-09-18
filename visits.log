@@ -37,3 +37,4 @@
 {"ts":"2026-09-18T08:37:08.001Z","event":"view","session_id":"2296be39-50eb-4fb3-ae28-2773f4718a4e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T08:37:26.326Z","event":"exit","session_id":"2296be39-50eb-4fb3-ae28-2773f4718a4e","page":"/","duration_seconds":19,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-18T12:10:25.748Z","event":"view","session_id":"b2d74711-125c-48a4-b5a7-2f4ccd1bc54b","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-18T12:12:04.012Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
