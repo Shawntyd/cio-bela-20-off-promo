@@ -223,3 +223,4 @@
 {"ts":"2026-09-19T12:18:23.433Z","event":"view","session_id":"9eed1980-b741-4de4-ba9c-ceecbbbede71","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-19T15:08:24.130Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-19T15:27:06.355Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-19T15:39:46.353Z","event":"view","session_id":"38b73f64-da2f-4728-8140-e08758c51016","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
