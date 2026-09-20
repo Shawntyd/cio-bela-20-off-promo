@@ -298,3 +298,4 @@
 {"ts":"2026-09-20T04:34:53.107Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T04:34:54.801Z","event":"view","session_id":"7851ae10-ca2d-44ad-a17e-fa9094184d47","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T06:53:02.610Z","event":"view","session_id":"eefc26d3-6952-4f8f-a437-ee01ed5c0751","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-20T06:53:22.464Z","event":"view","session_id":"2dfe7340-6af3-47da-a7ec-3f46c81de8d3","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
