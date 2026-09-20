@@ -344,3 +344,4 @@
 {"ts":"2026-09-20T20:31:52.127Z","event":"view","session_id":"fb552d01-9049-43d6-b522-792f206f3f9b","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T20:31:52.190Z","event":"view","session_id":"25135e2f-5d85-46b9-ab16-54e48b56f441","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T20:33:03.044Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-20T20:39:18.447Z","event":"view","session_id":"bdbad12d-d236-431d-94df-99ed302176a7","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
