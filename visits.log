@@ -297,3 +297,4 @@
 {"ts":"2026-09-20T03:24:15.750Z","event":"view","session_id":"ba403998-047d-4a9f-847d-80bca28ebb6c","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T04:34:53.107Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T04:34:54.801Z","event":"view","session_id":"7851ae10-ca2d-44ad-a17e-fa9094184d47","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-20T06:53:02.610Z","event":"view","session_id":"eefc26d3-6952-4f8f-a437-ee01ed5c0751","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
