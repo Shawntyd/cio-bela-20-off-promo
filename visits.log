@@ -353,3 +353,4 @@
 {"ts":"2026-09-20T20:41:08.858Z","event":"view","session_id":"eb5bd11b-0f25-4f74-b504-4b99ad6689a6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T20:41:08.976Z","event":"view","session_id":"f64e1df9-a747-400f-9802-0d33821b5301","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T20:44:09.495Z","event":"view","session_id":"41f770f7-8233-46c7-8dac-e87ed87e97a8","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-20T20:45:18.702Z","event":"view","session_id":"13fce37e-a98e-4459-b11b-3fe7955bb6e4","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
