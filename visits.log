@@ -362,3 +362,4 @@
 {"ts":"2026-09-20T22:52:55.952Z","event":"view","session_id":"f307b231-dbef-4ccb-a50f-f9846f989d03","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T22:53:04.226Z","event":"view","session_id":"f307b231-dbef-4ccb-a50f-f9846f989d03","page":"/tanning","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-20T22:53:06.182Z","event":"view","session_id":"3b62001e-a82a-403d-a1a8-5abc52758faa","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-20T23:10:59.638Z","event":"view","session_id":"6264cc38-64d1-4ee9-a27b-a97013b5ab10","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
