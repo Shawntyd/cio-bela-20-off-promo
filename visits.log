@@ -521,3 +521,4 @@
 {"ts":"2026-09-21T20:43:52.970Z","event":"view","session_id":"cfb0a36d-663d-4279-af32-f5ef44b945f7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T20:43:53.168Z","event":"view","session_id":"7de5058b-4b92-4df6-9eb4-e49bf153134d","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T20:55:08.033Z","event":"view","session_id":"5c11e4d9-f65a-4dbd-81be-23f9c69bf9d7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-21T20:55:33.080Z","event":"view","session_id":"37c49bec-b232-4a84-8c99-fbf3202dd675","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
