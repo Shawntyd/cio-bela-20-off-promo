@@ -494,3 +494,4 @@
 {"ts":"2026-09-21T17:41:33.295Z","event":"view","session_id":"51ec89fd-e14c-4e98-be56-ae56723a2a7e","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T17:42:26.499Z","event":"view","session_id":"51ec89fd-e14c-4e98-be56-ae56723a2a7e","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T18:13:45.043Z","event":"view","session_id":"e3f00a35-ba68-43cf-9ab0-4e0045d0cad2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-21T18:33:22.638Z","event":"view","session_id":"eace7107-7cca-496a-b603-87ab8e0b98fa","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
