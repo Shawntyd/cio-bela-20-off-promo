@@ -407,3 +407,4 @@
 {"ts":"2026-09-21T09:48:49.288Z","event":"view","session_id":"3be447a4-bf57-406c-b40f-785fc2ddf99c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T11:51:48.289Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T11:51:49.802Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-21T12:31:22.651Z","event":"view","session_id":"a973664a-39e0-4ed0-b7d6-31ec13042cd5","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
