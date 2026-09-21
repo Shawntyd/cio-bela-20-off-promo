@@ -374,3 +374,4 @@
 {"ts":"2026-09-21T00:02:27.094Z","event":"view","session_id":"9f25d0a7-731c-40e5-a6ee-dac30a941c48","page":"/","duration_seconds":"","referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":""}
 {"ts":"2026-09-21T00:02:27.741Z","event":"view","session_id":"75f72e26-e0b0-42ba-88cf-ed9386503bc8","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-21T00:13:13.877Z","event":"view","session_id":"aea6134a-b576-4098-8fc3-3468c646f589","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/waxing-by-artist","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-21T00:21:11.940Z","event":"view","session_id":"51264b2d-4bb0-46d7-963c-615cc0196a97","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
