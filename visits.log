@@ -558,3 +558,4 @@
 {"ts":"2026-09-22T00:54:59.898Z","event":"exit","session_id":"86893f3b-fa9b-433f-96d4-11fac9401b2b","page":"/booking/wax-by-artist","duration_seconds":7,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-22T00:55:56.946Z","event":"exit","session_id":"86893f3b-fa9b-433f-96d4-11fac9401b2b","page":"booking-wax/services-addons","duration_seconds":57,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-22T01:42:38.564Z","event":"view","session_id":"","page":"recheck","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"test_recheck","utm_content":""}
+{"ts":"2026-09-22T02:03:26.738Z","event":"view","session_id":"d1d64dff-bae1-4460-8567-7c1ba1e7c7e7","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
