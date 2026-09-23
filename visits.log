@@ -719,3 +719,4 @@
 {"ts":"2026-09-23T20:28:18.602Z","event":"view","session_id":"aa52c1fa-3060-4e9a-ab8c-90132e44a555","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-23T20:28:48.629Z","event":"view","session_id":"aa52c1fa-3060-4e9a-ab8c-90132e44a555","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/lash-artist-onboarding","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-23T20:29:00.385Z","event":"view","session_id":"9f566ade-54d5-4a04-8d59-752e4cb09b64","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-23T20:29:11.434Z","event":"view","session_id":"c1f03ee8-c33d-4d51-a5b0-82834829350a","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
