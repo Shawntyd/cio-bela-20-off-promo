@@ -639,3 +639,4 @@
 {"ts":"2026-09-23T00:37:54.845Z","event":"view","session_id":"d102d725-0678-4c95-b99d-73f98a7f456f","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-23T00:37:59.558Z","event":"exit","session_id":"d102d725-0678-4c95-b99d-73f98a7f456f","page":"booking-wax/time","duration_seconds":5,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-23T01:30:15.886Z","event":"view","session_id":"efc20d7b-2dd8-4c76-b2ef-ff47eb62e22c","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-23T01:51:14.538Z","event":"view","session_id":"fb4c821f-6abc-4472-aadb-947d8986c30b","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
