@@ -773,3 +773,4 @@
 {"ts":"2026-09-24T04:53:00.750Z","event":"exit","session_id":"de14ac97-43b6-42d9-9543-1050bd293138","page":"booking-wax/services-addons","duration_seconds":36,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-24T04:53:00.748Z","event":"view","session_id":"de14ac97-43b6-42d9-9543-1050bd293138","page":"booking-wax/services-addons","duration_seconds":"","referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-24T04:53:13.199Z","event":"exit","session_id":"de14ac97-43b6-42d9-9543-1050bd293138","page":"booking-wax/services-addons","duration_seconds":12,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-09-24T06:55:33.572Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
