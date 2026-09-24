@@ -798,3 +798,4 @@
 {"ts":"2026-09-24T15:48:31.439Z","event":"view","session_id":"2cc20986-11d7-497e-aa8f-0e4c7bc0d756","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-24T15:52:35.564Z","event":"view","session_id":"8c1dacaf-51ae-4399-a95f-03947af4dfbe","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-24T15:53:53.670Z","event":"view","session_id":"ea54be5c-cf88-40cd-8317-5b722706d4b2","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-24T15:54:05.754Z","event":"view","session_id":"ea54be5c-cf88-40cd-8317-5b722706d4b2","page":"/contact-us","duration_seconds":"","referrer":"https://www.ciobelasalons.com/join-our-team","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
