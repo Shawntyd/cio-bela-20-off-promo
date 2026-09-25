@@ -864,3 +864,4 @@
 {"ts":"2026-09-25T00:54:21.332Z","event":"exit","session_id":"5b02abb1-9182-420b-9615-bf51adf39459","page":"/booking/wax-by-artist","duration_seconds":20,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-25T00:54:55.883Z","event":"exit","session_id":"5b02abb1-9182-420b-9615-bf51adf39459","page":"booking-wax/services-addons","duration_seconds":35,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-25T01:45:30.233Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-25T01:54:25.642Z","event":"view","session_id":"07468767-ab45-451c-b5ef-e041d70aab9e","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
