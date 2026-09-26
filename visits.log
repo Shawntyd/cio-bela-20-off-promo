@@ -995,3 +995,4 @@
 {"ts":"2026-09-26T14:10:31.938Z","event":"view","session_id":"95a7f9aa-71e2-4eed-8710-a52d87a24a91","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-26T14:10:52.845Z","event":"view","session_id":"b00e67b5-658d-43fb-a43d-d08c01b00e4c","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-26T14:38:57.173Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-26T15:08:46.948Z","event":"view","session_id":"3f9db56a-20a3-4528-b36d-844283310b82","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
