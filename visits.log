@@ -977,3 +977,4 @@
 {"ts":"2026-09-26T02:06:04.979Z","event":"view","session_id":"37da12cb-ccbc-4cb2-a2d0-a0f1c82adecf","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-26T02:13:10.554Z","event":"view","session_id":"deb95dbc-c5ff-486c-a1fe-e268803dd9a9","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-26T03:17:02.969Z","event":"view","session_id":"af42565a-ec28-4dcc-b01e-3d4e65ecb173","page":"/product-page/3-months-of-tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-26T03:42:09.252Z","event":"view","session_id":"85e86cef-3449-4342-957d-7fb08287f15f","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
