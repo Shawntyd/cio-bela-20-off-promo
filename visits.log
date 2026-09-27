@@ -1075,3 +1075,4 @@
 {"ts":"2026-09-27T08:40:01.821Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-27T11:13:22.335Z","event":"view","session_id":"7a2e634d-5953-4ac5-829a-e1c7d153fa85","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-27T11:13:49.761Z","event":"view","session_id":"7a2e634d-5953-4ac5-829a-e1c7d153fa85","page":"/memberships","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-27T12:16:44.757Z","event":"view","session_id":"3d2d9d67-507b-401a-bb9c-c25b712e1647","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
