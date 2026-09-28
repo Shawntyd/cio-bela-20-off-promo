@@ -1175,3 +1175,4 @@
 {"ts":"2026-09-28T20:09:36.131Z","event":"view","session_id":"1cb72abc-a5f8-45d6-873f-fedbc909b8b1","page":"/wax-services-selection","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-28T20:09:43.758Z","event":"view","session_id":"1497d12a-55d4-44cf-8db3-086e3aebdd1a","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-28T20:19:57.944Z","event":"view","session_id":"26a0a625-60f9-4fa1-b898-ecc459ef438b","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-28T20:20:02.112Z","event":"exit","session_id":"26a0a625-60f9-4fa1-b898-ecc459ef438b","page":"/lash-artist-portal","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
