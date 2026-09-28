@@ -1166,3 +1166,4 @@
 {"ts":"2026-09-28T17:59:35.397Z","event":"view","session_id":"6ab0a164-f75b-4379-a259-ed2eef8392f8","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-28T19:49:52.723Z","event":"view","session_id":"4e1014ab-ac2c-4674-b239-70066f20c199","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-28T20:09:05.187Z","event":"view","session_id":"a2991a33-88cd-4ced-8395-41548714b0d7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-28T20:09:27.707Z","event":"view","session_id":"053f2aff-4a88-47f4-9577-1d5be92ef472","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
