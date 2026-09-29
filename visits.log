@@ -1251,3 +1251,4 @@
 {"ts":"2026-09-29T22:44:31.632Z","event":"view","session_id":"d5a78911-97fa-440e-b107-d32ca0cf2b35","page":"/liability-release","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T22:45:33.478Z","event":"view","session_id":"216d2c09-da1b-47b6-9b13-8c42e4bc2a99","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T22:47:14.380Z","event":"view","session_id":"029456a4-33f8-4e91-a89b-fb830f546d09","page":"/copy-of-artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-29T22:47:17.506Z","event":"exit","session_id":"029456a4-33f8-4e91-a89b-fb830f546d09","page":"/copy-of-artist-management-portable","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
