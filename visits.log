@@ -1194,3 +1194,4 @@
 {"ts":"2026-09-29T02:47:53.308Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T02:47:54.557Z","event":"view","session_id":"d3e8e409-2262-418a-9c5b-ff5aa0e4d8a2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T05:03:05.380Z","event":"view","session_id":"bc50d137-6603-47bd-ac42-d8e80d940d72","page":"/copy-of-nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-29T05:03:07.585Z","event":"exit","session_id":"bc50d137-6603-47bd-ac42-d8e80d940d72","page":"/copy-of-nail-artist-portal","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
