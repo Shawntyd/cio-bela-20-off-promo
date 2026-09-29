@@ -1243,3 +1243,4 @@
 {"ts":"2026-09-29T18:44:15.718Z","event":"view","session_id":"06fcaabe-a9ad-4cbe-b66a-982a05b7d707","page":"/copy-of-eyelash-extensions-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T18:44:21.175Z","event":"exit","session_id":"06fcaabe-a9ad-4cbe-b66a-982a05b7d707","page":"/copy-of-eyelash-extensions-1","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-29T19:05:36.340Z","event":"view","session_id":"154a9853-b63b-48aa-985e-75358e038e70","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-29T19:05:43.803Z","event":"view","session_id":"154a9853-b63b-48aa-985e-75358e038e70","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
