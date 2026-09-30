@@ -1403,3 +1403,4 @@
 {"ts":"2026-09-30T19:30:50.997Z","event":"view","session_id":"0dc519ce-453a-4f77-83e1-456d7b5c6115","page":"/product-page/reverse-balayage-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T19:50:05.666Z","event":"view","session_id":"ee8416bc-c9de-480a-acc5-9599d1de4c46","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T19:50:09.163Z","event":"exit","session_id":"ee8416bc-c9de-480a-acc5-9599d1de4c46","page":"/professional-development","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T20:19:18.721Z","event":"view","session_id":"98c590f7-05a4-476f-ba40-2e19d9496714","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
