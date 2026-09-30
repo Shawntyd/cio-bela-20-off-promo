@@ -1318,3 +1318,4 @@
 {"ts":"2026-09-30T13:24:14.049Z","event":"view","session_id":"1f44d77f-b003-43ec-8307-403c58e1ce5f","page":"/copy-of-nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T13:25:09.282Z","event":"view","session_id":"f07de52b-68bf-4adc-b356-b0e690f33e7f","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T13:25:25.636Z","event":"view","session_id":"310880b3-76ae-4ae6-a403-393e5770eaaa","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T13:25:40.883Z","event":"view","session_id":"310880b3-76ae-4ae6-a403-393e5770eaaa","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
