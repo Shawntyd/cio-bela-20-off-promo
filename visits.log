@@ -1340,3 +1340,4 @@
 {"ts":"2026-09-30T14:26:50.182Z","event":"view","session_id":"f07de52b-68bf-4adc-b356-b0e690f33e7f","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T14:26:58.721Z","event":"view","session_id":"f83f2f8b-c999-49a7-bdc6-a6d7a9d218dc","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T14:28:40.635Z","event":"view","session_id":"5337e037-5df6-4ca8-917a-a1564e2ab4c9","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T14:30:34.653Z","event":"view","session_id":"8118a6a8-c305-4840-92d9-a071bf237a94","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
