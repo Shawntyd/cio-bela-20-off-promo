@@ -1410,3 +1410,4 @@
 {"ts":"2026-09-30T20:54:06.122Z","event":"exit","session_id":"290497f8-c14e-49da-9f9a-3bc0da5a4358","page":"/internal-links","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T20:58:30.137Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T20:58:32.079Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T22:00:49.037Z","event":"view","session_id":"7aab8834-e34d-4f86-b598-1f7898d0d71b","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
