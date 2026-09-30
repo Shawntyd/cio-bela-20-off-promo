@@ -1308,3 +1308,4 @@
 {"ts":"2026-09-30T11:29:17.719Z","event":"view","session_id":"9c43586c-027b-4e9a-834b-876c1396c3b9","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T12:48:49.446Z","event":"view","session_id":"f5ebfb32-c929-41af-abc5-8b7d3a1fa958","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T12:48:57.551Z","event":"exit","session_id":"f5ebfb32-c929-41af-abc5-8b7d3a1fa958","page":"/nail-services-cio-bela","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T12:58:47.894Z","event":"view","session_id":"f07de52b-68bf-4adc-b356-b0e690f33e7f","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
