@@ -1276,3 +1276,4 @@
 {"ts":"2026-09-29T23:28:02.784Z","event":"exit","session_id":"2ee712a0-b934-44a0-b828-55f24fa371bd","page":"/waxing-specialist-form","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T00:08:08.657Z","event":"view","session_id":"9435f7f7-f094-49f4-8494-c41b262ca0af","page":"/temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T00:08:12.248Z","event":"exit","session_id":"9435f7f7-f094-49f4-8494-c41b262ca0af","page":"/temp-nail","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T00:25:20.038Z","event":"view","session_id":"fa1bcb1f-31b4-4c66-b034-5aeeedab1bf6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
