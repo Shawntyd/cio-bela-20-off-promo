@@ -1280,3 +1280,4 @@
 {"ts":"2026-09-30T00:25:47.633Z","event":"view","session_id":"d9c85a0a-4ed1-4d02-96da-1714189711a4","page":"/tanning","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T01:51:05.786Z","event":"view","session_id":"7aaea1fe-1e80-477e-ad2c-b64613aac13d","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T01:51:09.518Z","event":"exit","session_id":"7aaea1fe-1e80-477e-ad2c-b64613aac13d","page":"/nails-by-service","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T03:11:13.906Z","event":"view","session_id":"9956ea82-b505-44a6-8ef3-64edf50f4a4a","page":"/","duration_seconds":"","referrer":"https://facebook.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
