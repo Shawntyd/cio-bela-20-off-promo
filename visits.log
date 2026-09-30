@@ -1373,3 +1373,4 @@
 {"ts":"2026-09-30T17:55:46.923Z","event":"exit","session_id":"501cc8ff-51fc-424f-b9da-22fce777a674","page":"booking-wax/deposit","duration_seconds":25,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-30T17:56:27.048Z","event":"deposit_paid","session_id":"501cc8ff-51fc-424f-b9da-22fce777a674","page":"booking-wax/deposit-paid","duration_seconds":"","referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-09-30T18:15:08.118Z","event":"view","session_id":"3382c4d6-2307-4b32-aa02-cc2ab2278c20","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T18:15:09.450Z","event":"view","session_id":"69286864-271b-44c1-846e-d7075337e84c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
