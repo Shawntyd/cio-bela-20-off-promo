@@ -1299,3 +1299,4 @@
 {"ts":"2026-09-30T07:13:58.484Z","event":"view","session_id":"376d83fe-65a3-4298-92bf-3ea9bc310e2b","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T07:14:01.117Z","event":"exit","session_id":"376d83fe-65a3-4298-92bf-3ea9bc310e2b","page":"/copy-of-nails-by-artist","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T07:16:29.198Z","event":"view","session_id":"e261d037-6f26-43b1-a865-7bdfb2584b73","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T07:25:00.938Z","event":"view","session_id":"3a52cc4c-387c-4480-992a-3576949d9f1b","page":"/product-page/the-mid-summer-exclusive-deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
