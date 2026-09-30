@@ -1286,3 +1286,4 @@
 {"ts":"2026-09-30T04:16:57.273Z","event":"exit","session_id":"3d135a81-213d-4b10-9ed8-f71d249aa7db","page":"/waxing-onboarding","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T04:34:16.583Z","event":"view","session_id":"eb94055d-2d2f-4bb1-8572-edb5ec5319a1","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T06:10:32.097Z","event":"view","session_id":"3455b2e3-83ec-408d-a46c-e2ac3fc2a797","page":"/waxing-scheduling-pricing-strategy","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T06:10:34.807Z","event":"exit","session_id":"3455b2e3-83ec-408d-a46c-e2ac3fc2a797","page":"/waxing-scheduling-pricing-strategy","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
