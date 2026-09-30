@@ -1303,3 +1303,4 @@
 {"ts":"2026-09-30T07:25:03.740Z","event":"exit","session_id":"3a52cc4c-387c-4480-992a-3576949d9f1b","page":"/product-page/the-mid-summer-exclusive-deposit","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T08:57:26.210Z","event":"view","session_id":"4b3cdc10-12da-4720-9481-28011a68717d","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T09:15:29.477Z","event":"view","session_id":"b30c0aea-16f9-4fbe-8375-d4b66c1fb173","page":"/home","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T09:37:32.126Z","event":"view","session_id":"107ad79d-9108-4aed-8d0b-0157b2ab1080","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
