@@ -1289,3 +1289,4 @@
 {"ts":"2026-09-30T06:10:34.807Z","event":"exit","session_id":"3455b2e3-83ec-408d-a46c-e2ac3fc2a797","page":"/waxing-scheduling-pricing-strategy","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T06:36:24.617Z","event":"view","session_id":"d330e437-1736-4f6a-aef1-900c5dd9e308","page":"/copy-of-temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T06:36:27.284Z","event":"exit","session_id":"d330e437-1736-4f6a-aef1-900c5dd9e308","page":"/copy-of-temp-nail","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-09-30T06:38:12.045Z","event":"view","session_id":"d0845cf6-7cad-4b3b-ac27-a8128387066a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
