@@ -1648,3 +1648,4 @@
 {"ts":"2026-10-01T18:43:30.641Z","event":"view","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:43:30.642Z","event":"exit","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/time","duration_seconds":31,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:44:35.991Z","event":"view","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/client-info","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T18:44:35.989Z","event":"exit","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/time","duration_seconds":65,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
