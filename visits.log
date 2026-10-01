@@ -1528,3 +1528,4 @@
 {"ts":"2026-10-01T09:41:55.933Z","event":"view","session_id":"0338bbca-d2c7-43b3-98dd-263032ceccc9","page":"/copy-of-tanning-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T09:41:58.839Z","event":"exit","session_id":"0338bbca-d2c7-43b3-98dd-263032ceccc9","page":"/copy-of-tanning-1","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T10:02:26.351Z","event":"view","session_id":"e62ea937-9dbf-4e7f-8409-4d04486354d2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T12:02:19.990Z","event":"view","session_id":"1b64ec8b-ac34-448d-b028-2ead07e61cce","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"facebook_groups","utm_medium":"social","utm_campaign":"fb_outreach","utm_content":"shawntavia"}
