@@ -1658,3 +1658,4 @@
 {"ts":"2026-10-01T18:45:56.518Z","event":"view","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:45:56.512Z","event":"exit","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/waiver","duration_seconds":38,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:47:36.556Z","event":"deposit_paid","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T18:47:36.558Z","event":"exit","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/deposit","duration_seconds":100,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
