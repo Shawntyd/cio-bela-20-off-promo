@@ -1799,3 +1799,4 @@
 {"ts":"2026-10-01T22:55:55.863Z","event":"view","session_id":"b6f12567-541a-4a3f-9766-479d35654592","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T22:55:57.459Z","event":"exit","session_id":"b6f12567-541a-4a3f-9766-479d35654592","page":"/waxing-by-service","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T23:50:26.407Z","event":"view","session_id":"ddde8a81-e02e-4c36-bb3f-dea41d227a79","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T23:50:32.614Z","event":"view","session_id":"ddde8a81-e02e-4c36-bb3f-dea41d227a79","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
