@@ -1693,3 +1693,4 @@
 {"ts":"2026-10-01T20:27:22.010Z","event":"exit","session_id":"9de4dabf-4156-471a-8bc7-f3cb22f5d193","page":"booking-nail/time","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T20:29:49.872Z","event":"view","session_id":"7457a739-b1ce-4b06-9fd0-cc949b63eabb","page":"/copy-of-nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T20:29:54.137Z","event":"exit","session_id":"7457a739-b1ce-4b06-9fd0-cc949b63eabb","page":"/copy-of-nail-artist-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T20:30:03.182Z","event":"view","session_id":"2f54e997-47b7-44e6-b83b-548be485ec61","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
