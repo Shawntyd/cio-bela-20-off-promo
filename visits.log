@@ -1660,3 +1660,4 @@
 {"ts":"2026-10-01T18:47:36.556Z","event":"deposit_paid","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:47:36.558Z","event":"exit","session_id":"13558358-7e60-4bd3-bc1f-941efd2de3b6","page":"booking-nail/deposit","duration_seconds":100,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T18:55:45.051Z","event":"view","session_id":"e45bd00c-fabf-4b60-9a43-4cc18bb791c2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T18:55:44.971Z","event":"view","session_id":"dca1eb11-740c-4ca2-b270-ba4a1ba40110","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
