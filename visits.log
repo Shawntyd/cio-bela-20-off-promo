@@ -1762,3 +1762,4 @@
 {"ts":"2026-10-01T21:58:34.756Z","event":"view","session_id":"74fdc833-da20-42b1-8276-4442b31b3676","page":"booking-wax/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T21:58:34.757Z","event":"exit","session_id":"74fdc833-da20-42b1-8276-4442b31b3676","page":"booking-wax/services-addons","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T21:59:14.929Z","event":"view","session_id":"74fdc833-da20-42b1-8276-4442b31b3676","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T21:59:14.825Z","event":"view","session_id":"74fdc833-da20-42b1-8276-4442b31b3676","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
