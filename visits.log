@@ -1670,3 +1670,4 @@
 {"ts":"2026-10-01T19:24:51.104Z","event":"exit","session_id":"1bfba5a2-4579-4971-a36b-11435f08b269","page":"/nail-salon-the-woodlands","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T19:54:14.086Z","event":"view","session_id":"aa00a443-47d9-473c-bb45-418a91f202f0","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T19:55:17.363Z","event":"view","session_id":"e83a4df5-1e9d-40ad-aef9-02a19c202679","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T19:55:24.386Z","event":"view","session_id":"e83a4df5-1e9d-40ad-aef9-02a19c202679","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
