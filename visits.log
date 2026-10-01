@@ -1413,3 +1413,4 @@
 {"ts":"2026-09-30T22:00:49.037Z","event":"view","session_id":"7aab8834-e34d-4f86-b598-1f7898d0d71b","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-09-30T22:00:50.674Z","event":"exit","session_id":"7aab8834-e34d-4f86-b598-1f7898d0d71b","page":"/nail-onboarding","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T00:37:57.693Z","event":"view","session_id":"e8fd41c3-bc60-4464-be09-7427627f9544","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T00:38:07.117Z","event":"view","session_id":"e8fd41c3-bc60-4464-be09-7427627f9544","page":"/wax-consultation-viewer","duration_seconds":"","referrer":"https://www.ciobelasalons.com/internal-links","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
