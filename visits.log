@@ -1709,3 +1709,4 @@
 {"ts":"2026-10-01T20:30:54.760Z","event":"exit","session_id":"2f54e997-47b7-44e6-b83b-548be485ec61","page":"booking-nail/time","duration_seconds":15,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T20:58:01.867Z","event":"view","session_id":"347bf1db-f0b1-40ce-81cb-c098465ca1d7","page":"/inquiry-services-page","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T20:58:05.259Z","event":"exit","session_id":"347bf1db-f0b1-40ce-81cb-c098465ca1d7","page":"/inquiry-services-page","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T21:50:10.484Z","event":"view","session_id":"dacd04e3-544e-481f-9fd6-437cd42975a6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
