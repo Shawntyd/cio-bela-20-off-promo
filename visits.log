@@ -1665,3 +1665,4 @@
 {"ts":"2026-10-01T18:58:28.204Z","event":"view","session_id":"664a61da-fcb5-461b-a18d-4a65bf3d328c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T19:04:28.133Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-01T19:04:29.717Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-01T19:04:31.461Z","event":"exit","session_id":"f49bff04-f087-48b8-ad9f-08600e381ad9","page":"/product-page/microblading-full-set-of-siberian-mink-individual-eyelash-extensions","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
