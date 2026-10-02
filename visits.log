@@ -1880,3 +1880,4 @@
 {"ts":"2026-10-02T16:53:38.986Z","event":"view","session_id":"c03737b5-25ee-4df9-a9d2-33c8b2c9dc6b","page":"/waxing-scheduling-pricing-strategy","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T16:53:46.289Z","event":"exit","session_id":"c03737b5-25ee-4df9-a9d2-33c8b2c9dc6b","page":"/waxing-scheduling-pricing-strategy","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T17:04:07.542Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T17:12:30.386Z","event":"view","session_id":"3b97a057-c777-4eb2-b6b5-499759296385","page":"/copy-of-artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
