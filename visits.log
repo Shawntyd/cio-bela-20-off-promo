@@ -1826,3 +1826,4 @@
 {"ts":"2026-10-02T04:37:25.213Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T04:45:38.703Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T04:50:27.225Z","event":"view","session_id":"ad42a505-3e0c-4bbe-be75-61e71807a802","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T04:50:35.995Z","event":"exit","session_id":"ad42a505-3e0c-4bbe-be75-61e71807a802","page":"/nail-salon-the-woodlands","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
