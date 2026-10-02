@@ -1868,3 +1868,4 @@
 {"ts":"2026-10-02T12:17:18.083Z","event":"view","session_id":"3c745a54-8144-4e7e-a2c8-15d24e3c5b25","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T13:19:35.199Z","event":"view","session_id":"a9b3784a-2819-46c9-87e4-81b8fbce2f1d","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T14:29:36.631Z","event":"view","session_id":"7127587d-a074-4e64-aed9-272070068b37","page":"/nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T14:29:42.405Z","event":"exit","session_id":"7127587d-a074-4e64-aed9-272070068b37","page":"/nail-artist-portal","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
