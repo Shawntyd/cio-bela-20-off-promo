@@ -1899,3 +1899,4 @@
 {"ts":"2026-10-02T21:00:49.062Z","event":"view","session_id":"18544211-865a-4ab6-8f23-d16d93f6e2cf","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T21:34:37.653Z","event":"view","session_id":"517359a3-7998-4bf6-98e1-064a63a359ca","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T21:34:42.037Z","event":"exit","session_id":"517359a3-7998-4bf6-98e1-064a63a359ca","page":"/nails-by-service","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T21:50:39.764Z","event":"view","session_id":"12f88125-b6a3-4cf6-95e1-15166936116d","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
