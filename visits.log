@@ -1809,3 +1809,4 @@
 {"ts":"2026-10-02T00:32:03.151Z","event":"view","session_id":"3a635d37-a518-4b88-9592-45d9c75d6369","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T00:32:05.886Z","event":"exit","session_id":"3a635d37-a518-4b88-9592-45d9c75d6369","page":"/waxing-onboarding","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T01:09:06.772Z","event":"view","session_id":"6fe93c41-9669-43a5-9e6e-98fbe8ca75cd","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T01:09:12.347Z","event":"exit","session_id":"6fe93c41-9669-43a5-9e6e-98fbe8ca75cd","page":"/copy-of-nails-by-service","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
