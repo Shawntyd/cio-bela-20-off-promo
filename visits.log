@@ -1838,3 +1838,4 @@
 {"ts":"2026-10-02T06:51:28.864Z","event":"view","session_id":"8c55005f-3ad0-4539-82c3-4bc642c6890b","page":"/nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T06:51:32.782Z","event":"exit","session_id":"8c55005f-3ad0-4539-82c3-4bc642c6890b","page":"/nail-artist-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T07:35:30.800Z","event":"view","session_id":"edeea721-75ea-44fa-b03a-88d90b55f216","page":"/waxing-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T07:35:34.489Z","event":"exit","session_id":"edeea721-75ea-44fa-b03a-88d90b55f216","page":"/waxing-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
