@@ -1882,3 +1882,4 @@
 {"ts":"2026-10-02T17:04:07.542Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T17:12:30.386Z","event":"view","session_id":"3b97a057-c777-4eb2-b6b5-499759296385","page":"/copy-of-artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T17:12:37.379Z","event":"exit","session_id":"3b97a057-c777-4eb2-b6b5-499759296385","page":"/copy-of-artist-management-portable","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T17:41:02.154Z","event":"view","session_id":"4228f9d3-3910-4ae2-b67c-8b1cc74f1233","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
