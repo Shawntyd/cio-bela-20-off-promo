@@ -1879,3 +1879,4 @@
 {"ts":"2026-10-02T16:33:07.142Z","event":"exit","session_id":"aa403727-efca-433d-a884-a087735b8807","page":"/copy-of-temp-nail","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T16:53:38.986Z","event":"view","session_id":"c03737b5-25ee-4df9-a9d2-33c8b2c9dc6b","page":"/waxing-scheduling-pricing-strategy","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T16:53:46.289Z","event":"exit","session_id":"c03737b5-25ee-4df9-a9d2-33c8b2c9dc6b","page":"/waxing-scheduling-pricing-strategy","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T17:04:07.542Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
