@@ -1832,3 +1832,4 @@
 {"ts":"2026-10-02T05:02:28.780Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T05:02:38.925Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T05:22:28.838Z","event":"view","session_id":"7a210dda-68b4-4318-ad61-f3ed0b8771a4","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T05:22:32.008Z","event":"exit","session_id":"7a210dda-68b4-4318-ad61-f3ed0b8771a4","page":"/nail-services-cio-bela","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
