@@ -1889,3 +1889,4 @@
 {"ts":"2026-10-02T18:13:41.750Z","event":"view","session_id":"631e62a4-cb35-4053-939d-1758c07ceed8","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T18:32:17.696Z","event":"view","session_id":"d1aa8f1d-3ff1-41e3-ba61-ac9c04a13e84","page":"/waxing-specialist-form","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T18:32:23.601Z","event":"exit","session_id":"d1aa8f1d-3ff1-41e3-ba61-ac9c04a13e84","page":"/waxing-specialist-form","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T20:55:25.668Z","event":"view","session_id":"c2763e0f-e69d-40c9-a6ae-9a9846cccaa1","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
