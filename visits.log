@@ -1860,3 +1860,4 @@
 {"ts":"2026-10-02T12:14:14.590Z","event":"view","session_id":"8e3f6039-72b0-4093-a4d9-910edf08feea","page":"booking-nail-svc/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T12:14:14.591Z","event":"exit","session_id":"8e3f6039-72b0-4093-a4d9-910edf08feea","page":"booking-nail-svc/time","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T12:14:22.538Z","event":"exit","session_id":"8e3f6039-72b0-4093-a4d9-910edf08feea","page":"booking-nail-svc/date","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T12:15:54.347Z","event":"view","session_id":"3c745a54-8144-4e7e-a2c8-15d24e3c5b25","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
