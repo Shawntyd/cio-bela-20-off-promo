@@ -1836,3 +1836,4 @@
 {"ts":"2026-10-02T05:22:42.763Z","event":"view","session_id":"2da997c2-96ff-4ce2-b280-98475e0063c0","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T05:22:49.591Z","event":"exit","session_id":"2da997c2-96ff-4ce2-b280-98475e0063c0","page":"/nail-salon-the-woodlands","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T06:51:28.864Z","event":"view","session_id":"8c55005f-3ad0-4539-82c3-4bc642c6890b","page":"/nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T06:51:32.782Z","event":"exit","session_id":"8c55005f-3ad0-4539-82c3-4bc642c6890b","page":"/nail-artist-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
