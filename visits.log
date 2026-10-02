@@ -1895,3 +1895,4 @@
 {"ts":"2026-10-02T21:00:21.507Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T21:00:23.091Z","event":"view","session_id":"d5aa4543-72db-4790-8936-6ab0120921e1","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-02T21:00:23.148Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-02T21:00:25.904Z","event":"exit","session_id":"d5aa4543-72db-4790-8936-6ab0120921e1","page":"/copy-of-nails-by-service","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
