@@ -1926,3 +1926,4 @@
 {"ts":"2026-10-03T01:40:39.765Z","event":"view","session_id":"22ecd7e6-896c-4f64-8cd6-36d68bb5a807","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T01:40:39.760Z","event":"exit","session_id":"22ecd7e6-896c-4f64-8cd6-36d68bb5a807","page":"booking-wax/date","duration_seconds":10,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T01:40:44.596Z","event":"exit","session_id":"22ecd7e6-896c-4f64-8cd6-36d68bb5a807","page":"booking-wax/time","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T01:41:53.603Z","event":"view","session_id":"1a6008dc-58b9-4c13-b7d8-0d028f72128e","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
