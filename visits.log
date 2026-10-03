@@ -1964,3 +1964,4 @@
 {"ts":"2026-10-03T04:18:23.227Z","event":"exit","session_id":"95ad0579-b56f-416a-8ec8-27dbf9f6b149","page":"/waxing-onboarding","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T05:36:39.398Z","event":"view","session_id":"9a289839-61ee-46ce-942f-4fb21f1e904d","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T05:36:54.275Z","event":"view","session_id":"9a289839-61ee-46ce-942f-4fb21f1e904d","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T05:37:28.608Z","event":"view","session_id":"9a289839-61ee-46ce-942f-4fb21f1e904d","page":"/wax-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
