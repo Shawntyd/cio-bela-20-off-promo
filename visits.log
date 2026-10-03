@@ -2047,3 +2047,4 @@
 {"ts":"2026-10-03T17:55:26.944Z","event":"view","session_id":"e4c98640-6fdb-4cbd-93d1-9ddae2ebf40d","page":"/professional-development/nail-art-accrylic-course","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T18:32:51.662Z","event":"view","session_id":"f5df6470-0ced-4ffe-9b8d-ac0c585d6bd3","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T18:35:15.651Z","event":"view","session_id":"cbea2395-deeb-4667-8c60-86db57e6e7d0","page":"/wax-services-selection","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T18:35:19.174Z","event":"exit","session_id":"cbea2395-deeb-4667-8c60-86db57e6e7d0","page":"/wax-services-selection","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
