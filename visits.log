@@ -2075,3 +2075,4 @@
 {"ts":"2026-10-03T22:26:41.074Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T22:26:42.490Z","event":"view","session_id":"da1de685-291a-4771-b817-dc0a7d3dcc4d","page":"/nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T22:26:42.546Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T22:26:44.238Z","event":"exit","session_id":"da1de685-291a-4771-b817-dc0a7d3dcc4d","page":"/nail-artist-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
