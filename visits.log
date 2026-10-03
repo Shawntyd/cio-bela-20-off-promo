@@ -2077,3 +2077,4 @@
 {"ts":"2026-10-03T22:26:42.546Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T22:26:44.238Z","event":"exit","session_id":"da1de685-291a-4771-b817-dc0a7d3dcc4d","page":"/nail-artist-portal","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T22:46:20.234Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T22:46:21.759Z","event":"view","session_id":"2b1d1802-80f5-4356-8d6e-0942f330ec2c","page":"/product-page/1-tanning-session","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
