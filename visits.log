@@ -2050,3 +2050,4 @@
 {"ts":"2026-10-03T18:35:19.174Z","event":"exit","session_id":"cbea2395-deeb-4667-8c60-86db57e6e7d0","page":"/wax-services-selection","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T18:51:22.572Z","event":"view","session_id":"b5f7e079-b5b6-4ecc-b2cb-8192ebc1e9ab","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T18:51:27.104Z","event":"view","session_id":"b5f7e079-b5b6-4ecc-b2cb-8192ebc1e9ab","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":"","referrer":"https://www.ciobelasalons.com/tanning","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T19:14:38.376Z","event":"view","session_id":"a499f169-7e3a-4297-83f3-6aae9014cfb8","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
