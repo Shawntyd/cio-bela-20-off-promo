@@ -1974,3 +1974,4 @@
 {"ts":"2026-10-03T05:38:06.622Z","event":"exit","session_id":"9a289839-61ee-46ce-942f-4fb21f1e904d","page":"booking-wax-svc/date","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T05:38:10.617Z","event":"exit","session_id":"9a289839-61ee-46ce-942f-4fb21f1e904d","page":"booking-wax-svc/time","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T06:48:05.905Z","event":"view","session_id":"fbd61a5c-57b1-4295-ba5f-5b1c9f0f64c0","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T06:52:32.640Z","event":"view","session_id":"6ec8a5d3-bba9-4cb1-8066-8e63a113ed02","page":"/professional-development/makeup-course","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
