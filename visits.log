@@ -1989,3 +1989,4 @@
 {"ts":"2026-10-03T10:25:14.658Z","event":"exit","session_id":"2ead8fe1-7656-4da2-b4d5-a9ccbd97628a","page":"/waxing-by-service","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T10:51:15.540Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T10:51:17.285Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T10:51:17.621Z","event":"view","session_id":"9c037c5f-bd5b-49cb-90cf-1f081a45dc30","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
