@@ -1994,3 +1994,4 @@
 {"ts":"2026-10-03T11:07:46.699Z","event":"view","session_id":"d5a9ac32-2226-4d22-b8c2-1d6c55455627","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T11:26:15.053Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-03T11:45:16.538Z","event":"view","session_id":"369ff338-495d-4631-aab0-e6d16da1afaf","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-03T11:45:23.173Z","event":"exit","session_id":"369ff338-495d-4631-aab0-e6d16da1afaf","page":"/nail-salon-the-woodlands","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
