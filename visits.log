@@ -2152,3 +2152,4 @@
 {"ts":"2026-10-04T02:28:57.518Z","event":"view","session_id":"5b772b53-2cb3-4396-aada-3b06aa908a3c","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:29:02.209Z","event":"exit","session_id":"5b772b53-2cb3-4396-aada-3b06aa908a3c","page":"/join-our-team","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:34:50.371Z","event":"view","session_id":"5cf48d9c-1371-46ba-b478-b08e629a3545","page":"/copy-of-hair-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T02:34:53.991Z","event":"exit","session_id":"5cf48d9c-1371-46ba-b478-b08e629a3545","page":"/copy-of-hair-services","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
