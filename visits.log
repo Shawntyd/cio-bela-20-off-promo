@@ -2149,3 +2149,4 @@
 {"ts":"2026-10-04T02:11:00.190Z","event":"exit","session_id":"004a17ce-1dda-4eef-b46d-6f4559b13329","page":"/home","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:17:35.227Z","event":"view","session_id":"60b22e9f-6847-4e2f-8efd-9dc979029fbf","page":"/product-page/full-highlight-lowlight-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:17:40.322Z","event":"exit","session_id":"60b22e9f-6847-4e2f-8efd-9dc979029fbf","page":"/product-page/full-highlight-lowlight-lashes","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T02:28:57.518Z","event":"view","session_id":"5b772b53-2cb3-4396-aada-3b06aa908a3c","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
