@@ -2121,3 +2121,4 @@
 {"ts":"2026-10-04T01:09:31.151Z","event":"exit","session_id":"79128548-1c32-4f74-9394-0e2673782775","page":"/","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:09:42.804Z","event":"view","session_id":"572959f6-7a87-4d54-b729-6f78c51ab9e1","page":"/copy-of-eyelash-extensions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:09:47.586Z","event":"exit","session_id":"572959f6-7a87-4d54-b729-6f78c51ab9e1","page":"/copy-of-eyelash-extensions","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T01:10:32.333Z","event":"view","session_id":"83dea096-60e4-431f-a7d4-23b1a32e2419","page":"/copy-of-hair-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
