@@ -2180,3 +2180,4 @@
 {"ts":"2026-10-04T07:37:44.953Z","event":"view","session_id":"04ca9cae-8be0-4142-87dc-df16f4f98aac","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T07:37:51.955Z","event":"exit","session_id":"04ca9cae-8be0-4142-87dc-df16f4f98aac","page":"/nails-by-service","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T08:22:03.563Z","event":"view","session_id":"bf40fbd0-684d-4939-9628-ab9498376a33","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T08:57:12.374Z","event":"view","session_id":"3b95b770-e8ee-4554-bb81-0b46c8b999b4","page":"/professional-development/nail-art-accrylic-course","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
