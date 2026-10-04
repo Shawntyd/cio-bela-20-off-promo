@@ -2092,3 +2092,4 @@
 {"ts":"2026-10-04T00:21:31.459Z","event":"view","session_id":"f899ff46-ab02-4097-b529-acf5ad273255","page":"/memberships","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T00:21:35.136Z","event":"exit","session_id":"f899ff46-ab02-4097-b529-acf5ad273255","page":"/memberships","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T00:25:40.710Z","event":"view","session_id":"8f748e40-6656-4589-b7d1-d04c9ed76082","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T00:25:44.880Z","event":"exit","session_id":"8f748e40-6656-4589-b7d1-d04c9ed76082","page":"/nail-salon-the-woodlands","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
