@@ -2146,3 +2146,4 @@
 {"ts":"2026-10-04T02:02:02.577Z","event":"view","session_id":"23840df0-c21c-49a1-a929-9cb64bb5f05f","page":"/copy-of-eyelash-extensions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:02:18.290Z","event":"exit","session_id":"23840df0-c21c-49a1-a929-9cb64bb5f05f","page":"/copy-of-eyelash-extensions","duration_seconds":16,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:10:55.106Z","event":"view","session_id":"004a17ce-1dda-4eef-b46d-6f4559b13329","page":"/home","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T02:11:00.190Z","event":"exit","session_id":"004a17ce-1dda-4eef-b46d-6f4559b13329","page":"/home","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
