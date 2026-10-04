@@ -2118,3 +2118,4 @@
 {"ts":"2026-10-04T01:05:07.320Z","event":"view","session_id":"1bef4bf1-ea65-4524-9036-c00bb21da07a","page":"/pricing-plans/list","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:05:10.552Z","event":"exit","session_id":"1bef4bf1-ea65-4524-9036-c00bb21da07a","page":"/pricing-plans/list","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:09:27.786Z","event":"view","session_id":"79128548-1c32-4f74-9394-0e2673782775","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T01:09:31.151Z","event":"exit","session_id":"79128548-1c32-4f74-9394-0e2673782775","page":"/","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
