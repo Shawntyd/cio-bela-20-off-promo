@@ -2113,3 +2113,4 @@
 {"ts":"2026-10-04T00:53:04.404Z","event":"exit","session_id":"1e6566d8-36fd-4e60-9b90-3c53c5c58acf","page":"/product-page/full-highlight-lowlight-lashes","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T00:53:24.307Z","event":"view","session_id":"183b87e1-ccb4-4cfb-8f61-b577b0b643b6","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T00:53:28.554Z","event":"exit","session_id":"183b87e1-ccb4-4cfb-8f61-b577b0b643b6","page":"/join-our-team","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T00:56:56.419Z","event":"view","session_id":"5933d7e8-d273-403d-b666-8a5e56ff9049","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
