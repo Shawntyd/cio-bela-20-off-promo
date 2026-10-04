@@ -2136,3 +2136,4 @@
 {"ts":"2026-10-04T01:29:55.642Z","event":"view","session_id":"58facc5c-8981-44dd-81eb-ac8e1a262e09","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:30:00.514Z","event":"exit","session_id":"58facc5c-8981-44dd-81eb-ac8e1a262e09","page":"/join-our-team","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:31:39.380Z","event":"view","session_id":"1ee88bc9-dac2-47c8-83b5-5be87391d9b9","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T01:31:44.668Z","event":"exit","session_id":"1ee88bc9-dac2-47c8-83b5-5be87391d9b9","page":"/wax-services","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
