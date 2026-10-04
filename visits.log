@@ -2165,3 +2165,4 @@
 {"ts":"2026-10-04T02:52:56.194Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:55:51.237Z","event":"view","session_id":"7ca3bdf0-792e-491a-b159-98efe9448e4f","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T02:55:53.568Z","event":"exit","session_id":"7ca3bdf0-792e-491a-b159-98efe9448e4f","page":"/nail-services-cio-bela","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T03:23:32.684Z","event":"view","session_id":"7e566870-4a48-4895-a7a2-90b920a489c5","page":"/copy-of-nail-artist-portal-2","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
