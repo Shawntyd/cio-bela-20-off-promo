@@ -2116,3 +2116,4 @@
 {"ts":"2026-10-04T00:56:56.419Z","event":"view","session_id":"5933d7e8-d273-403d-b666-8a5e56ff9049","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T00:57:06.509Z","event":"view","session_id":"0e3e885e-1805-41ea-87f7-a79e2394ced5","page":"/copy-of-eyelash-extensions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T01:05:07.320Z","event":"view","session_id":"1bef4bf1-ea65-4524-9036-c00bb21da07a","page":"/pricing-plans/list","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-04T01:05:10.552Z","event":"exit","session_id":"1bef4bf1-ea65-4524-9036-c00bb21da07a","page":"/pricing-plans/list","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
