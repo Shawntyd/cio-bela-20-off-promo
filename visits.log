@@ -2385,3 +2385,4 @@
 {"ts":"2026-10-05T22:02:22.877Z","event":"view","session_id":"d9cf6c1f-6a90-4fe4-af84-11ff9d059e04","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T22:34:55.835Z","event":"view","session_id":"8a27dbe9-f160-4dd8-a01f-37de050ead39","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T23:17:17.842Z","event":"view","session_id":"7becccb8-6350-48fe-8c40-e5fe45e967bf","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-05T23:18:00.871Z","event":"view","session_id":"7becccb8-6350-48fe-8c40-e5fe45e967bf","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
