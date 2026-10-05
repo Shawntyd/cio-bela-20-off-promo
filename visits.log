@@ -2260,3 +2260,4 @@
 {"ts":"2026-10-05T03:05:27.410Z","event":"exit","session_id":"4e4724db-ddcf-4537-8512-4365291f8e7d","page":"booking-wax/services-addons","duration_seconds":27,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T03:19:33.591Z","event":"view","session_id":"bd38e912-fc3c-4263-9605-117be3debd52","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T03:19:43.519Z","event":"exit","session_id":"bd38e912-fc3c-4263-9605-117be3debd52","page":"/nail-salon-the-woodlands","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-05T03:29:47.404Z","event":"view","session_id":"3ded0503-8ac2-4ff6-951b-593223c2baf5","page":"/waxing-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
