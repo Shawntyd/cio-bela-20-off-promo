@@ -2266,3 +2266,4 @@
 {"ts":"2026-10-05T05:15:57.184Z","event":"view","session_id":"a5fe73d4-aeeb-401d-9975-1d92a1b481d6","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T06:00:36.003Z","event":"view","session_id":"6ab8e70a-af6f-4165-ac36-035a813aa6e0","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T06:00:48.422Z","event":"exit","session_id":"6ab8e70a-af6f-4165-ac36-035a813aa6e0","page":"/nail-salon-the-woodlands","duration_seconds":13,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-05T09:18:37.720Z","event":"view","session_id":"c5b7f4d0-33e5-4fb5-9f53-a75fcf25b936","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
