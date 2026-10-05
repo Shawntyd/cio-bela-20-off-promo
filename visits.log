@@ -2234,3 +2234,4 @@
 {"ts":"2026-10-04T23:44:08.472Z","event":"view","session_id":"6b409c00-bea7-4e7c-ba71-0c9b5520132c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-04T23:44:11.415Z","event":"view","session_id":"6b409c00-bea7-4e7c-ba71-0c9b5520132c","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-05T00:07:37.848Z","event":"view","session_id":"0020d0ed-c4e3-4ed0-ba85-e1658ad9d95b","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-05T00:07:44.570Z","event":"exit","session_id":"0020d0ed-c4e3-4ed0-ba85-e1658ad9d95b","page":"/nail-salon-the-woodlands","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
