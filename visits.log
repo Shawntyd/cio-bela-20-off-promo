@@ -2454,3 +2454,4 @@
 {"ts":"2026-10-06T16:37:23.254Z","event":"view","session_id":"94e4837b-f927-486d-a7d0-14ed04b2fc59","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T17:40:50.725Z","event":"view","session_id":"9bd22b6d-6907-44e5-9d3f-c614b4762cf0","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T17:41:03.514Z","event":"exit","session_id":"9bd22b6d-6907-44e5-9d3f-c614b4762cf0","page":"/wax-services","duration_seconds":13,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T18:30:58.500Z","event":"view","session_id":"35bf85bc-d9fb-4c11-aee7-c5b8e49b2aa9","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
