@@ -2412,3 +2412,4 @@
 {"ts":"2026-10-06T07:03:58.105Z","event":"view","session_id":"58d5a0e1-e4ce-4867-bb6a-c30e55e1e9dc","page":"/product-page/5-tanning-sessions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T07:17:43.433Z","event":"view","session_id":"d23184fb-5a7f-4b2e-84fc-0d797095bf6f","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T07:40:48.467Z","event":"view","session_id":"f4df49ae-9acd-4649-b8e5-fbbe08c8a08c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T09:03:48.621Z","event":"view","session_id":"a9b35df0-d2c8-4112-bc55-63fe12652b94","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
