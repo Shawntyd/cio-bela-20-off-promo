@@ -2390,3 +2390,4 @@
 {"ts":"2026-10-06T00:04:06.668Z","event":"view","session_id":"7c12ab9d-7c44-4405-8482-80b25d5083e1","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T00:04:40.750Z","event":"view","session_id":"507bd3d4-3ee3-4473-80c0-1d6bd7293a72","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T00:04:51.617Z","event":"view","session_id":"507bd3d4-3ee3-4473-80c0-1d6bd7293a72","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T00:05:05.490Z","event":"view","session_id":"507bd3d4-3ee3-4473-80c0-1d6bd7293a72","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
