@@ -2485,3 +2485,4 @@
 {"ts":"2026-10-06T22:36:41.827Z","event":"view","session_id":"7ee2ea91-06d2-40d9-9404-7671742a32c4","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T23:22:01.317Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T23:33:36.511Z","event":"view","session_id":"e8fdf6bb-429c-4b78-adf1-79cf86d9c6d9","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T23:33:40.019Z","event":"view","session_id":"e8fdf6bb-429c-4b78-adf1-79cf86d9c6d9","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
