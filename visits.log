@@ -2409,3 +2409,4 @@
 {"ts":"2026-10-06T06:46:13.185Z","event":"view","session_id":"d6367105-94ed-4dfe-863e-c95369eb5c5b","page":"/waxing-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T06:46:19.579Z","event":"exit","session_id":"d6367105-94ed-4dfe-863e-c95369eb5c5b","page":"/waxing-portal","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T07:03:41.595Z","event":"view","session_id":"274916eb-e181-4cbd-8187-56cc519ec1bd","page":"/product-page/5-tanning-sessions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T07:03:58.105Z","event":"view","session_id":"58d5a0e1-e4ce-4867-bb6a-c30e55e1e9dc","page":"/product-page/5-tanning-sessions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
