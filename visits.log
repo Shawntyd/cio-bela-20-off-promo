@@ -2421,3 +2421,4 @@
 {"ts":"2026-10-06T09:45:24.950Z","event":"view","session_id":"8a1c6ab0-9234-4f5e-84f0-5182b7b72de7","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T09:45:27.600Z","event":"exit","session_id":"8a1c6ab0-9234-4f5e-84f0-5182b7b72de7","page":"/booking/nail-by-artist","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-06T09:45:33.988Z","event":"view","session_id":"5525c2f3-d346-449c-85fb-e508977b8b66","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-06T09:46:39.729Z","event":"view","session_id":"62b5cea2-d274-44f9-9b18-e3a2de597801","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
