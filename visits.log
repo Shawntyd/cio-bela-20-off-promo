@@ -2724,3 +2724,4 @@
 {"ts":"2026-10-07T22:01:33.816Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T22:04:00.322Z","event":"view","session_id":"bb12406f-ae0e-40ac-8431-fecac8e496d5","page":"/test","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T22:11:44.398Z","event":"view","session_id":"bb12406f-ae0e-40ac-8431-fecac8e496d5","page":"/test","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T22:25:59.771Z","event":"view","session_id":"97f6754c-4bdf-46aa-9c43-4323138ea7b1","page":"/professional-development/nail-art-accrylic-course","duration_seconds":"","referrer":"https://linktr.ee/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
