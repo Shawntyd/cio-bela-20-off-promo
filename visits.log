@@ -2513,3 +2513,4 @@
 {"ts":"2026-10-07T02:26:59.969Z","event":"exit","session_id":"ff6cab9f-9880-4a9a-b4d6-c1fbfb09b9a3","page":"/nail-salon-the-woodlands","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T02:50:35.171Z","event":"view","session_id":"8ecf542f-70a4-4a66-8e2e-ba70133a44d4","page":"/copy-of-temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T02:50:40.960Z","event":"exit","session_id":"8ecf542f-70a4-4a66-8e2e-ba70133a44d4","page":"/copy-of-temp-nail","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T03:17:27.879Z","event":"view","session_id":"2f669a4b-92c2-46cf-82df-cd2a9bca0239","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
