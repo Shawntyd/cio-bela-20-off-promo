@@ -2680,3 +2680,4 @@
 {"ts":"2026-10-07T18:07:35.516Z","event":"exit","session_id":"6cf97c5b-8361-4dc8-9c1d-5cd8ef3ac89b","page":"booking-nail-svc/date","duration_seconds":9,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-07T18:08:06.866Z","event":"view","session_id":"f50e041a-28fe-43b4-bc7c-3f1edb1b8454","page":"booking-wax/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T18:08:06.855Z","event":"exit","session_id":"f50e041a-28fe-43b4-bc7c-3f1edb1b8454","page":"booking-wax/services-addons","duration_seconds":39,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T18:08:11.102Z","event":"view","session_id":"f50e041a-28fe-43b4-bc7c-3f1edb1b8454","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
