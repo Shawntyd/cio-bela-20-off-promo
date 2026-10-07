@@ -2708,3 +2708,4 @@
 {"ts":"2026-10-07T19:16:20.540Z","event":"view","session_id":"560c9d7a-9694-4bbe-9536-59877755c290","page":"/test","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T19:16:23.258Z","event":"view","session_id":"560c9d7a-9694-4bbe-9536-59877755c290","page":"/test","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T19:34:45.067Z","event":"view","session_id":"85d8f7b9-de88-49af-84f2-0adf480019a2","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T19:49:26.033Z","event":"view","session_id":"4007081d-4643-4ad8-bd67-41352a7f4839","page":"/professional-development/nail-art-accrylic-course","duration_seconds":"","referrer":"https://linktr.ee/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
