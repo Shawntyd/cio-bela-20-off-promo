@@ -2495,3 +2495,4 @@
 {"ts":"2026-10-07T00:14:52.182Z","event":"view","session_id":"0cbc71bf-d17a-4cb8-93e7-1b75988ebca8","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T00:27:45.924Z","event":"view","session_id":"af7d4ae7-9385-4329-8c8f-c091be17d7c4","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T00:35:45.985Z","event":"view","session_id":"a886d680-52ee-4185-b08f-0f28ddd80b34","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T00:36:43.963Z","event":"view","session_id":"e52d3e65-d957-4c69-aadd-d9a72ee7984f","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
