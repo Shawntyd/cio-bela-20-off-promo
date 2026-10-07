@@ -2544,3 +2544,4 @@
 {"ts":"2026-10-07T13:19:29.520Z","event":"view","session_id":"0dd710b3-2674-47a7-ba61-72e2851a507a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T13:19:40.818Z","event":"view","session_id":"0dd710b3-2674-47a7-ba61-72e2851a507a","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T13:20:05.379Z","event":"view","session_id":"0dd710b3-2674-47a7-ba61-72e2851a507a","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T13:25:32.786Z","event":"view","session_id":"fe301869-0eca-4d6a-bbff-317631f1194b","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
