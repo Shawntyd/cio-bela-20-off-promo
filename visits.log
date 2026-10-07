@@ -2643,3 +2643,4 @@
 {"ts":"2026-10-07T17:52:18.922Z","event":"exit","session_id":"88c031a6-1e01-47b4-852b-3be2e2affe8a","page":"booking-wax/date","duration_seconds":10,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T17:52:55.576Z","event":"view","session_id":"88c031a6-1e01-47b4-852b-3be2e2affe8a","page":"/contact-us","duration_seconds":"","referrer":"https://www.ciobelasalons.com/waxing-by-artist","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T17:55:09.037Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-07T17:55:11.106Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
