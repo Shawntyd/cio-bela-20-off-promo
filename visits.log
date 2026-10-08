@@ -2817,3 +2817,4 @@
 {"ts":"2026-10-08T18:23:40.387Z","event":"exit","session_id":"5d3c4ad1-2bb2-452b-9daa-2ac2bd542ee0","page":"booking-nail/time","duration_seconds":6,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-08T18:50:41.083Z","event":"view","session_id":"8d5e7648-e8cb-4a88-b9b6-a120f8f622b4","page":"/hair-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-08T18:55:03.837Z","event":"view","session_id":"3746558a-37f3-4a43-99da-f112ef906de1","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-08T18:55:04.050Z","event":"view","session_id":"8d3f2345-2eae-492d-87a6-f0dfec4d9e46","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
