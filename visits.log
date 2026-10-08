@@ -2743,3 +2743,4 @@
 {"ts":"2026-10-07T23:40:33.270Z","event":"view","session_id":"cc8bf881-487c-4c0a-b6e3-1d55537727a0","page":"/waxing-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-07T23:40:40.971Z","event":"exit","session_id":"cc8bf881-487c-4c0a-b6e3-1d55537727a0","page":"/waxing-portal","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-08T00:36:52.271Z","event":"view","session_id":"77264868-4012-4411-897d-6cf8f95652d6","page":"/copy-of-nail-artist-portal-2","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-08T00:55:49.219Z","event":"view","session_id":"b172a26d-d764-41f4-83e7-d38960016cf9","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
