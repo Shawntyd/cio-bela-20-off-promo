@@ -2841,3 +2841,4 @@
 {"ts":"2026-10-08T19:39:22.365Z","event":"exit","session_id":"ff9010e3-2b8b-4498-95a0-70f2329e552e","page":"booking-wax/services-addons","duration_seconds":15,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-08T19:48:39.053Z","event":"view","session_id":"2a48c536-4de8-43b6-9f01-dcaf95a338a9","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-08T19:49:04.336Z","event":"view","session_id":"2a48c536-4de8-43b6-9f01-dcaf95a338a9","page":"/tanning","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-08T20:12:40.470Z","event":"view","session_id":"5bac7609-49b6-4ffb-817a-f62c7e6925eb","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
