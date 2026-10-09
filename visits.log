@@ -2917,3 +2917,4 @@
 {"ts":"2026-10-09T15:18:32.155Z","event":"view","session_id":"4c992af8-1dec-4dca-a743-635e9ce15b23","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T15:18:34.596Z","event":"view","session_id":"4c992af8-1dec-4dca-a743-635e9ce15b23","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T15:23:05.430Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-09T15:46:03.460Z","event":"view","session_id":"4efb637c-459e-4024-be68-27ee276cd1fb","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
