@@ -2934,3 +2934,4 @@
 {"ts":"2026-10-09T16:11:38.772Z","event":"exit","session_id":"9739af98-5443-47e8-abaa-b35a72374cbd","page":"booking-wax/date","duration_seconds":8,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-09T16:11:44.582Z","event":"exit","session_id":"9739af98-5443-47e8-abaa-b35a72374cbd","page":"booking-wax/time","duration_seconds":6,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-09T16:34:56.154Z","event":"view","session_id":"bdc00c57-7453-4057-b22a-811e5db6af46","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-09T16:35:57.817Z","event":"view","session_id":"ef016a02-a7fe-4c04-a7dd-30146f4e7fd7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
