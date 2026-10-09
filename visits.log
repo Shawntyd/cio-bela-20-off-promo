@@ -2945,3 +2945,4 @@
 {"ts":"2026-10-09T17:44:46.995Z","event":"view","session_id":"c24a5ea5-a952-4cbf-94fb-b0a460c067cc","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T17:58:36.874Z","event":"view","session_id":"68e8c392-1c26-4dac-924f-df42b5c6e86a","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T17:58:38.346Z","event":"view","session_id":"68e8c392-1c26-4dac-924f-df42b5c6e86a","page":"/internal-links","duration_seconds":"","referrer":"https://www.ciobelasalons.com/internal-links","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-09T17:59:12.580Z","event":"view","session_id":"0c3fb3be-cf34-43d2-8091-13652ec5d024","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
