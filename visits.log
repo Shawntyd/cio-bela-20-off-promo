@@ -2980,3 +2980,4 @@
 {"ts":"2026-10-09T20:08:47.150Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T20:11:52.260Z","event":"view","session_id":"e1c47feb-d49b-40fc-a589-966df240ee6f","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T20:26:07.216Z","event":"view","session_id":"d3747031-ad02-48cd-8ac8-48dd78d9ce7f","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-09T20:44:52.095Z","event":"view","session_id":"9a156590-d04b-488b-97fd-f81db694b7f1","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
