@@ -2893,3 +2893,4 @@
 {"ts":"2026-10-09T13:34:39.356Z","event":"view","session_id":"c00a6a28-b84b-4c16-9caf-7ac25f2bb99c","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T13:57:43.440Z","event":"view","session_id":"709fccc0-10bd-472d-ae63-54c05500a1e0","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-09T14:36:23.807Z","event":"view","session_id":"0a4bc887-ee67-4c33-8760-4fbff65432cc","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-09T14:44:19.535Z","event":"view","session_id":"1b409837-a737-46f2-ba6f-6fa8b7110dad","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
