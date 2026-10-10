@@ -3058,3 +3058,4 @@
 {"ts":"2026-10-10T20:27:08.795Z","event":"exit","session_id":"cba15b68-dc43-4522-a87d-92c88cab5f51","page":"booking-wax/date","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-10T20:27:08.797Z","event":"view","session_id":"cba15b68-dc43-4522-a87d-92c88cab5f51","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-10T20:27:51.758Z","event":"view","session_id":"5c57d1a6-8ff0-4427-b3bb-002b0d276c41","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-10T20:27:51.773Z","event":"view","session_id":"5c57d1a6-8ff0-4427-b3bb-002b0d276c41","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
