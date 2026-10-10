@@ -3021,3 +3021,4 @@
 {"ts":"2026-10-10T13:49:05.744Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-10T15:28:07.154Z","event":"view","session_id":"69dd03d6-7093-4938-b537-1dd56eaab89d","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-10T15:28:16.284Z","event":"view","session_id":"69dd03d6-7093-4938-b537-1dd56eaab89d","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-10-10T16:08:56.346Z","event":"view","session_id":"86192975-f2c6-486f-b054-63dfcf3cd292","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
