@@ -3109,3 +3109,4 @@
 {"ts":"2026-10-11T20:25:17.193Z","event":"view","session_id":"4905c367-6350-4717-b162-89c3d463b2ac","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-11T20:25:25.748Z","event":"exit","session_id":"4905c367-6350-4717-b162-89c3d463b2ac","page":"/booking/nail-by-artist","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-11T22:08:18.159Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-11T23:00:23.096Z","event":"view","session_id":"2632b292-cfaf-4a4b-829f-d3c3517366e3","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"https://facebook.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
