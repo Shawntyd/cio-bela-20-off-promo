@@ -3100,3 +3100,4 @@
 {"ts":"2026-10-11T18:35:32.399Z","event":"view","session_id":"45b67484-51cb-4c1c-8fa7-7baf0510eb6e","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-11T18:45:45.529Z","event":"view","session_id":"5667276e-34e2-4c3f-8e0b-200c36bb9eeb","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-11T18:45:45.446Z","event":"view","session_id":"5667276e-34e2-4c3f-8e0b-200c36bb9eeb","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"https://facebook.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-11T18:46:00.535Z","event":"exit","session_id":"5667276e-34e2-4c3f-8e0b-200c36bb9eeb","page":"/booking/nail-by-artist","duration_seconds":15,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
