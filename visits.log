@@ -3196,3 +3196,4 @@
 {"ts":"2026-10-12T04:37:54.510Z","event":"view","session_id":"079daa10-ec44-4c7e-802f-af8940e4ae59","page":"booking-wax/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-12T04:37:57.620Z","event":"exit","session_id":"079daa10-ec44-4c7e-802f-af8940e4ae59","page":"booking-wax/date","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-12T04:38:01.953Z","event":"view","session_id":"079daa10-ec44-4c7e-802f-af8940e4ae59","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-12T06:13:43.193Z","event":"view","session_id":"69ac478d-147f-4e9c-bec1-b087d0ee04a4","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
