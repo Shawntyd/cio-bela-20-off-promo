@@ -3337,3 +3337,4 @@
 {"ts":"2026-10-14T12:56:47.795Z","event":"view","session_id":"bbb73dc1-1012-4d6a-a111-655c41498466","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-14T12:57:48.752Z","event":"view","session_id":"c62b9b47-2a1e-4e1f-9e58-ecadb1407ee4","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-14T13:19:42.759Z","event":"view","session_id":"669c9ec2-0fc2-4fea-bba1-6a394d32a400","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-14T13:19:42.783Z","event":"view","session_id":"669c9ec2-0fc2-4fea-bba1-6a394d32a400","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
