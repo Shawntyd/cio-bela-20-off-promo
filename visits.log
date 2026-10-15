@@ -3404,3 +3404,4 @@
 {"ts":"2026-10-15T01:23:25.953Z","event":"view","session_id":"92ac7371-cbc8-42af-88aa-d7f9f8d47327","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T01:23:27.767Z","event":"view","session_id":"2aa98787-9700-4444-a8ca-f40c23f36de0","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T01:23:42.542Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-15T01:23:44.394Z","event":"view","session_id":"73c41d64-ffdb-4778-af10-280188f23671","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
