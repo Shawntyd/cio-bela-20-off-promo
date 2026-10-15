@@ -3472,3 +3472,4 @@
 {"ts":"2026-10-15T16:59:17.440Z","event":"view","session_id":"ed2a3d12-4d7b-47ff-b1ef-86b6390df378","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T17:00:24.253Z","event":"exit","session_id":"ed2a3d12-4d7b-47ff-b1ef-86b6390df378","page":"booking-nail-svc/select-service","duration_seconds":67,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T17:03:49.843Z","event":"view","session_id":"3bef8f6a-0861-421d-a61e-a285bafe77fb","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-15T17:04:20.805Z","event":"view","session_id":"f568361e-c2dc-4bb4-9b69-0507b4d4c1b2","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
