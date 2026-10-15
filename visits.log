@@ -3458,3 +3458,4 @@
 {"ts":"2026-10-15T15:10:02.343Z","event":"view","session_id":"4d84dd4f-0483-41d3-92d8-92cb5782f2b3","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T15:10:07.446Z","event":"view","session_id":"4d84dd4f-0483-41d3-92d8-92cb5782f2b3","page":"/hair-onboarding","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T15:29:31.710Z","event":"view","session_id":"0ad4c34f-5856-405d-b2fe-0fb6a13c8035","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-15T15:29:36.962Z","event":"view","session_id":"0ad4c34f-5856-405d-b2fe-0fb6a13c8035","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
