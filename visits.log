@@ -3540,3 +3540,4 @@
 {"ts":"2026-10-15T21:49:00.034Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T21:49:02.642Z","event":"exit","session_id":"db82847a-07be-4524-b0bd-5e51eee88c61","page":"/booking/wax-by-artist","duration_seconds":7,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-15T22:48:04.842Z","event":"view","session_id":"0ab01b64-11fa-429b-92e8-5093d9a3737b","page":"/product-page/the-mid-summer-exclusive-deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-15T22:48:08.735Z","event":"view","session_id":"0ab01b64-11fa-429b-92e8-5093d9a3737b","page":"/product-page/the-mid-summer-exclusive-deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
