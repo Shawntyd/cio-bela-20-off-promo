@@ -3388,3 +3388,4 @@
 {"ts":"2026-10-14T20:04:39.339Z","event":"view","session_id":"02afd1e0-97bd-4232-b118-9142b7750192","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-14T21:37:42.127Z","event":"view","session_id":"75e2752a-04ed-4e3c-bc8e-6333dee537f3","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-15T00:13:33.212Z","event":"view","session_id":"bdc7844c-fc50-4d8e-962a-0b69d2e3d423","page":"/lash-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-15T00:13:46.139Z","event":"view","session_id":"18953371-17cc-4eb3-9d76-50e81be0d9b2","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
