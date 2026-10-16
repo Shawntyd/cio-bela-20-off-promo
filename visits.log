@@ -3694,3 +3694,4 @@
 {"ts":"2026-10-16T14:38:59.653Z","event":"view","session_id":"f4c88c43-5ae5-4766-a86a-02ae55f2c8ff","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T14:43:22.123Z","event":"view","session_id":"9470d95f-b2b5-4fa4-801b-cfcd533fdd33","page":"/copy-of-tanning-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T14:43:24.265Z","event":"view","session_id":"9470d95f-b2b5-4fa4-801b-cfcd533fdd33","page":"/copy-of-tanning-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-16T14:43:23.864Z","event":"view","session_id":"33a7326e-9e28-4268-a485-633fe4198bf1","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
