@@ -3570,3 +3570,4 @@
 {"ts":"2026-10-16T02:24:14.094Z","event":"view","session_id":"4778f52f-57bb-4398-9059-deabe1c8c539","page":"booking-wax-svc/select-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T02:24:35.553Z","event":"exit","session_id":"4778f52f-57bb-4398-9059-deabe1c8c539","page":"booking-wax-svc/select-artist","duration_seconds":21,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T02:36:08.319Z","event":"view","session_id":"349382c2-f993-40eb-8255-e987ba364f97","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-16T02:36:09.372Z","event":"view","session_id":"349382c2-f993-40eb-8255-e987ba364f97","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
