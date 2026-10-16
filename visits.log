@@ -3612,3 +3612,4 @@
 {"ts":"2026-10-16T07:25:35.869Z","event":"view","session_id":"e916a0e9-858d-4885-b9fc-384b923be7ae","page":"booking-nail/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T07:25:35.856Z","event":"exit","session_id":"e916a0e9-858d-4885-b9fc-384b923be7ae","page":"booking-nail/date","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-16T09:04:20.299Z","event":"view","session_id":"92764b42-ab76-4c8e-92b2-297c944266bc","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-16T09:04:22.541Z","event":"view","session_id":"92764b42-ab76-4c8e-92b2-297c944266bc","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
