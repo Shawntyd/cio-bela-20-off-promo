@@ -3789,3 +3789,4 @@
 {"ts":"2026-10-17T05:22:01.238Z","event":"view","session_id":"dbfa3244-f1f4-4d24-9ea4-f9c22ef9b75c","page":"/wax-services-selection","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T05:44:46.544Z","event":"view","session_id":"11a97ec7-ec9b-4c36-9d15-757b3cb904d3","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T05:44:49.420Z","event":"view","session_id":"11a97ec7-ec9b-4c36-9d15-757b3cb904d3","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-17T06:08:20.207Z","event":"view","session_id":"2fde2f50-2e80-4283-8e9c-f394c2d463eb","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
