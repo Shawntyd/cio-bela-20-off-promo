@@ -3765,3 +3765,4 @@
 {"ts":"2026-10-17T01:30:07.068Z","event":"view","session_id":"3344be3a-0c29-4a9a-ab46-ab908148c434","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T01:50:36.447Z","event":"view","session_id":"9f047b8a-c848-4d8f-a003-3eef41a3cb2e","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T01:50:40.099Z","event":"view","session_id":"9f047b8a-c848-4d8f-a003-3eef41a3cb2e","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-17T01:54:01.343Z","event":"view","session_id":"cfc5b871-7c0d-4dc4-9330-f83e3358e51b","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
