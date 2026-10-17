@@ -3819,3 +3819,4 @@
 {"ts":"2026-10-17T09:01:38.700Z","event":"view","session_id":"cff55b70-0100-4ddc-888c-48e58a7cbb54","page":"/waxing-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T10:09:47.785Z","event":"view","session_id":"489c7eb6-2db0-4493-bb23-497cbc06d6fb","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T10:09:51.941Z","event":"view","session_id":"489c7eb6-2db0-4493-bb23-497cbc06d6fb","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-17T12:06:51.324Z","event":"view","session_id":"3ed0a7d4-9639-444d-b8cb-caaf54983a33","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
