@@ -3755,3 +3755,4 @@
 {"ts":"2026-10-16T23:50:34.452Z","event":"view","session_id":"452c2470-aa0c-41c9-b969-b3992a73b58f","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T00:12:44.541Z","event":"view","session_id":"d207e346-1853-4bfc-8dd2-61ab450616f8","page":"/","duration_seconds":"","referrer":"https://www.groupon.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-17T00:15:27.690Z","event":"view","session_id":"60ea2005-f2d5-445c-ac5e-8240500bd413","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-17T00:15:32.942Z","event":"view","session_id":"60ea2005-f2d5-445c-ac5e-8240500bd413","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
