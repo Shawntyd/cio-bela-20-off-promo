@@ -3936,3 +3936,4 @@
 {"ts":"2026-10-18T05:33:49.068Z","event":"view","session_id":"e81f1a26-fc56-4ea4-a833-d50b1cb07305","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-18T05:33:52.656Z","event":"view","session_id":"e81f1a26-fc56-4ea4-a833-d50b1cb07305","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-18T05:43:33.061Z","event":"view","session_id":"644bab3f-8a99-4850-ad2e-3aad2eda91e4","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-18T05:43:37.035Z","event":"view","session_id":"644bab3f-8a99-4850-ad2e-3aad2eda91e4","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
