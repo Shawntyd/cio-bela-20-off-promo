@@ -4024,3 +4024,4 @@
 {"ts":"2026-10-18T19:33:20.857Z","event":"view","session_id":"1c53b5bf-44ce-4992-810e-85109a5390fa","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-18T19:46:04.031Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-18T20:40:40.973Z","event":"view","session_id":"bac41189-071a-483c-a0aa-6212908d6515","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-18T20:52:03.301Z","event":"view","session_id":"d0095f04-3660-499c-b783-30b8bc890b66","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
