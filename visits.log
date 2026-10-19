@@ -4100,3 +4100,4 @@
 {"ts":"2026-10-19T16:43:00.727Z","event":"view","session_id":"69fb30c5-9673-417a-981d-8012eb317fc1","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T16:43:23.728Z","event":"exit","session_id":"69fb30c5-9673-417a-981d-8012eb317fc1","page":"/contact-us","duration_seconds":23,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T17:10:49.263Z","event":"view","session_id":"2db2aba3-8a90-42f9-a32b-6473f7167e66","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-19T17:47:19.795Z","event":"view","session_id":"4798894b-453f-4db0-82af-aa481b0473fa","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
