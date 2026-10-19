@@ -4097,3 +4097,4 @@
 {"ts":"2026-10-19T16:42:25.064Z","event":"exit","session_id":"8454fba6-e0a4-471f-b3d7-4f7274ade37b","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":17,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T16:42:32.345Z","event":"view","session_id":"891754f6-c0ca-4041-8172-bfaa58558de7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T16:42:36.896Z","event":"exit","session_id":"891754f6-c0ca-4041-8172-bfaa58558de7","page":"/","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-19T16:43:00.727Z","event":"view","session_id":"69fb30c5-9673-417a-981d-8012eb317fc1","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
