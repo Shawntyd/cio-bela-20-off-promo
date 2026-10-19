@@ -4067,3 +4067,4 @@
 {"ts":"2026-10-19T09:00:44.391Z","event":"view","session_id":"93b7c440-0b1f-4ad4-8781-1cc580938588","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T09:00:53.212Z","event":"view","session_id":"93b7c440-0b1f-4ad4-8781-1cc580938588","page":"/memberships","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T09:01:21.329Z","event":"view","session_id":"93b7c440-0b1f-4ad4-8781-1cc580938588","page":"/tanning","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-19T09:25:17.288Z","event":"view","session_id":"0bbdb580-5488-4b29-ae0c-b5fcf9d5dd8f","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
