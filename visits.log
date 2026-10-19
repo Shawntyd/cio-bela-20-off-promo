@@ -4040,3 +4040,4 @@
 {"ts":"2026-10-19T00:04:25.382Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T00:26:32.150Z","event":"view","session_id":"273d2ae6-d37b-4b6b-854a-eb8f569fd5a8","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T00:26:35.448Z","event":"view","session_id":"273d2ae6-d37b-4b6b-854a-eb8f569fd5a8","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-19T00:45:52.524Z","event":"view","session_id":"bf8f5530-11b9-4dfc-8a27-8fcd64d611a2","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
