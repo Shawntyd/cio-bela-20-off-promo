@@ -4089,3 +4089,4 @@
 {"ts":"2026-10-19T16:41:56.093Z","event":"view","session_id":"8454fba6-e0a4-471f-b3d7-4f7274ade37b","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T16:41:55.652Z","event":"exit","session_id":"8454fba6-e0a4-471f-b3d7-4f7274ade37b","page":"/join-our-team","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-19T16:42:00.599Z","event":"exit","session_id":"8454fba6-e0a4-471f-b3d7-4f7274ade37b","page":"/","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-19T16:42:01.182Z","event":"view","session_id":"8454fba6-e0a4-471f-b3d7-4f7274ade37b","page":"/cart-page","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
