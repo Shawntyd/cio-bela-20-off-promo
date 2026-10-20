@@ -26,3 +26,4 @@
 {"ts":"2026-10-20T04:26:36.286Z","event":"exit","session_id":"acba599b-a09d-4b8c-8a76-7d1f4a0c0ed8","page":"booking-wax/deposit","duration_seconds":50,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-20T05:19:14.101Z","event":"view","session_id":"d2f04c4c-3b3b-44a4-b288-9278d4b7602d","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-20T05:19:18.081Z","event":"view","session_id":"d2f04c4c-3b3b-44a4-b288-9278d4b7602d","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-20T05:44:38.073Z","event":"view","session_id":"bd7bcd7a-1460-4baa-9749-9b0e69bb0396","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
