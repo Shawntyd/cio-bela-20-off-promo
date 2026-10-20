@@ -36,3 +36,4 @@
 {"ts":"2026-10-20T06:57:07.654Z","event":"view","session_id":"1b2728c3-248e-481f-8a15-756e0a95b0c8","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-20T07:29:28.104Z","event":"view","session_id":"55dce44c-5c1a-4629-8dd0-4fb102783a75","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-20T07:29:30.823Z","event":"view","session_id":"55dce44c-5c1a-4629-8dd0-4fb102783a75","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-20T07:31:26.536Z","event":"view","session_id":"cfea8e82-2834-45be-a707-8f930454d785","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
