@@ -228,3 +228,4 @@
 {"ts":"2026-10-21T18:34:19.196Z","event":"exit","session_id":"7faa2959-8250-4b9b-b611-6d3b2698ebac","page":"booking-wax-svc/select-artist","duration_seconds":86,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-21T18:36:00.705Z","event":"view","session_id":"5a2c1679-37a0-4c7d-8d5a-dd2018841d92","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-21T18:36:02.525Z","event":"view","session_id":"5a2c1679-37a0-4c7d-8d5a-dd2018841d92","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-21T18:40:58.565Z","event":"view","session_id":"87c43bc5-0461-47e6-b4bb-c9687e4af02b","page":"booking-wax-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
