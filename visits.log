@@ -556,3 +556,4 @@
 {"ts":"2026-10-23T14:54:00.302Z","event":"exit","session_id":"8fd923a3-8836-46b8-a73a-de2727562680","page":"booking-nail-svc/deposit","duration_seconds":75,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-23T15:05:47.691Z","event":"view","session_id":"1223b5fe-0df2-4ebb-9193-dde77fde8459","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-23T15:05:47.728Z","event":"view","session_id":"1223b5fe-0df2-4ebb-9193-dde77fde8459","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-23T15:05:50.324Z","event":"exit","session_id":"1223b5fe-0df2-4ebb-9193-dde77fde8459","page":"/booking/wax-by-artist","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
