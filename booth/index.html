@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cio Bela | Follow Us</title>
+<meta name="description" content="Share your Cio Bela experience and follow along for 20% off your next service.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F5F0E8; --bark:#2C2016; --gold:#B8935A; --gold-light:#D4B896; --charcoal:#1A1410;
+    --line:rgba(44,32,22,.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--bark);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+  /* top bar */
+  .top{position:sticky;top:0;z-index:20;background:var(--cream);border-bottom:1px solid var(--line);padding:12px 16px 10px;transition:background .3s,color .3s,border-color .3s}
+  .top-row{display:flex;align-items:center;justify-content:space-between;max-width:560px;margin:0 auto}
+  .back{display:flex;align-items:center;gap:4px;font-size:14px;letter-spacing:.3px;padding:6px 8px 6px 0;visibility:hidden}
+  .back.show{visibility:visible}
+  .back svg{width:18px;height:18px}
+  .left{display:flex;align-items:center;gap:6px}
+  .bar span{cursor:pointer}
+  .brand{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;font-weight:600;letter-spacing:.3px}
+  .step-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+  .bar{max-width:560px;margin:10px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+  .bar span{height:3px;border-radius:3px;background:var(--line);transition:background .3s}
+  .bar span.on{background:var(--gold)}
+  body.dark .top{background:var(--charcoal);color:var(--cream);border-color:rgba(245,240,232,.12)}
+  body.dark .bar span{background:rgba(245,240,232,.15)}
+  body.dark .bar span.on{background:var(--gold)}
+  body.dark{background:var(--charcoal);color:var(--cream)}
+
+  .screen{display:none;max-width:560px;margin:0 auto;padding:22px 16px 140px;animation:fade .35s ease}
+  .screen.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  h1{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:38px;line-height:1.05;margin-bottom:10px}
+  .lead{font-size:16px;line-height:1.55;font-weight:300;opacity:.85}
+
+  /* profile header (platform style) */
+  .profile{display:flex;align-items:center;gap:16px;margin:6px 0 14px}
+  .avatar{flex:none;width:78px;height:78px;border-radius:50%;padding:3px;background:conic-gradient(var(--gold),var(--gold-light),var(--gold))}
+  .avatar div{width:100%;height:100%;border-radius:50%;background:var(--bark);color:var(--gold-light);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;font-weight:600;border:3px solid var(--cream)}
+  body.dark .avatar div{border-color:var(--charcoal)}
+  .handle{font-weight:600;font-size:18px;display:flex;align-items:center;gap:7px}
+  .handle svg{width:18px;height:18px}
+  .sub{font-size:13px;opacity:.7;margin-top:3px;line-height:1.4}
+  .bio{font-size:14px;line-height:1.5;margin-bottom:16px;opacity:.9}
+
+  .feed{border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--line);min-height:420px;position:relative}
+  body.dark .feed{background:#000;border-color:rgba(245,240,232,.12)}
+  .feed iframe{display:block;width:100%;height:560px;border:0}
+  .feed .tiktok-embed{margin:0 !important;max-width:100% !important;min-width:0 !important}
+  .feed-loading{position:absolute;inset:0;display:grid;place-items:center;font-size:13px;opacity:.55;pointer-events:none}
+
+  /* sticky action */
+  .dock{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:12px 16px calc(14px + env(safe-area-inset-bottom));background:linear-gradient(to top,var(--cream) 70%,rgba(245,240,232,0));display:none}
+  body.dark .dock{background:linear-gradient(to top,var(--charcoal) 70%,rgba(26,20,16,0))}
+  .dock.show{display:block}
+  .dock-inner{max-width:560px;margin:0 auto;text-align:center}
+  .btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:17px 20px;border-radius:14px;font-size:16px;font-weight:500;letter-spacing:.4px;text-decoration:none;transition:transform .12s, opacity .2s}
+  .btn:active{transform:scale(.98)}
+  .btn svg{width:20px;height:20px}
+  .btn-gold{background:var(--bark);color:var(--cream)}
+  body.dark .btn-gold{background:var(--gold);color:var(--charcoal)}
+  .btn-ghost{border:1px solid var(--line);margin-top:10px}
+  .skip{display:inline-block;margin-top:12px;font-size:14px;opacity:.65;text-decoration:underline;text-underline-offset:3px;padding:4px 8px}
+  .hint{font-size:12px;opacity:.6;margin-top:8px}
+
+  /* review step */
+  .stars{display:flex;gap:6px;margin:22px 0 18px}
+  .stars svg{width:38px;height:38px;fill:var(--gold)}
+  .review-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:18px}
+  .review-card p{font-size:14px;line-height:1.55;opacity:.85}
+  .review-card strong{font-weight:600}
+  .g-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-weight:500}
+  .g-row svg{width:22px;height:22px}
+
+  /* coupon */
+  .coupon{margin-top:20px;border-radius:20px;background:var(--bark);color:var(--cream);padding:30px 22px;text-align:center;position:relative;overflow:hidden}
+  .coupon::before,.coupon::after{content:"";position:absolute;top:50%;width:26px;height:26px;border-radius:50%;background:var(--cream);transform:translateY(-50%)}
+  .coupon::before{left:-13px}.coupon::after{right:-13px}
+  .coupon .eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-light)}
+  .coupon .big{font-family:'Cormorant Garamond',serif;font-size:92px;line-height:.95;font-weight:600;color:var(--gold-light);margin:10px 0 2px}
+  .coupon .what{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px}
+  .coupon .divider{border-top:1px dashed rgba(212,184,150,.45);margin:20px 0 16px}
+  .coupon .code{font-size:13px;letter-spacing:3px;color:var(--gold-light)}
+  .coupon .date{font-size:12px;opacity:.65;margin-top:6px}
+  .fine{font-size:14px;line-height:1.55;text-align:center;margin-top:16px}
+  .fine b{font-weight:600}
+  .snap{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:14px;font-size:13px;letter-spacing:.3px;color:var(--gold)}
+  .locked{text-align:center;padding:30px 10px}
+  .locked .lead{margin:10px 0 24px}
+
+  /* popup */
+  .overlay{position:fixed;inset:0;z-index:50;background:rgba(26,20,16,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:16px}
+  .overlay.show{display:flex}
+  .pop{background:var(--cream);color:var(--bark);border-radius:22px;padding:30px 22px 22px;max-width:380px;width:100%;text-align:center;animation:pop .3s ease}
+  @keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+  .pop .emoji{font-size:40px;margin-bottom:8px}
+  .pop h2{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:30px;line-height:1.1;margin-bottom:10px}
+  .pop p{font-size:15px;line-height:1.5;opacity:.85;margin-bottom:20px}
+
+  /* star picker + review box */
+  .pick{display:flex;gap:8px;margin:22px 0 14px}
+  .pick button{padding:0;line-height:0}
+  .pick svg{width:40px;height:40px;fill:none;stroke:var(--gold);stroke-width:1.4;transition:fill .15s,transform .15s}
+  .pick button.on svg{fill:var(--gold)}
+  .pick button:active svg{transform:scale(.9)}
+  textarea{width:100%;min-height:150px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px;font:inherit;font-size:16px;line-height:1.5;color:var(--bark);resize:vertical}
+  textarea:focus{outline:none;border-color:var(--gold)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+  .chips button{border:1px solid var(--line);border-radius:999px;padding:8px 13px;font-size:13px;background:#fff}
+  .chips button:active{background:var(--gold-light)}
+  .note{font-size:13px;opacity:.65;margin-top:10px;line-height:1.5}
+  .toast{position:fixed;left:50%;top:80px;transform:translateX(-50%);z-index:60;background:var(--bark);color:var(--cream);padding:12px 18px;border-radius:12px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .25s}
+  .toast.show{opacity:1}
+
+  /* platform tabs */
+  .tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 16px;padding:5px;border-radius:14px;background:rgba(44,32,22,.06)}
+  body.dark .tabs{background:rgba(245,240,232,.08)}
+  .tabs button{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border-radius:10px;font-size:15px;font-weight:500}
+  .tabs button svg{width:18px;height:18px}
+  .tabs button.on{background:var(--cream);color:var(--bark);box-shadow:0 1px 4px rgba(0,0,0,.08)}
+  body.dark .tabs button.on{background:var(--gold);color:var(--charcoal)}
+  .pane{display:none}.pane.on{display:block}
+
+  /* instagram-style profile */
+  .ig{margin:0 -16px}
+  .ig-head{display:flex;align-items:center;gap:22px;padding:4px 16px 12px}
+  .ig-av{flex:none;width:86px;height:86px;border-radius:50%;padding:3px;background:conic-gradient(var(--gold),var(--gold-light),var(--gold))}
+  .ig-av img,.ig-av div{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--cream);display:block}
+  .ig-av div{background:var(--bark);color:var(--gold-light);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;font-weight:600}
+  .ig-stats{flex:1;display:grid;grid-template-columns:repeat(3,1fr);text-align:center}
+  .ig-stats b{display:block;font-size:18px;font-weight:600}
+  .ig-stats span{font-size:13px;opacity:.75}
+  .ig-name{padding:0 16px;font-weight:600;font-size:15px}
+  .ig-user{padding:0 16px;font-size:13px;opacity:.6;margin-top:1px}
+  .ig-bio{padding:6px 16px 14px;font-size:14px;line-height:1.45;white-space:pre-line}
+  .ig-tabs{display:flex;justify-content:center;border-top:1px solid var(--line)}
+  .ig-tabs span{padding:10px 0;border-top:1.5px solid var(--bark);margin-top:-1px}
+  .ig-tabs svg{width:22px;height:22px;display:block}
+  .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+  .ig-cell{position:relative;aspect-ratio:3/4;background:#e9e2d6;overflow:hidden;padding:0}
+  .ig-cell img{width:100%;height:100%;object-fit:cover;display:block}
+  .ig-cell .badge{position:absolute;top:7px;right:7px;width:18px;height:18px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
+  .ig-empty{grid-column:1/-1;padding:40px 16px;text-align:center;font-size:14px;opacity:.6}
+
+  /* full-screen post viewer */
+  .viewer{position:fixed;inset:0;z-index:70;background:#000;color:#fff;display:none;flex-direction:column}
+  .viewer.show{display:flex}
+  .v-top{display:flex;align-items:center;gap:10px;padding:calc(12px + env(safe-area-inset-top)) 14px 10px}
+  .v-top img,.v-top .v-fb{width:32px;height:32px;border-radius:50%;object-fit:cover}
+  .v-top .v-fb{background:var(--bark);color:var(--gold-light);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600}
+  .v-top b{font-size:14px;flex:1}
+  .v-close{font-size:30px;line-height:1;padding:4px 8px;color:#fff}
+  .v-media{flex:1;min-height:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .v-media > *{flex:none;width:100%;height:100%;object-fit:contain;scroll-snap-align:center;background:#000}
+  .v-foot{padding:12px 16px calc(14px + env(safe-area-inset-bottom))}
+  .v-cap{font-size:14px;line-height:1.45;max-height:4.4em;overflow:hidden;opacity:.9;margin-bottom:12px}
+  .v-follow{background:var(--gold);color:var(--charcoal)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-row">
+    <div class="left">
+      <button class="back" id="backBtn" aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <div class="brand">Cio Bela</div>
+    </div>
+    <div class="step-label" id="stepLabel">Step 1 of 2</div>
+  </div>
+  <div class="bar" id="bar"><span></span><span></span><span></span></div>
+</header>
+
+<!-- STEP 1: REVIEW (optional) -->
+<section class="screen" id="s-review">
+  <h1>How was your visit?</h1>
+  <p class="lead">Tap the stars and write a few words. We'll copy it for you so you only have to paste it on Google.</p>
+  <div class="pick" id="pick" role="radiogroup" aria-label="Your rating">
+    <button data-v="1" aria-label="1 star"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg></button>
+    <button data-v="2" aria-label="2 stars"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg></button>
+    <button data-v="3" aria-label="3 stars"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg></button>
+    <button data-v="4" aria-label="4 stars"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg></button>
+    <button data-v="5" aria-label="5 stars"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg></button>
+  </div>
+  <textarea id="reviewText" placeholder="What did you get done, and who was your artist?"></textarea>
+  <div class="chips" id="chips">
+    <button>Lashes</button><button>Nails</button><button>Waxing</button><button>Tanning</button><button>Super relaxing</button><button>My artist was amazing</button>
+  </div>
+  <p class="note">On Google, tap the same stars, then press and hold the text box and tap Paste.</p>
+</section>
+
+<!-- STEP 2: FOLLOW ONE -->
+<section class="screen" id="s-follow">
+  <h1 style="font-size:32px">Follow us on one</h1>
+  <p class="lead">Pick the app you already use. One follow unlocks your 20% off.</p>
+  <div class="tabs">
+    <button data-tab="tiktok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>TikTok</button>
+    <button data-tab="instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</button>
+  </div>
+  <div class="pane" id="p-tiktok">
+  <div class="profile">
+    <div class="avatar"><div>CB</div></div>
+    <div>
+      <div class="handle">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>
+        @cio.bela.salon
+      </div>
+      <div class="sub">Cio Bela Multi-Service Salon</div>
+    </div>
+  </div>
+  <p class="bio">Lashes, nails, waxing and tanning in Oak Ridge North. Watch our latest work below.</p>
+  <div class="feed" id="tiktokFeed">
+    <div class="feed-loading">Loading our TikToks…</div>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cio.bela.salon" data-unique-id="cio.bela.salon" data-embed-type="creator" style="max-width:780px;min-width:288px;">
+      <section><a target="_blank" rel="noopener" href="https://www.tiktok.com/@cio.bela.salon?refer=creator_embed">@cio.bela.salon</a></section>
+    </blockquote>
+  </div>
+  </div>
+  <div class="pane" id="p-instagram">
+  <div class="ig">
+    <div class="ig-head">
+      <div class="ig-av"><img id="igAvatar" alt="" style="display:none"><div id="igAvFallback">CB</div></div>
+      <div class="ig-stats">
+        <div><b id="igPosts">·</b><span>posts</span></div>
+        <div><b id="igFollowers">·</b><span>followers</span></div>
+        <div><b id="igFollowing">·</b><span>following</span></div>
+      </div>
+    </div>
+    <div class="ig-name">Cio Bela Multi-Service Salon</div>
+    <div class="ig-user">@ciobelasalon</div>
+    <div class="ig-bio" id="igBio"></div>
+    <div class="ig-tabs"><span class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></span></div>
+    <div class="ig-grid" id="igGrid"><div class="ig-empty">Loading our latest posts…</div></div>
+  </div>
+</div>
+</section>
+
+<!-- STEP 3: COUPON -->
+<section class="screen" id="s-coupon">
+  <div id="couponUnlocked">
+    <h1>Thank you for following along.</h1>
+    <p class="lead">Here's a little something for your next visit.</p>
+    <div class="coupon">
+      <div class="eyebrow">Cio Bela Exclusive</div>
+      <div class="big">20%</div>
+      <div class="what">off your next service</div>
+      <div class="divider"></div>
+      <div class="code">CODE · FOLLOW20</div>
+      <div class="date" id="couponDate"></div>
+    </div>
+    <p class="fine">To redeem, <b>show this coupon and that you follow at least one of our accounts</b> at checkout.</p>
+    <div class="snap">📸 Take a screenshot of this coupon to save it</div>
+    <a class="btn btn-gold" style="margin-top:24px" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Book My Next Visit</a>
+  </div>
+  <div id="couponLocked" class="locked" style="display:none">
+    <h1>Almost there.</h1>
+    <p class="lead">Follow at least one of our accounts to unlock your 20% off.</p>
+    <button class="btn btn-gold" data-go="follow">Choose an account to follow</button>
+  </div>
+</section>
+
+<!-- STICKY ACTION DOCK -->
+<div class="toast" id="toast"></div>
+<div class="dock" id="dock">
+  <div class="dock-inner">
+    <a class="btn btn-gold" id="dockBtn" target="_blank" rel="noopener"></a>
+    <div class="hint" id="dockHint"></div>
+    <button class="skip" id="dockSkip"></button>
+  </div>
+</div>
+
+<div class="viewer" id="viewer" role="dialog" aria-modal="true">
+  <div class="v-top"><span id="vAv"></span><b>ciobelasalon</b><button class="v-close" id="vClose" aria-label="Close">&times;</button></div>
+  <div class="v-media" id="vMedia"></div>
+  <div class="v-foot"><div class="v-cap" id="vCap"></div><a class="btn v-follow" id="vFollow" target="_blank" rel="noopener"></a></div>
+</div>
+
+<!-- POPUP -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true">
+  <div class="pop">
+    <div class="emoji" id="popEmoji"></div>
+    <h2 id="popTitle"></h2>
+    <p id="popText"></p>
+    <button class="btn btn-gold" id="popNext"></button>
+    <button class="skip" id="popBack"></button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var LINKS = {
+    review: "https://search.google.com/local/writereview?placeid=ChIJv9ED8os2R4YRy53EXoQRwWo",
+    tiktok: "https://www.tiktok.com/@cio.bela.salon",
+    instagram: "https://www.instagram.com/ciobelasalon/"
+  };
+  // ?v=school skips the review step (for school visits / events)
+  var NO_REVIEW = true;
+  var ORDER = NO_REVIEW ? ["follow","coupon"] : ["review","follow","coupon"];
+  var SAVE_KEY = NO_REVIEW ? "cb_booth_save" : "cb_follow_save";
+  if (NO_REVIEW){ var bar0 = document.getElementById("bar"); bar0.removeChild(bar0.firstElementChild); bar0.style.gridTemplateColumns = "repeat(2,1fr)"; }
+  var ICON_TT = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>';
+  var ICON_IG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>';
+  var ICON_G = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.6 5.8 21.2l1.6-7L2 9.5l7.1-.6z"/></svg>';
+
+  var POPS = {
+    review: { emoji:"🤍", title:"Thank you so much!", text:"Your words mean the world to our artists. Now come see what we've been up to.", next:"Continue", back:"I'm not done yet" },
+    tiktok: { emoji:"🎉", title:"You're following!", text:"Your 20% off coupon is unlocked.", next:"See my coupon", back:"Go back to TikTok" },
+    instagram: { emoji:"🎉", title:"You're following!", text:"Your 20% off coupon is unlocked.", next:"See my coupon", back:"Go back to Instagram" }
+  };
+
+  var state = { step:ORDER[0], tab:"tiktok", stars:0, text:"", review:false, tiktok:false, instagram:false, unlocked:null };
+  try { var s = JSON.parse(localStorage.getItem(SAVE_KEY) || "null"); if (s) state = Object.assign(state, s); } catch(e){}
+  function save(){ try { localStorage.setItem(SAVE_KEY, JSON.stringify(state)); } catch(e){} }
+
+  var $ = function(id){ return document.getElementById(id); };
+  var pending = null;
+  function anyFollow(){ return state.tiktok || state.instagram; }
+
+  function toast(msg){ var t=$("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(function(){t.classList.remove("show");},2600); }
+
+  // ---------- dock ----------
+  function setDock(btnHtml, href, hint, skip){
+    $("dock").classList.add("show");
+    $("dockBtn").innerHTML = btnHtml; $("dockBtn").href = href;
+    $("dockHint").textContent = hint || ""; $("dockHint").style.display = hint ? "block" : "none";
+    $("dockSkip").textContent = skip || ""; $("dockSkip").style.display = skip ? "inline-block" : "none";
+  }
+
+  function show(step){
+    state.step = step; save();
+    ORDER.forEach(function(k){ $("s-"+k).classList.toggle("active", k===step); });
+    var idx = ORDER.indexOf(step);
+    Array.prototype.forEach.call($("bar").children, function(el,i){ el.classList.toggle("on", i<=idx); });
+    $("backBtn").classList.toggle("show", idx > 0);
+    $("stepLabel").textContent = step==="coupon" ? "Your reward" : (NO_REVIEW ? "Follow us" : "Step " + (idx+1) + " of 2");
+    if (step === "review"){
+      document.body.classList.remove("dark");
+      setDock(ICON_G + "Copy &amp; Post on Google", LINKS.review, "", "Skip for now");
+    } else if (step === "follow"){
+      setTab(state.tab);
+    } else {
+      document.body.classList.remove("dark");
+      $("dock").classList.remove("show");
+      renderCoupon();
+    }
+    window.scrollTo(0,0);
+  }
+
+  function setTab(tab){
+    state.tab = tab; save();
+    Array.prototype.forEach.call(document.querySelectorAll("[data-tab]"), function(b){ b.classList.toggle("on", b.getAttribute("data-tab")===tab); });
+    $("p-tiktok").classList.toggle("on", tab==="tiktok");
+    $("p-instagram").classList.toggle("on", tab==="instagram");
+    document.body.classList.toggle("dark", tab==="tiktok");
+    if (tab==="tiktok"){ loadTikTok(); setDock(ICON_TT + "Follow on TikTok", LINKS.tiktok, "", ""); }
+    else { loadInstagram(); setDock(ICON_IG + "Follow on Instagram", LINKS.instagram, "", ""); }
+  }
+
+  function renderCoupon(){
+    if (anyFollow()){
+      if (!state.unlocked){ state.unlocked = new Date().toISOString(); save(); }
+      $("couponDate").textContent = "Unlocked " + new Date(state.unlocked).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+      $("couponUnlocked").style.display = "block"; $("couponLocked").style.display = "none";
+    } else {
+      $("couponUnlocked").style.display = "none"; $("couponLocked").style.display = "block";
+    }
+  }
+
+  var ttLoaded = false;
+  function loadTikTok(){ if (ttLoaded) return; ttLoaded = true; var sc=document.createElement("script"); sc.async=true; sc.src="https://www.tiktok.com/embed.js"; document.body.appendChild(sc); }
+
+  // ---------- review box ----------
+  function paintStars(){ Array.prototype.forEach.call($("pick").children, function(b){ b.classList.toggle("on", +b.getAttribute("data-v") <= state.stars); }); }
+  Array.prototype.forEach.call($("pick").children, function(b){
+    b.addEventListener("click", function(){ state.stars = +b.getAttribute("data-v"); save(); paintStars(); });
+  });
+  $("reviewText").value = state.text;
+  $("reviewText").addEventListener("input", function(){ state.text = this.value; save(); });
+  Array.prototype.forEach.call($("chips").children, function(c){
+    c.addEventListener("click", function(){
+      var ta=$("reviewText"), add=c.textContent;
+      ta.value = ta.value.trim() ? ta.value.trim().replace(/[.!]?$/, ". ") + add + "." : add + ".";
+      state.text = ta.value; save();
+    });
+  });
+  paintStars();
+
+  function copyText(t){
+    if (!t) return false;
+    var ok = legacyCopy(t);
+    try { if (navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(t).catch(function(){}); return true; } } catch(e){}
+    return ok;
+  }
+  function legacyCopy(t){
+    try { var ta=document.createElement("textarea"); ta.value=t; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); var ok=document.execCommand("copy"); document.body.removeChild(ta); return ok; } catch(e){ return false; }
+  }
+
+  // ---------- main button ----------
+  $("dockBtn").addEventListener("click", function(){
+    var key = state.step === "follow" ? state.tab : state.step;
+    if (key === "review"){
+      var t = $("reviewText").value.trim();
+      if (copyText(t)) toast("Review copied. Just paste it on Google.");
+    }
+    state[key] = true; save();
+    pending = key;
+    setTimeout(function(){ if (pending === key && document.visibilityState === "visible"){ pending = null; openPop(key); } }, 2500);
+  });
+
+  function onReturn(){
+    if (document.visibilityState === "visible" && pending){ var k = pending; pending = null; setTimeout(function(){ openPop(k); }, 350); }
+  }
+  document.addEventListener("visibilitychange", onReturn);
+  window.addEventListener("pageshow", onReturn);
+
+  // ---------- popup ----------
+  function openPop(key){
+    var p = POPS[key];
+    $("popEmoji").textContent = p.emoji; $("popTitle").textContent = p.title; $("popText").textContent = p.text;
+    $("popNext").textContent = p.next; $("popBack").textContent = p.back;
+    $("overlay").dataset.key = key; $("overlay").classList.add("show");
+  }
+  function closePop(){ $("overlay").classList.remove("show"); }
+  $("popNext").addEventListener("click", function(){ var k=$("overlay").dataset.key; closePop(); show(k==="review" ? "follow" : "coupon"); });
+  $("popBack").addEventListener("click", closePop);
+
+  $("dockSkip").addEventListener("click", function(){ if (state.step==="review") show("follow"); });
+  Array.prototype.forEach.call(document.querySelectorAll("[data-tab]"), function(b){ b.addEventListener("click", function(){ setTab(b.getAttribute("data-tab")); }); });
+  Array.prototype.forEach.call(document.querySelectorAll("[data-go]"), function(b){ b.addEventListener("click", function(){ show(b.getAttribute("data-go")); }); });
+
+
+  // ---------- Instagram (auto-updating via Behold feed) ----------
+  var IG_FEED = "https://feeds.behold.so/cumDz6pt1LZaKodK9Dqc";
+  var igLoaded = false, igPosts = [], igAvatar = "";
+  var ICON_REEL = '<svg class="badge" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+  var ICON_MULTI = '<svg class="badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="7" width="13" height="13" rx="2"/><path d="M4 16V5a1 1 0 0 1 1-1h11"/></svg>';
+  function fmt(n){ if (n == null) return "·"; if (n >= 10000) return (n/1000).toFixed(0)+"K"; if (n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/,"")+"K"; return String(n); }
+  function esc(s){ return String(s||"").replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function thumb(p){
+    if (p.sizes && p.sizes.medium && p.sizes.medium.mediaUrl) return p.sizes.medium.mediaUrl;
+    return p.thumbnailUrl || p.mediaUrl;
+  }
+  function loadInstagram(){
+    if (igLoaded) return; igLoaded = true;
+    fetch(IG_FEED).then(function(r){ return r.json(); }).then(function(d){
+      if (d.profilePictureUrl){ igAvatar = d.profilePictureUrl; $("igAvatar").src = igAvatar; $("igAvatar").style.display = "block"; $("igAvFallback").style.display = "none"; }
+      $("igFollowers").textContent = fmt(d.followersCount);
+      $("igFollowing").textContent = fmt(d.followsCount);
+      if (d.biography) $("igBio").textContent = d.biography;
+      igPosts = (d.posts || []);
+      $("igPosts").textContent = igPosts.length ? "New" : "·";
+      if (!igPosts.length){ $("igGrid").innerHTML = '<div class="ig-empty">See our latest posts on Instagram.</div>'; return; }
+      $("igGrid").innerHTML = igPosts.map(function(p, i){
+        var badge = p.mediaType === "VIDEO" ? ICON_REEL : (p.mediaType === "CAROUSEL_ALBUM" ? ICON_MULTI : "");
+        return '<button class="ig-cell" data-i="'+i+'"><img loading="lazy" src="'+esc(thumb(p))+'" alt="'+esc(p.altText||"Cio Bela post")+'">'+badge+'</button>';
+      }).join("");
+      Array.prototype.forEach.call($("igGrid").querySelectorAll(".ig-cell"), function(c){
+        c.addEventListener("click", function(){ openViewer(+c.getAttribute("data-i")); });
+      });
+      // posts count isn't in the feed; hide that stat cleanly
+      $("igPosts").parentNode.style.display = "none";
+      $("igGrid").parentNode.querySelector(".ig-stats").style.gridTemplateColumns = "repeat(2,1fr)";
+    }).catch(function(){
+      $("igGrid").innerHTML = '<div class="ig-empty">Tap Follow below to see our latest posts.</div>';
+    });
+  }
+  function mediaEl(m, isVideo){
+    if (isVideo) return '<video src="'+esc(m.mediaUrl)+'" playsinline controls loop preload="metadata"'+(m.thumbnailUrl?' poster="'+esc(m.thumbnailUrl)+'"':'')+'></video>';
+    var src = (m.sizes && m.sizes.large && m.sizes.large.mediaUrl) || m.mediaUrl;
+    return '<img src="'+esc(src)+'" alt="'+esc(m.altText||"")+'">';
+  }
+  function openViewer(i){
+    var p = igPosts[i]; if (!p) return;
+    var html;
+    if (p.mediaType === "CAROUSEL_ALBUM" && p.children && p.children.length){
+      html = p.children.map(function(c){ return mediaEl(c, c.mediaType === "VIDEO"); }).join("");
+    } else {
+      html = mediaEl(p, p.mediaType === "VIDEO");
+    }
+    $("vMedia").innerHTML = html; $("vMedia").scrollLeft = 0;
+    $("vAv").innerHTML = igAvatar ? '<img src="'+esc(igAvatar)+'" alt="">' : '<span class="v-fb">CB</span>';
+    $("vCap").textContent = p.prunedCaption || p.caption || "";
+    $("vFollow").innerHTML = ICON_IG + "Follow on Instagram";
+    $("vFollow").href = LINKS.instagram;
+    $("viewer").classList.add("show");
+    var v = $("vMedia").querySelector("video"); if (v){ var pr = v.play(); if (pr && pr.catch) pr.catch(function(){}); }
+  }
+  function closeViewer(){
+    Array.prototype.forEach.call($("vMedia").querySelectorAll("video"), function(v){ v.pause(); });
+    $("viewer").classList.remove("show"); $("vMedia").innerHTML = "";
+  }
+  $("vClose").addEventListener("click", closeViewer);
+  $("vFollow").addEventListener("click", function(){
+    closeViewer();
+    state.instagram = true; save(); pending = "instagram";
+    setTimeout(function(){ if (pending === "instagram" && document.visibilityState === "visible"){ pending = null; openPop("instagram"); } }, 2500);
+  });
+
+  // back arrow + tappable progress bar
+  $("backBtn").addEventListener("click", function(){ var i = ORDER.indexOf(state.step); if (i > 0) show(ORDER[i-1]); });
+  Array.prototype.forEach.call($("bar").children, function(el, i){
+    el.addEventListener("click", function(){
+      if (ORDER[i] === "coupon" && !anyFollow()) return;
+      if (i <= ORDER.indexOf(state.step) || ORDER[i] !== "coupon") show(ORDER[i]);
+    });
+  });
+  show(ORDER.indexOf(state.step) > -1 ? state.step : ORDER[0]);
+})();
+</script>
+</body>
+</html>
