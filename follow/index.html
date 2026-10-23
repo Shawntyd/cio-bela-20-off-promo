@@ -126,6 +126,41 @@
   .tabs button.on{background:var(--cream);color:var(--bark);box-shadow:0 1px 4px rgba(0,0,0,.08)}
   body.dark .tabs button.on{background:var(--gold);color:var(--charcoal)}
   .pane{display:none}.pane.on{display:block}
+
+  /* instagram-style profile */
+  .ig{margin:0 -16px}
+  .ig-head{display:flex;align-items:center;gap:22px;padding:4px 16px 12px}
+  .ig-av{flex:none;width:86px;height:86px;border-radius:50%;padding:3px;background:conic-gradient(var(--gold),var(--gold-light),var(--gold))}
+  .ig-av img,.ig-av div{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--cream);display:block}
+  .ig-av div{background:var(--bark);color:var(--gold-light);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:30px;font-weight:600}
+  .ig-stats{flex:1;display:grid;grid-template-columns:repeat(3,1fr);text-align:center}
+  .ig-stats b{display:block;font-size:18px;font-weight:600}
+  .ig-stats span{font-size:13px;opacity:.75}
+  .ig-name{padding:0 16px;font-weight:600;font-size:15px}
+  .ig-user{padding:0 16px;font-size:13px;opacity:.6;margin-top:1px}
+  .ig-bio{padding:6px 16px 14px;font-size:14px;line-height:1.45;white-space:pre-line}
+  .ig-tabs{display:flex;justify-content:center;border-top:1px solid var(--line)}
+  .ig-tabs span{padding:10px 0;border-top:1.5px solid var(--bark);margin-top:-1px}
+  .ig-tabs svg{width:22px;height:22px;display:block}
+  .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+  .ig-cell{position:relative;aspect-ratio:3/4;background:#e9e2d6;overflow:hidden;padding:0}
+  .ig-cell img{width:100%;height:100%;object-fit:cover;display:block}
+  .ig-cell .badge{position:absolute;top:7px;right:7px;width:18px;height:18px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
+  .ig-empty{grid-column:1/-1;padding:40px 16px;text-align:center;font-size:14px;opacity:.6}
+
+  /* full-screen post viewer */
+  .viewer{position:fixed;inset:0;z-index:70;background:#000;color:#fff;display:none;flex-direction:column}
+  .viewer.show{display:flex}
+  .v-top{display:flex;align-items:center;gap:10px;padding:calc(12px + env(safe-area-inset-top)) 14px 10px}
+  .v-top img,.v-top .v-fb{width:32px;height:32px;border-radius:50%;object-fit:cover}
+  .v-top .v-fb{background:var(--bark);color:var(--gold-light);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600}
+  .v-top b{font-size:14px;flex:1}
+  .v-close{font-size:30px;line-height:1;padding:4px 8px;color:#fff}
+  .v-media{flex:1;min-height:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .v-media > *{flex:none;width:100%;height:100%;object-fit:contain;scroll-snap-align:center;background:#000}
+  .v-foot{padding:12px 16px calc(14px + env(safe-area-inset-bottom))}
+  .v-cap{font-size:14px;line-height:1.45;max-height:4.4em;overflow:hidden;opacity:.9;margin-bottom:12px}
+  .v-follow{background:var(--gold);color:var(--charcoal)}
 </style>
 </head>
 <body>
@@ -179,22 +214,25 @@
   <div class="feed" id="tiktokFeed">
     <div class="feed-loading">Loading our TikToks…</div>
     <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cio.bela.salon" data-unique-id="cio.bela.salon" data-embed-type="creator" style="max-width:780px;min-width:288px;">
-      <section><a target="_blank" rel="noopener" href="https://www.tiktok.com/@cio.bela.salon?refer=creator_embed">@cio.bela.salon</a></div>
-  <div class="pane" id="p-instagram">
-  <div class="profile">
-    <div class="avatar"><div>CB</div></div>
-    <div>
-      <div class="handle">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-        ciobelasalon
-      </div>
-      <div class="sub">Cio Bela Multi-Service Salon</div>
-    </div>
+      <section><a target="_blank" rel="noopener" href="https://www.tiktok.com/@cio.bela.salon?refer=creator_embed">@cio.bela.salon</a></section>
+    </blockquote>
   </div>
-  <p class="bio">Our favorite sets, fresh nails and behind the scenes moments. Scroll through, then tap Follow.</p>
-  <div class="feed">
-    <div class="feed-loading">Loading our Instagram…</div>
-    <iframe src="https://www.instagram.com/ciobelasalon/embed/" title="Cio Bela on Instagram" loading="lazy" scrolling="yes" allowtransparency="true"></iframe>
+  </div>
+  <div class="pane" id="p-instagram">
+  <div class="ig">
+    <div class="ig-head">
+      <div class="ig-av"><img id="igAvatar" alt="" style="display:none"><div id="igAvFallback">CB</div></div>
+      <div class="ig-stats">
+        <div><b id="igPosts">·</b><span>posts</span></div>
+        <div><b id="igFollowers">·</b><span>followers</span></div>
+        <div><b id="igFollowing">·</b><span>following</span></div>
+      </div>
+    </div>
+    <div class="ig-name">Cio Bela Multi-Service Salon</div>
+    <div class="ig-user">@ciobelasalon</div>
+    <div class="ig-bio" id="igBio"></div>
+    <div class="ig-tabs"><span class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></span></div>
+    <div class="ig-grid" id="igGrid"><div class="ig-empty">Loading our latest posts…</div></div>
   </div>
 </div>
 </section>
@@ -231,6 +269,12 @@
     <div class="hint" id="dockHint"></div>
     <button class="skip" id="dockSkip"></button>
   </div>
+</div>
+
+<div class="viewer" id="viewer" role="dialog" aria-modal="true">
+  <div class="v-top"><span id="vAv"></span><b>ciobelasalon</b><button class="v-close" id="vClose" aria-label="Close">&times;</button></div>
+  <div class="v-media" id="vMedia"></div>
+  <div class="v-foot"><div class="v-cap" id="vCap"></div><a class="btn v-follow" id="vFollow" target="_blank" rel="noopener"></a></div>
 </div>
 
 <!-- POPUP -->
@@ -306,7 +350,7 @@
     $("p-instagram").classList.toggle("on", tab==="instagram");
     document.body.classList.toggle("dark", tab==="tiktok");
     if (tab==="tiktok"){ loadTikTok(); setDock(ICON_TT + "Follow on TikTok", LINKS.tiktok, "", ""); }
-    else { setDock(ICON_IG + "Follow on Instagram", LINKS.instagram, "", ""); }
+    else { loadInstagram(); setDock(ICON_IG + "Follow on Instagram", LINKS.instagram, "", ""); }
   }
 
   function renderCoupon(){
@@ -380,6 +424,74 @@
   $("dockSkip").addEventListener("click", function(){ if (state.step==="review") show("follow"); });
   Array.prototype.forEach.call(document.querySelectorAll("[data-tab]"), function(b){ b.addEventListener("click", function(){ setTab(b.getAttribute("data-tab")); }); });
   Array.prototype.forEach.call(document.querySelectorAll("[data-go]"), function(b){ b.addEventListener("click", function(){ show(b.getAttribute("data-go")); }); });
+
+
+  // ---------- Instagram (auto-updating via Behold feed) ----------
+  var IG_FEED = "https://feeds.behold.so/cumDz6pt1LZaKodK9Dqc";
+  var igLoaded = false, igPosts = [], igAvatar = "";
+  var ICON_REEL = '<svg class="badge" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+  var ICON_MULTI = '<svg class="badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="7" width="13" height="13" rx="2"/><path d="M4 16V5a1 1 0 0 1 1-1h11"/></svg>';
+  function fmt(n){ if (n == null) return "·"; if (n >= 10000) return (n/1000).toFixed(0)+"K"; if (n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/,"")+"K"; return String(n); }
+  function esc(s){ return String(s||"").replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function thumb(p){
+    if (p.sizes && p.sizes.medium && p.sizes.medium.mediaUrl) return p.sizes.medium.mediaUrl;
+    return p.thumbnailUrl || p.mediaUrl;
+  }
+  function loadInstagram(){
+    if (igLoaded) return; igLoaded = true;
+    fetch(IG_FEED).then(function(r){ return r.json(); }).then(function(d){
+      if (d.profilePictureUrl){ igAvatar = d.profilePictureUrl; $("igAvatar").src = igAvatar; $("igAvatar").style.display = "block"; $("igAvFallback").style.display = "none"; }
+      $("igFollowers").textContent = fmt(d.followersCount);
+      $("igFollowing").textContent = fmt(d.followsCount);
+      if (d.biography) $("igBio").textContent = d.biography;
+      igPosts = (d.posts || []);
+      $("igPosts").textContent = igPosts.length ? "New" : "·";
+      if (!igPosts.length){ $("igGrid").innerHTML = '<div class="ig-empty">See our latest posts on Instagram.</div>'; return; }
+      $("igGrid").innerHTML = igPosts.map(function(p, i){
+        var badge = p.mediaType === "VIDEO" ? ICON_REEL : (p.mediaType === "CAROUSEL_ALBUM" ? ICON_MULTI : "");
+        return '<button class="ig-cell" data-i="'+i+'"><img loading="lazy" src="'+esc(thumb(p))+'" alt="'+esc(p.altText||"Cio Bela post")+'">'+badge+'</button>';
+      }).join("");
+      Array.prototype.forEach.call($("igGrid").querySelectorAll(".ig-cell"), function(c){
+        c.addEventListener("click", function(){ openViewer(+c.getAttribute("data-i")); });
+      });
+      // posts count isn't in the feed; hide that stat cleanly
+      $("igPosts").parentNode.style.display = "none";
+      $("igGrid").parentNode.querySelector(".ig-stats").style.gridTemplateColumns = "repeat(2,1fr)";
+    }).catch(function(){
+      $("igGrid").innerHTML = '<div class="ig-empty">Tap Follow below to see our latest posts.</div>';
+    });
+  }
+  function mediaEl(m, isVideo){
+    if (isVideo) return '<video src="'+esc(m.mediaUrl)+'" playsinline controls loop preload="metadata"'+(m.thumbnailUrl?' poster="'+esc(m.thumbnailUrl)+'"':'')+'></video>';
+    var src = (m.sizes && m.sizes.large && m.sizes.large.mediaUrl) || m.mediaUrl;
+    return '<img src="'+esc(src)+'" alt="'+esc(m.altText||"")+'">';
+  }
+  function openViewer(i){
+    var p = igPosts[i]; if (!p) return;
+    var html;
+    if (p.mediaType === "CAROUSEL_ALBUM" && p.children && p.children.length){
+      html = p.children.map(function(c){ return mediaEl(c, c.mediaType === "VIDEO"); }).join("");
+    } else {
+      html = mediaEl(p, p.mediaType === "VIDEO");
+    }
+    $("vMedia").innerHTML = html; $("vMedia").scrollLeft = 0;
+    $("vAv").innerHTML = igAvatar ? '<img src="'+esc(igAvatar)+'" alt="">' : '<span class="v-fb">CB</span>';
+    $("vCap").textContent = p.prunedCaption || p.caption || "";
+    $("vFollow").innerHTML = ICON_IG + "Follow on Instagram";
+    $("vFollow").href = LINKS.instagram;
+    $("viewer").classList.add("show");
+    var v = $("vMedia").querySelector("video"); if (v){ var pr = v.play(); if (pr && pr.catch) pr.catch(function(){}); }
+  }
+  function closeViewer(){
+    Array.prototype.forEach.call($("vMedia").querySelectorAll("video"), function(v){ v.pause(); });
+    $("viewer").classList.remove("show"); $("vMedia").innerHTML = "";
+  }
+  $("vClose").addEventListener("click", closeViewer);
+  $("vFollow").addEventListener("click", function(){
+    closeViewer();
+    state.instagram = true; save(); pending = "instagram";
+    setTimeout(function(){ if (pending === "instagram" && document.visibilityState === "visible"){ pending = null; openPop("instagram"); } }, 2500);
+  });
 
   show(ORDER.indexOf(state.step) > -1 ? state.step : "review");
 })();
