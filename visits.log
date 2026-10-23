@@ -429,3 +429,4 @@
 {"ts":"2026-10-23T05:04:50.925Z","event":"view","session_id":"fbcae8f7-d506-4092-81e8-06835fa4a338","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-23T05:40:57.962Z","event":"view","session_id":"0b1ec7c7-2145-4559-8ebd-ea2b23a461ac","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-23T09:04:46.743Z","event":"view","session_id":"f7de632d-8c91-4ead-bc5f-966e299b9767","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-23T09:43:22.916Z","event":"view","session_id":"b0d46990-446d-4090-ac01-d19c7d7b300e","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
