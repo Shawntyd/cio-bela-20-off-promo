@@ -643,3 +643,4 @@
 {"ts":"2026-10-24T01:01:37.566Z","event":"exit","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/time","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-24T01:01:37.575Z","event":"view","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/select-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-24T01:02:09.165Z","event":"exit","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/select-artist","duration_seconds":32,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-24T01:02:09.232Z","event":"view","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/client-info","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
