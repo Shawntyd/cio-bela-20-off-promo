@@ -649,3 +649,4 @@
 {"ts":"2026-10-24T01:03:12.375Z","event":"view","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-24T01:03:12.410Z","event":"exit","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/waiver","duration_seconds":18,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-24T01:03:22.299Z","event":"exit","session_id":"5c90057d-d95f-47b6-8d7f-9b538c503cb3","page":"booking-nail-svc/deposit","duration_seconds":10,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-24T01:04:04.751Z","event":"view","session_id":"c501905d-d97e-4b1d-8fd7-a07415117e79","page":"/","duration_seconds":"","referrer":"https://lm.facebook.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
