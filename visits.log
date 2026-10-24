@@ -693,3 +693,4 @@
 {"ts":"2026-10-24T04:48:44.603Z","event":"view","session_id":"a22104ee-1ca7-40e4-8e21-c3ca0cec2868","page":"booking-nail/date","duration_seconds":"","referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-24T04:48:53.909Z","event":"exit","session_id":"a22104ee-1ca7-40e4-8e21-c3ca0cec2868","page":"booking-nail/date","duration_seconds":9,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-24T04:58:26.339Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-24T05:35:24.565Z","event":"view","session_id":"1209088f-77ca-4573-afc5-9529995d5ccc","page":"/waxing-specialist-form","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
