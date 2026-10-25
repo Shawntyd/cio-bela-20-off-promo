@@ -844,3 +844,4 @@
 {"ts":"2026-10-25T15:35:38.115Z","event":"exit","session_id":"06dc361b-9dff-4bff-8c7d-13e5813c04f2","page":"booking-nail-svc/deposit","duration_seconds":33,"referrer":"","utm_source":"chatgpt.com","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T15:35:38.091Z","event":"deposit_paid","session_id":"06dc361b-9dff-4bff-8c7d-13e5813c04f2","page":"booking-nail-svc/deposit-paid","duration_seconds":"","referrer":"","utm_source":"chatgpt.com","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T16:58:45.914Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-25T17:22:31.305Z","event":"view","session_id":"772eff4a-a02a-4718-b900-699f5eb475a9","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
