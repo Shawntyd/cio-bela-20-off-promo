@@ -756,3 +756,4 @@
 {"ts":"2026-10-25T04:18:46.176Z","event":"view","session_id":"6c3d61ea-d26f-49ca-bbcb-8f01c39f1027","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T04:18:49.590Z","event":"view","session_id":"6c3d61ea-d26f-49ca-bbcb-8f01c39f1027","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T04:46:57.652Z","event":"view","session_id":"9604dd2d-dcd7-48b2-a2f1-0c5642961c8a","page":"/temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-25T07:59:19.929Z","event":"view","session_id":"305256e3-0b24-4490-9bd1-50571d958a44","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
