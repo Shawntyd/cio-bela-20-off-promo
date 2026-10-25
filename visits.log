@@ -869,3 +869,4 @@
 {"ts":"2026-10-25T18:30:00.844Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T19:31:56.874Z","event":"view","session_id":"3898f361-a5b8-490a-8c4c-1cae1f1c2970","page":"/","duration_seconds":"","referrer":"https://scriblihelp.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T19:33:35.809Z","event":"view","session_id":"c797e927-bce0-438c-8b5c-9d76949b2354","page":"/waxing-scheduling-pricing-strategy","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-25T19:33:39.151Z","event":"view","session_id":"c797e927-bce0-438c-8b5c-9d76949b2354","page":"/waxing-scheduling-pricing-strategy","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
