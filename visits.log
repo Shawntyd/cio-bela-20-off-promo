@@ -759,3 +759,4 @@
 {"ts":"2026-10-25T07:59:19.929Z","event":"view","session_id":"305256e3-0b24-4490-9bd1-50571d958a44","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-10-25T08:29:16.148Z","event":"view","session_id":"8d8b9e67-767b-4810-9c36-a35d07876a2f","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-25T08:29:27.299Z","event":"view","session_id":"8d8b9e67-767b-4810-9c36-a35d07876a2f","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-25T08:29:27.604Z","event":"view","session_id":"8d8b9e67-767b-4810-9c36-a35d07876a2f","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
