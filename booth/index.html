@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cio Bela | Follow Us</title>
-<meta name="description" content="Share your Cio Bela experience and follow along for 20% off your next service.">
+<meta name="description" content="Follow Cio Bela and see what we are building.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -229,7 +229,7 @@
 <!-- STEP 2: FOLLOW ONE -->
 <section class="screen" id="s-follow">
   <h1 style="font-size:32px">Follow us on one</h1>
-  <p class="lead">Pick the app you already use. One follow unlocks your 20% off.</p>
+  <p class="lead">Pick the app you already use and see what we have been up to.</p>
   <div class="tabs">
     <button data-tab="instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</button>
     <button data-tab="tiktok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>TikTok</button>
@@ -290,18 +290,7 @@
 <section class="screen" id="s-coupon">
   <div id="couponUnlocked">
     <h1>Thank you for following along.</h1>
-    <p class="lead">Here's a little something for your next visit.</p>
-    <div class="coupon">
-      <div class="eyebrow">Cio Bela Exclusive</div>
-      <div class="big">20%</div>
-      <div class="what">off your next service</div>
-      <div class="divider"></div>
-      <div class="code">CODE · FOLLOW20</div>
-      <div class="date" id="couponDate"></div>
-    </div>
-    <p class="fine">To redeem, <b>show this coupon and that you follow at least one of our accounts</b> at checkout.</p>
-    <div class="snap">📸 Take a screenshot of this coupon to save it</div>
-    <a class="btn btn-gold" style="margin-top:24px" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Book My Next Visit</a>
+    <p class="lead">We would love to have you build with us. Take a look at the space we're creating and what your week could look like.</p>
   <div class="artists">
     <div class="eyebrow">For artists</div>
     <h2>Come build with us.</h2>
@@ -318,7 +307,7 @@
   </div>
   <div id="couponLocked" class="locked" style="display:none">
     <h1>Almost there.</h1>
-    <p class="lead">Follow at least one of our accounts to unlock your 20% off.</p>
+    <p class="lead">Follow at least one of our accounts.</p>
     <button class="btn btn-gold" data-go="follow">Choose an account to follow</button>
   </div>
 </section>
@@ -373,8 +362,8 @@
 
   var POPS = {
     review: { emoji:"🤍", title:"Thank you so much!", text:"Your words mean the world to our artists. Now come see what we've been up to.", next:"Continue", back:"I'm not done yet" },
-    tiktok: { emoji:"🎉", title:"You're following!", text:"Your 20% off coupon is unlocked.", next:"See my coupon", back:"Go back to TikTok" },
-    instagram: { emoji:"🎉", title:"You're following!", text:"Your 20% off coupon is unlocked.", next:"See my coupon", back:"Go back to Instagram" }
+    tiktok: { emoji:"🤍", title:"You're following!", text:"Thank you! Now see what we're building.", next:"Continue", back:"Go back to TikTok" },
+    instagram: { emoji:"🤍", title:"You're following!", text:"Thank you! Now see what we're building.", next:"Continue", back:"Go back to Instagram" }
   };
 
   var state = { step:ORDER[0], tab:"instagram", stars:0, text:"", review:false, tiktok:false, instagram:false, unlocked:null };
@@ -401,7 +390,7 @@
     var idx = ORDER.indexOf(step);
     Array.prototype.forEach.call($("bar").children, function(el,i){ el.classList.toggle("on", i<=idx); });
     $("backBtn").classList.toggle("show", idx > 0);
-    $("stepLabel").textContent = step==="coupon" ? "Your reward" : (NO_REVIEW ? "Follow us" : "Step " + (idx+1) + " of 2");
+    $("stepLabel").textContent = step==="coupon" ? "Thank you" : (NO_REVIEW ? "Follow us" : "Step " + (idx+1) + " of 2");
     if (step === "review"){
       document.body.classList.remove("dark");
       setDock(ICON_G + "Copy &amp; Post on Google", LINKS.review, "", "Skip for now");
@@ -429,9 +418,7 @@
   }
 
   function renderCoupon(){
-    if (anyFollow()){
-      if (!state.unlocked){ state.unlocked = new Date().toISOString(); save(); }
-      $("couponDate").textContent = "Unlocked " + new Date(state.unlocked).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+    if (true){
       $("couponUnlocked").style.display = "block"; $("couponLocked").style.display = "none";
     } else {
       $("couponUnlocked").style.display = "none"; $("couponLocked").style.display = "block";
@@ -572,7 +559,6 @@
   $("backBtn").addEventListener("click", function(){ var i = ORDER.indexOf(state.step); if (i > 0) show(ORDER[i-1]); });
   Array.prototype.forEach.call($("bar").children, function(el, i){
     el.addEventListener("click", function(){
-      if (ORDER[i] === "coupon" && !anyFollow()) return;
       if (i <= ORDER.indexOf(state.step) || ORDER[i] !== "coupon") show(ORDER[i]);
     });
   });
