@@ -191,6 +191,8 @@
   .site-bar{flex:none;display:flex;align-items:center;gap:6px;padding:calc(12px + env(safe-area-inset-top)) 14px 12px;background:var(--bark);color:var(--cream);font-size:15px;letter-spacing:.3px}
   .site-bar svg{width:18px;height:18px}
   .site iframe{flex:1;width:100%;border:0;background:var(--cream)}
+  .big-follow{margin:22px 0 6px;padding:22px 20px;font-size:19px;border-radius:16px;box-shadow:0 8px 24px rgba(44,32,22,.18)}
+  .big-follow svg{width:24px;height:24px}
 </style>
 </head>
 <body>
@@ -268,6 +270,7 @@
     <div class="ig-grid" id="igGrid"><div class="ig-empty">Loading our latest posts…</div></div>
   </div>
 </div>
+  <a class="btn btn-gold big-follow" id="inlineFollow" target="_blank" rel="noopener"></a>
   <div class="artists">
     <div class="eyebrow">For artists</div>
     <h2>Come build with us.</h2>
@@ -421,6 +424,8 @@
     document.body.classList.toggle("dark", tab==="tiktok");
     if (tab==="tiktok"){ loadTikTok(); setDock(ICON_TT + "Follow on TikTok", LINKS.tiktok, "", ""); }
     else { loadInstagram(); setDock(ICON_IG + "Follow on Instagram", LINKS.instagram, "", ""); }
+    $("inlineFollow").innerHTML = (tab==="tiktok" ? ICON_TT + "Follow us on TikTok" : ICON_IG + "Follow us on Instagram");
+    $("inlineFollow").href = LINKS[tab];
   }
 
   function renderCoupon(){
@@ -605,6 +610,11 @@
     $("site").classList.remove("show");
     document.documentElement.style.overflow = "";
     setTimeout(function(){ $("siteFrame").src = "about:blank"; }, 250);
+  });
+  $("inlineFollow").addEventListener("click", function(){
+    var key = state.tab;
+    state[key] = true; save(); pending = key;
+    setTimeout(function(){ if (pending === key && document.visibilityState === "visible"){ pending = null; openPop(key); } }, 2500);
   });
   show(ORDER.indexOf(state.step) > -1 ? state.step : ORDER[0]);
 })();
