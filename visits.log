@@ -1012,3 +1012,4 @@
 {"ts":"2026-10-26T17:32:14.470Z","event":"view","session_id":"5b7377f6-da41-480a-867a-760fea33db4c","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-26T17:32:46.517Z","event":"exit","session_id":"5b7377f6-da41-480a-867a-760fea33db4c","page":"booking-nail-svc/deposit","duration_seconds":32,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-26T17:32:46.518Z","event":"deposit_paid","session_id":"5b7377f6-da41-480a-867a-760fea33db4c","page":"booking-nail-svc/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-26T17:59:18.998Z","event":"view","session_id":"5c0ace70-1021-4d78-8913-763cf8e43205","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
