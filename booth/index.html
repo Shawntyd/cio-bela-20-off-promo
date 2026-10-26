@@ -166,6 +166,31 @@
   .v-foot{padding:12px 16px calc(14px + env(safe-area-inset-bottom))}
   .v-cap{font-size:14px;line-height:1.45;max-height:4.4em;overflow:hidden;opacity:.9;margin-bottom:12px}
   .v-follow{background:var(--gold);color:var(--charcoal)}
+
+  /* artist preview cards */
+  .artists{margin:34px 0 10px}
+  .artists .eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .artists h2{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:30px;line-height:1.1;margin-bottom:16px}
+  .pcard{display:block;width:100%;text-align:left;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff;margin-bottom:16px;box-shadow:0 6px 22px rgba(44,32,22,.08)}
+  body.dark .pcard{background:#241b14;border-color:rgba(245,240,232,.12)}
+  .pshot{position:relative;height:280px;overflow:hidden;background:var(--cream)}
+  .pshot iframe{position:absolute;top:0;left:0;width:390px;height:844px;border:0;transform-origin:0 0;pointer-events:none}
+  .pshot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:70px;background:linear-gradient(to top,rgba(0,0,0,.18),rgba(0,0,0,0))}
+  .pbody{padding:16px 18px 18px;display:flex;align-items:center;gap:14px}
+  .pbody div{flex:1}
+  .pbody b{display:block;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600;font-size:24px;line-height:1.1}
+  .pbody div span{display:block;font-size:14px;opacity:.75;margin-top:4px;line-height:1.4}
+  .parrow{flex:none;width:44px;height:44px;border-radius:50%;background:var(--bark);color:var(--cream);display:grid;place-items:center}
+  body.dark .parrow{background:var(--gold);color:var(--charcoal)}
+  .parrow svg{width:18px;height:18px}
+  .sitelink{display:block;text-align:center;font-size:14px;letter-spacing:.4px;padding:14px;opacity:.8;text-decoration:underline;text-underline-offset:3px}
+
+  /* in-page site viewer */
+  .site{position:fixed;inset:0;z-index:80;background:var(--cream);display:none;flex-direction:column}
+  .site.show{display:flex}
+  .site-bar{flex:none;display:flex;align-items:center;gap:6px;padding:calc(12px + env(safe-area-inset-top)) 14px 12px;background:var(--bark);color:var(--cream);font-size:15px;letter-spacing:.3px}
+  .site-bar svg{width:18px;height:18px}
+  .site iframe{flex:1;width:100%;border:0;background:var(--cream)}
 </style>
 </head>
 <body>
@@ -204,8 +229,8 @@
   <h1 style="font-size:32px">Follow us on one</h1>
   <p class="lead">Pick the app you already use. One follow unlocks your 20% off.</p>
   <div class="tabs">
-    <button data-tab="tiktok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>TikTok</button>
     <button data-tab="instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</button>
+    <button data-tab="tiktok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 1 1-2-2.7V9.4a6.3 6.3 0 1 0 5.4 6.2V8.7a8.1 8.1 0 0 0 3.8 1V6.7z"/></svg>TikTok</button>
   </div>
   <div class="pane" id="p-tiktok">
   <div class="profile">
@@ -243,6 +268,19 @@
     <div class="ig-grid" id="igGrid"><div class="ig-empty">Loading our latest posts…</div></div>
   </div>
 </div>
+  <div class="artists">
+    <div class="eyebrow">For artists</div>
+    <h2>Come build with us.</h2>
+    <button class="pcard" data-site="https://shawntyd.github.io/Building-Cio-Bela/">
+      <div class="pshot"><iframe data-src="https://shawntyd.github.io/Building-Cio-Bela/" tabindex="-1" aria-hidden="true" loading="lazy"></iframe></div>
+      <div class="pbody"><div><b>See what we're building</b><span>Our blueprints and every phase of the space.</span></div><span class="parrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+    </button>
+    <button class="pcard" data-site="https://shawntyd.github.io/cio-bela-artist-recruitment/">
+      <div class="pshot"><iframe data-src="https://shawntyd.github.io/cio-bela-artist-recruitment/" tabindex="-1" aria-hidden="true" loading="lazy"></iframe></div>
+      <div class="pbody"><div><b>See what you could earn</b><span>Pick your service and build your week.</span></div><span class="parrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+    </button>
+    <a class="sitelink" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Visit ciobelasalons.com</a>
+  </div>
 </section>
 
 <!-- STEP 3: COUPON -->
@@ -261,6 +299,19 @@
     <p class="fine">To redeem, <b>show this coupon and that you follow at least one of our accounts</b> at checkout.</p>
     <div class="snap">📸 Take a screenshot of this coupon to save it</div>
     <a class="btn btn-gold" style="margin-top:24px" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Book My Next Visit</a>
+  <div class="artists">
+    <div class="eyebrow">For artists</div>
+    <h2>Come build with us.</h2>
+    <button class="pcard" data-site="https://shawntyd.github.io/Building-Cio-Bela/">
+      <div class="pshot"><iframe data-src="https://shawntyd.github.io/Building-Cio-Bela/" tabindex="-1" aria-hidden="true" loading="lazy"></iframe></div>
+      <div class="pbody"><div><b>See what we're building</b><span>Our blueprints and every phase of the space.</span></div><span class="parrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+    </button>
+    <button class="pcard" data-site="https://shawntyd.github.io/cio-bela-artist-recruitment/">
+      <div class="pshot"><iframe data-src="https://shawntyd.github.io/cio-bela-artist-recruitment/" tabindex="-1" aria-hidden="true" loading="lazy"></iframe></div>
+      <div class="pbody"><div><b>See what you could earn</b><span>Pick your service and build your week.</span></div><span class="parrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+    </button>
+    <a class="sitelink" href="https://www.ciobelasalons.com" target="_blank" rel="noopener">Visit ciobelasalons.com</a>
+  </div>
   </div>
   <div id="couponLocked" class="locked" style="display:none">
     <h1>Almost there.</h1>
@@ -283,6 +334,11 @@
   <div class="v-top"><span id="vAv"></span><b>ciobelasalon</b><button class="v-close" id="vClose" aria-label="Close">&times;</button></div>
   <div class="v-media" id="vMedia"></div>
   <div class="v-foot"><div class="v-cap" id="vCap"></div><a class="btn v-follow" id="vFollow" target="_blank" rel="noopener"></a></div>
+</div>
+
+<div class="site" id="site" role="dialog" aria-modal="true">
+  <button class="site-bar" id="siteBack"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Back to Cio Bela</button>
+  <iframe id="siteFrame" title="Cio Bela"></iframe>
 </div>
 
 <!-- POPUP -->
@@ -318,7 +374,7 @@
     instagram: { emoji:"🎉", title:"You're following!", text:"Your 20% off coupon is unlocked.", next:"See my coupon", back:"Go back to Instagram" }
   };
 
-  var state = { step:ORDER[0], tab:"tiktok", stars:0, text:"", review:false, tiktok:false, instagram:false, unlocked:null };
+  var state = { step:ORDER[0], tab:"instagram", stars:0, text:"", review:false, tiktok:false, instagram:false, unlocked:null };
   try { var s = JSON.parse(localStorage.getItem(SAVE_KEY) || "null"); if (s) state = Object.assign(state, s); } catch(e){}
   function save(){ try { localStorage.setItem(SAVE_KEY, JSON.stringify(state)); } catch(e){} }
 
@@ -354,6 +410,7 @@
       renderCoupon();
     }
     window.scrollTo(0,0);
+    if (typeof loadPreviews === "function") setTimeout(function(){ loadPreviews($("s-"+step)); }, 50);
   }
 
   function setTab(tab){
@@ -513,6 +570,41 @@
       if (ORDER[i] === "coupon" && !anyFollow()) return;
       if (i <= ORDER.indexOf(state.step) || ORDER[i] !== "coupon") show(ORDER[i]);
     });
+  });
+
+  // ---------- artist preview cards + in-page viewer ----------
+  function sizePreviews(){
+    Array.prototype.forEach.call(document.querySelectorAll(".pshot"), function(box){
+      var f = box.querySelector("iframe"); var w = box.clientWidth;
+      if (w) f.style.transform = "scale(" + (w/390) + ")";
+    });
+  }
+  function loadPreviews(scope){
+    Array.prototype.forEach.call(scope.querySelectorAll(".pshot iframe[data-src]"), function(f){
+      f.src = f.getAttribute("data-src"); f.removeAttribute("data-src");
+    });
+    sizePreviews();
+  }
+  window.addEventListener("resize", sizePreviews);
+  function keepLinksInside(){
+    // same site: make links to our own pages stay inside the viewer
+    try {
+      var doc = $("siteFrame").contentDocument;
+      Array.prototype.forEach.call(doc.querySelectorAll('a[href*="shawntyd.github.io"]'), function(a){ a.removeAttribute("target"); });
+    } catch(e){}
+  }
+  $("siteFrame").addEventListener("load", keepLinksInside);
+  Array.prototype.forEach.call(document.querySelectorAll(".pcard"), function(c){
+    c.addEventListener("click", function(){
+      $("siteFrame").src = c.getAttribute("data-site");
+      $("site").classList.add("show");
+      document.documentElement.style.overflow = "hidden";
+    });
+  });
+  $("siteBack").addEventListener("click", function(){
+    $("site").classList.remove("show");
+    document.documentElement.style.overflow = "";
+    setTimeout(function(){ $("siteFrame").src = "about:blank"; }, 250);
   });
   show(ORDER.indexOf(state.step) > -1 ? state.step : ORDER[0]);
 })();
