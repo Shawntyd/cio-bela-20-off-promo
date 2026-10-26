@@ -193,9 +193,38 @@
   .site iframe{flex:1;width:100%;border:0;background:var(--cream)}
   .big-follow{margin:22px 0 6px;padding:22px 20px;font-size:19px;border-radius:16px;box-shadow:0 8px 24px rgba(44,32,22,.18)}
   .big-follow svg{width:24px;height:24px}
+
+  /* opening */
+  #open{position:fixed;inset:0;z-index:100;background:var(--bark);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;text-align:center;transition:opacity .9s ease}
+  #open.out{opacity:0;pointer-events:none}
+  #open .ring{width:132px;height:132px}
+  #open .ring circle{fill:none;stroke:var(--gold);stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.4s ease-out forwards}
+  #open .ring circle.inner{stroke-width:.6;animation-delay:.25s}
+  #open .ring text{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:44px;fill:var(--gold-light);opacity:0;animation:rise .9s .7s ease-out forwards}
+  #open .name{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:46px;line-height:1;opacity:0;animation:rise .9s 1s ease-out forwards}
+  #open .tag{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold-light);opacity:0;animation:rise .9s 1.25s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion: reduce){#open *{animation-duration:.01s !important;animation-delay:0s !important}}
 </style>
 </head>
 <body>
+
+<div id="open" aria-hidden="true">
+  <svg class="ring" viewBox="0 0 132 132"><circle cx="66" cy="66" r="64" stroke-width="1.4"/><circle class="inner" cx="66" cy="66" r="58"/><text x="66" y="80" text-anchor="middle">CB</text></svg>
+  <div class="name">Cio Bela</div>
+  <div class="tag">Multi-Service Salon</div>
+</div>
+<script>
+(function(){
+  var el = document.getElementById("open"), seen = false;
+  try { seen = sessionStorage.getItem("cb_booth_open") === "1"; sessionStorage.setItem("cb_booth_open","1"); } catch(e){}
+  function done(){ if (!el || el.classList.contains("out")) return; el.classList.add("out"); setTimeout(function(){ el.style.display = "none"; }, 900); }
+  if (seen){ el.style.display = "none"; return; }
+  el.addEventListener("click", done);
+  setTimeout(done, 2600);
+})();
+</script>
 
 <header class="top">
   <div class="top-row">
