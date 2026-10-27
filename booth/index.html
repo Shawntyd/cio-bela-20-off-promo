@@ -636,5 +636,65 @@
   show(ORDER.indexOf(state.step) > -1 ? state.step : ORDER[0]);
 })();
 </script>
+<script>
+/* Analytics: logs visits and taps to the Cio Bela dashboard (same tracker as the rose page) */
+(function(){
+  var CAMPAIGN = "booth", PAGE = "/booth", DEFAULT_SRC = "booth_link";
+  var srcParam = (location.search.match(/[?&]src=([^&]+)/) || [])[1] || "";
+  var SOURCE = srcParam === "station" ? "station_qr" : srcParam === "booth" ? "booth_qr" : DEFAULT_SRC;
+  var SID = (function(){
+    try {
+      var k = "cb_track_" + CAMPAIGN, s = sessionStorage.getItem(k);
+      if (s) return s;
+      s = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : ("v-" + Date.now() + "-" + Math.random().toString(36).slice(2,10));
+      sessionStorage.setItem(k, s); return s;
+    } catch(e){ return "v-" + Date.now() + "-" + Math.random().toString(36).slice(2,10); }
+  })();
+  function ping(event, content){
+    try {
+      var body = JSON.stringify({ session_id: SID, event: event, page: PAGE, referrer: document.referrer || "",
+        utm_source: SOURCE, utm_medium: "offline", utm_campaign: CAMPAIGN, utm_content: content || "" });
+      fetch("https://roserosecampaign.shawntyd96.workers.dev", { method:"POST", headers:{"Content-Type":"application/json"}, body: body, keepalive: true }).catch(function(){});
+    } catch(e){}
+  }
+  function $(id){ return document.getElementById(id); }
+  function activeScreen(){ var s = document.querySelector(".screen.active"); return s ? s.id : ""; }
+  function activeTab(){ var b = document.querySelector("[data-tab].on"); return b ? b.getAttribute("data-tab") : ""; }
+  function on(el, fn){ if (el) el.addEventListener("click", fn); }
+
+  ping("view");
+
+  on($("dockBtn"), function(){
+    var s = activeScreen();
+    if (s === "s-review") ping("review_copy_tap");
+    else if (s === "s-follow") ping(activeTab() === "tiktok" ? "tt_follow_tap" : "ig_follow_tap");
+  });
+  on($("dockSkip"), function(){ if (activeScreen() === "s-review") ping("review_skip"); });
+  on($("inlineFollow"), function(){ ping(activeTab() === "tiktok" ? "tt_follow_tap" : "ig_follow_tap", "big_button"); });
+  on($("vFollow"), function(){ ping("ig_follow_tap", "post_viewer"); });
+  Array.prototype.forEach.call(document.querySelectorAll("[data-tab]"), function(b){
+    on(b, function(){ ping("tab_" + b.getAttribute("data-tab")); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".pcard"), function(c){
+    on(c, function(){ ping(/recruitment/.test(c.getAttribute("data-site")) ? "opened_earnings" : "opened_blueprint"); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('a[href*="ciobelasalons.com"]'), function(a){
+    var tag = /Book/.test(a.textContent) ? "book" : "website";
+    try {
+      var u = new URL(a.href);
+      u.searchParams.set("utm_source", SOURCE); u.searchParams.set("utm_medium", "offline");
+      u.searchParams.set("utm_campaign", CAMPAIGN); u.searchParams.set("utm_content", tag); u.searchParams.set("visitor", SID);
+      a.href = u.toString();
+    } catch(e){}
+    on(a, function(){ ping(tag === "book" ? "book_tap" : "website_tap"); });
+  });
+
+  // reached the last screen (coupon / thank you), once per visit
+  var endSent = false, end = $("s-coupon");
+  function checkEnd(){ if (!endSent && end && end.classList.contains("active")){ endSent = true; ping("reached_end"); } }
+  if (end && window.MutationObserver) new MutationObserver(checkEnd).observe(end, { attributes:true, attributeFilter:["class"] });
+  checkEnd();
+})();
+</script>
 </body>
 </html>
