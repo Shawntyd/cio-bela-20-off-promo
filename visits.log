@@ -1246,3 +1246,4 @@
 {"ts":"2026-10-27T23:37:54.440Z","event":"view","session_id":"cc15443f-937c-423f-b90e-39200cbf0a0d","page":"/waxing-by-artist","duration_seconds":"","referrer":"https://www.ciobelasalons.com/wax-services-selection","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-27T23:37:54.482Z","event":"view","session_id":"cc15443f-937c-423f-b90e-39200cbf0a0d","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-27T23:38:33.769Z","event":"exit","session_id":"cc15443f-937c-423f-b90e-39200cbf0a0d","page":"/booking/wax-by-artist","duration_seconds":39,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-27T23:50:20.439Z","event":"view","session_id":"74b80509-e15b-440e-93c7-e998e903a634","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
