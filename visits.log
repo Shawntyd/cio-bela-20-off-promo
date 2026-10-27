@@ -1143,3 +1143,4 @@
 {"ts":"2026-10-27T17:52:26.608Z","event":"view","session_id":"e8524cef-300a-4c55-afa5-d122688a6acc","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-10-27T17:57:51.357Z","event":"view","session_id":"8ce42422-583d-44e7-911c-81604f473f42","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-10-27T18:05:28.370Z","event":"view","session_id":"058909d5-0e82-4103-95fb-4fe01f2f492b","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-27T18:05:31.226Z","event":"view","session_id":"058909d5-0e82-4103-95fb-4fe01f2f492b","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
