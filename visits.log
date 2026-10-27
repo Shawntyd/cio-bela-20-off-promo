@@ -1129,3 +1129,4 @@
 {"ts":"2026-10-27T13:11:16.163Z","event":"view","session_id":"52145e77-d445-4c77-8532-c5266e3784e4","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-27T13:42:07.967Z","event":"view","session_id":"7681e0d1-97e6-45fe-9fca-3b79ec3f58ba","page":"/nail-artist-portal","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-27T13:50:58.152Z","event":"view","session_id":"dbcfa329-6753-4e9b-83f4-e907b988844e","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
+{"ts":"2026-10-27T13:55:07.109Z","event":"view","session_id":"a5a1cc62-751a-40da-b060-4e674f0be211","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
