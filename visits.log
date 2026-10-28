@@ -1383,3 +1383,4 @@
 {"ts":"2026-10-28T17:13:29.643Z","event":"view","session_id":"513e7552-065f-464f-bca8-8a2c6740d900","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T17:14:11.680Z","event":"view","session_id":"9c1373f7-3eb9-49bc-9c6f-bdc20c00bd07","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T17:14:11.838Z","event":"view","session_id":"9c1373f7-3eb9-49bc-9c6f-bdc20c00bd07","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-28T17:17:52.693Z","event":"view","session_id":"9c1373f7-3eb9-49bc-9c6f-bdc20c00bd07","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
