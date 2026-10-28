@@ -1404,3 +1404,4 @@
 {"ts":"2026-10-28T18:01:15.260Z","event":"view","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T18:01:24.164Z","event":"exit","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"booking-nail-svc/select-service","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T18:01:27.106Z","event":"view","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-28T18:01:29.504Z","event":"view","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
