@@ -1373,3 +1373,4 @@
 {"ts":"2026-10-28T14:22:00.467Z","event":"view","session_id":"05ec2734-9c7f-4bd2-8e18-4249b21d8fc9","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T14:22:00.301Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T15:19:27.733Z","event":"view","session_id":"a8cedf6c-42f8-4db3-aa4d-786121a27229","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
+{"ts":"2026-10-28T15:39:50.388Z","event":"view","session_id":"23ad35dc-7253-45d7-b4f3-30a411d2638e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
