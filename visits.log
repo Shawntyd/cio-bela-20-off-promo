@@ -1408,3 +1408,4 @@
 {"ts":"2026-10-28T18:01:43.729Z","event":"exit","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"/booking/wax-by-artist","duration_seconds":14,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T18:01:47.063Z","event":"view","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T18:01:49.419Z","event":"view","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"booking-wax-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-28T18:02:15.739Z","event":"exit","session_id":"6e91bf47-6ee6-45a6-9b92-0f3f866cc333","page":"booking-wax-svc/select-service","duration_seconds":26,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
