@@ -1345,3 +1345,4 @@
 {"ts":"2026-10-28T07:53:38.611Z","event":"exit","session_id":"b49105c8-3ef2-4e18-bce7-eee0e1275c8e","page":"booking-wax-svc/date","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T07:55:26.918Z","event":"view","session_id":"990b8c7b-8cf8-45dc-a657-338f8d730b1d","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-10-28T08:08:33.540Z","event":"view","session_id":"8f58bdcd-4ddb-4c9b-bf9d-63a05295f522","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
+{"ts":"2026-10-28T08:15:27.420Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
