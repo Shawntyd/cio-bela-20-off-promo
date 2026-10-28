@@ -1323,3 +1323,4 @@
 {"ts":"2026-10-28T02:59:30.166Z","event":"exit","session_id":"c6baa8f6-88a3-470f-b110-401bcd2850ac","page":"booking-nail-svc/time","duration_seconds":4,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-28T03:21:42.960Z","event":"view","session_id":"00dff566-e9fc-41e7-87a0-6d300f1ebf41","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-28T03:30:28.201Z","event":"view","session_id":"0e1a3cc3-c72e-4a26-b2aa-9d63711d61a9","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-28T03:30:39.890Z","event":"view","session_id":"0e1a3cc3-c72e-4a26-b2aa-9d63711d61a9","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
