@@ -1691,3 +1691,4 @@
 {"ts":"2026-10-29T01:42:04.463Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T01:59:56.353Z","event":"view","session_id":"73461b5f-b3b4-4837-a926-d24355451f1b","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T01:59:59.477Z","event":"view","session_id":"73461b5f-b3b4-4837-a926-d24355451f1b","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T02:00:07.752Z","event":"view","session_id":"73461b5f-b3b4-4837-a926-d24355451f1b","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
