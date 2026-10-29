@@ -1781,3 +1781,4 @@
 {"ts":"2026-10-29T17:41:09.929Z","event":"view","session_id":"87d337c8-f240-4069-8169-b60b3a7147b2","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T17:41:09.970Z","event":"view","session_id":"3cc0cb0c-87ff-4818-b7ed-243253e506f7","page":"booking-wax-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T17:45:49.945Z","event":"view","session_id":"39763dc4-017e-4d6a-b3fb-53a58e1eb1f2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T17:46:11.062Z","event":"view","session_id":"842c99e2-8e9c-449e-939c-c636f08ecb88","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
