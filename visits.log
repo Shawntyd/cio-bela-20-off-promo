@@ -1645,3 +1645,4 @@
 {"ts":"2026-10-29T00:32:38.880Z","event":"view","session_id":"ccb5840a-0f15-4419-a927-d3b1e4f93623","page":"booking-nail-svc/select-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T00:32:38.879Z","event":"exit","session_id":"ccb5840a-0f15-4419-a927-d3b1e4f93623","page":"booking-nail-svc/time","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T00:32:37.068Z","event":"exit","session_id":"ccb5840a-0f15-4419-a927-d3b1e4f93623","page":"booking-nail-svc/date","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T00:32:50.557Z","event":"view","session_id":"ccb5840a-0f15-4419-a927-d3b1e4f93623","page":"/wax-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
