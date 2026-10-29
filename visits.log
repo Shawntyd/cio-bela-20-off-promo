@@ -1800,3 +1800,4 @@
 {"ts":"2026-10-29T17:49:12.109Z","event":"exit","session_id":"5d8b2020-9c1d-4f00-aa5f-8d17ae1b34e4","page":"booking-wax/time","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T17:49:58.801Z","event":"view","session_id":"35ea47eb-6f7b-402c-b042-8586bf782124","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T17:51:00.189Z","event":"view","session_id":"7ca7ce55-cb5c-49f7-a817-335412f764df","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T17:52:05.197Z","event":"view","session_id":"7e379bc9-a660-4057-a0a7-138186af97e2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
