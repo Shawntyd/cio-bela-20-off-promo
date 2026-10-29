@@ -1805,3 +1805,4 @@
 {"ts":"2026-10-29T18:15:21.597Z","event":"view","session_id":"95b57e00-da38-4f3c-b1ca-af90bb9f898a","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T18:46:05.901Z","event":"view","session_id":"c08c00e7-2ce6-46f2-b3e8-d6686dda1733","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T18:46:06.115Z","event":"view","session_id":"46b1bf2d-7aef-4241-9d96-1c26608bc072","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T18:46:25.199Z","event":"view","session_id":"dc6ba5f3-b6ee-4fea-aa78-beb956e52167","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
