@@ -1806,3 +1806,4 @@
 {"ts":"2026-10-29T18:46:05.901Z","event":"view","session_id":"c08c00e7-2ce6-46f2-b3e8-d6686dda1733","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T18:46:06.115Z","event":"view","session_id":"46b1bf2d-7aef-4241-9d96-1c26608bc072","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-29T18:46:25.199Z","event":"view","session_id":"dc6ba5f3-b6ee-4fea-aa78-beb956e52167","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-29T18:46:27.759Z","event":"view","session_id":"dc6ba5f3-b6ee-4fea-aa78-beb956e52167","page":"/booking/lash-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
