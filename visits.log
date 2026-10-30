@@ -1900,3 +1900,4 @@
 {"ts":"2026-10-30T14:09:03.272Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-30T14:09:08.370Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-30T14:09:21.002Z","event":"view","session_id":"4c0a140e-c3f5-4040-9737-7015966a7a7d","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-30T14:09:21.079Z","event":"view","session_id":"4c0a140e-c3f5-4040-9737-7015966a7a7d","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
