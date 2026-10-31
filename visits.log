@@ -2021,3 +2021,4 @@
 {"ts":"2026-10-31T04:57:36.421Z","event":"view","session_id":"c54ba7fa-9f85-43e6-b5b4-0709aa431e26","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T05:09:50.901Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T07:06:28.848Z","event":"view","session_id":"1fff0877-815e-40c5-aa3a-39218575f6d9","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
+{"ts":"2026-10-31T09:54:01.618Z","event":"view","session_id":"7ae73e68-8cd8-4a0e-ad70-f4544eebc672","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
