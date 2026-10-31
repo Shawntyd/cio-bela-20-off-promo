@@ -2023,3 +2023,4 @@
 {"ts":"2026-10-31T07:06:28.848Z","event":"view","session_id":"1fff0877-815e-40c5-aa3a-39218575f6d9","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-10-31T09:54:01.618Z","event":"view","session_id":"7ae73e68-8cd8-4a0e-ad70-f4544eebc672","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T14:58:06.541Z","event":"view","session_id":"c8008594-16f0-49b0-a3f2-663fe53e4db9","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-31T14:58:09.836Z","event":"view","session_id":"c8008594-16f0-49b0-a3f2-663fe53e4db9","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
