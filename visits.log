@@ -2029,3 +2029,4 @@
 {"ts":"2026-10-31T16:02:59.069Z","event":"exit","session_id":"9051de51-1209-401d-b768-871ff3af8e8b","page":"booking-nail-svc/select-service","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T16:14:37.277Z","event":"view","session_id":"9ddf957c-dda0-4961-b5dc-afa985c453c2","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T16:14:41.160Z","event":"view","session_id":"9ddf957c-dda0-4961-b5dc-afa985c453c2","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-31T16:40:19.250Z","event":"view","session_id":"80fde984-b377-4a3e-bb92-9ed4186f5615","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
