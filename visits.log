@@ -2020,3 +2020,4 @@
 {"ts":"2026-10-31T04:46:36.747Z","event":"view","session_id":"7763d329-d103-425f-84e0-ec811e88b9f2","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-10-31T04:57:36.421Z","event":"view","session_id":"c54ba7fa-9f85-43e6-b5b4-0709aa431e26","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-10-31T05:09:50.901Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-10-31T07:06:28.848Z","event":"view","session_id":"1fff0877-815e-40c5-aa3a-39218575f6d9","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
