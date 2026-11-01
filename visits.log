@@ -2127,3 +2127,4 @@
 {"ts":"2026-11-01T21:20:19.576Z","event":"view","session_id":"f987a064-939c-4677-aaba-8e34faf7c071","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-01T21:20:22.534Z","event":"view","session_id":"f987a064-939c-4677-aaba-8e34faf7c071","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-01T21:35:07.376Z","event":"view","session_id":"9049146d-11e2-4df1-b346-ebd4686dbf06","page":"/product-page/1-tanning-session","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-01T21:35:16.903Z","event":"view","session_id":"9049146d-11e2-4df1-b346-ebd4686dbf06","page":"/product-page/1-tanning-session","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
