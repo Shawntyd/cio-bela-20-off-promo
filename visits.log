@@ -2114,3 +2114,4 @@
 {"ts":"2026-11-01T13:15:43.577Z","event":"view","session_id":"5ccee934-a819-45c4-9630-642a5d1b6fbe","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-01T13:25:19.015Z","event":"view","session_id":"4202974f-c925-47b3-9a7a-f03e869a3a59","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-01T13:25:24.067Z","event":"view","session_id":"4202974f-c925-47b3-9a7a-f03e869a3a59","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-01T17:02:28.736Z","event":"view","session_id":"a408062f-0303-4f0f-ab5c-7e0194dc3c23","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
