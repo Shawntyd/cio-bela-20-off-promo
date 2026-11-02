@@ -2308,3 +2308,4 @@
 {"ts":"2026-11-02T16:09:23.519Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/nail-by-artist","duration_seconds":17,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:09:30.473Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:09:37.034Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/wax-by-artist","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T16:09:38.557Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
