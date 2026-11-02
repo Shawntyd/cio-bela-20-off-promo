@@ -2233,3 +2233,4 @@
 {"ts":"2026-11-02T15:15:35.171Z","event":"view","session_id":"48281bf1-e95b-4d8e-82a9-f27a96f95f80","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T15:16:21.365Z","event":"view","session_id":"48281bf1-e95b-4d8e-82a9-f27a96f95f80","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T15:16:33.143Z","event":"view","session_id":"48281bf1-e95b-4d8e-82a9-f27a96f95f80","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T15:16:35.458Z","event":"view","session_id":"48281bf1-e95b-4d8e-82a9-f27a96f95f80","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
