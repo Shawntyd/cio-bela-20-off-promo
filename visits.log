@@ -2314,3 +2314,4 @@
 {"ts":"2026-11-02T16:10:15.053Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/wax-by-artist","duration_seconds":17,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:10:15.592Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:10:15.628Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T16:10:38.862Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/booking/nail-by-artist","duration_seconds":23,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
