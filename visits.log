@@ -2303,3 +2303,4 @@
 {"ts":"2026-11-02T16:08:08.453Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"booking-nail-svc/time","duration_seconds":14,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:08:37.535Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"booking-nail-svc/select-artist","duration_seconds":29,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:08:52.824Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/wax-services-selection","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T16:09:04.404Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
