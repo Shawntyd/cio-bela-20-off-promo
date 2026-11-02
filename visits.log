@@ -2297,3 +2297,4 @@
 {"ts":"2026-11-02T16:07:09.370Z","event":"view","session_id":"65a30806-5693-4aaa-b45c-936195cb8662","page":"/russian-manicure-upgrade","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:07:28.019Z","event":"exit","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"booking-nail-svc/select-service","duration_seconds":25,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T16:07:28.057Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"booking-nail-svc/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T16:07:54.477Z","event":"view","session_id":"30de4dd3-8795-4367-bccf-60ad70fe9e01","page":"booking-nail-svc/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
