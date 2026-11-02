@@ -2441,3 +2441,4 @@
 {"ts":"2026-11-02T22:33:19.860Z","event":"view","session_id":"7254c88e-c184-4e99-adb8-3a9d609f8e9f","page":"/about","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T22:33:20.039Z","event":"view","session_id":"84712eff-628c-4410-86d0-87f4f94d63cc","page":"/night-life","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T22:33:19.625Z","event":"view","session_id":"fd72fb36-b5f4-4e4e-b547-81f45dc38833","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T22:33:19.877Z","event":"view","session_id":"63bedea1-4f72-4a65-b23d-53dbf6d74c2d","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
