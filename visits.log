@@ -2354,3 +2354,4 @@
 {"ts":"2026-11-02T20:04:38.919Z","event":"exit","session_id":"1e24157b-7663-4019-8b08-7576be3116cc","page":"booking-lash/services-addons","duration_seconds":15,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T20:04:38.943Z","event":"view","session_id":"1e24157b-7663-4019-8b08-7576be3116cc","page":"booking-lash/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T20:04:46.449Z","event":"view","session_id":"1e24157b-7663-4019-8b08-7576be3116cc","page":"booking-lash/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T20:04:46.438Z","event":"exit","session_id":"1e24157b-7663-4019-8b08-7576be3116cc","page":"booking-lash/date","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
