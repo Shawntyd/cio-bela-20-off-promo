@@ -2375,3 +2375,4 @@
 {"ts":"2026-11-02T20:12:29.789Z","event":"view","session_id":"78a586e1-501b-4e9a-b441-7cb5c2f3fb86","page":"booking-wax/services-addons","duration_seconds":"","referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-02T20:12:34.543Z","event":"exit","session_id":"78a586e1-501b-4e9a-b441-7cb5c2f3fb86","page":"booking-wax/services-addons","duration_seconds":5,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-02T20:20:38.525Z","event":"view","session_id":"266e8473-290e-4344-b467-7cd58ce404d0","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T20:21:01.916Z","event":"view","session_id":"266e8473-290e-4344-b467-7cd58ce404d0","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
