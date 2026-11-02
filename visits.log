@@ -2171,3 +2171,4 @@
 {"ts":"2026-11-02T02:47:26.951Z","event":"exit","session_id":"70b677d9-4b01-4f45-8cea-6a6568ea66bf","page":"booking-nail-svc/select-service","duration_seconds":54,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-02T02:55:37.978Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-02T02:55:41.540Z","event":"view","session_id":"d1e9f0fb-e59d-4740-8d10-3b004dc115e4","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-02T03:30:04.849Z","event":"view","session_id":"08305fe4-851d-4de3-880d-8f4561692275","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
