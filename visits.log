@@ -2585,3 +2585,4 @@
 {"ts":"2026-11-04T04:42:43.200Z","event":"exit","session_id":"63d3ab5c-20aa-4790-bf1f-e8bc45982059","page":"booking-wax-svc/select-service","duration_seconds":30,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-04T05:19:20.228Z","event":"view","session_id":"f089ce7e-8b56-4ef4-a543-7f24ec6fd7d4","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-04T07:20:20.482Z","event":"view","session_id":"a84e306b-1e03-42d0-992f-8c4d64185556","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-04T11:48:23.226Z","event":"view","session_id":"366c5f17-f696-4513-9370-6b1d4bafbb44","page":"/","duration_seconds":"","referrer":"https://www.ciobela-eyelashextensions.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
