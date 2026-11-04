@@ -2644,3 +2644,4 @@
 {"ts":"2026-11-04T18:37:17.011Z","event":"view","session_id":"75ffc1a7-1411-41c7-94a8-7515009b33be","page":"booking-wax-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-04T18:36:15.371Z","event":"view","session_id":"200b3fe6-8664-47d8-b265-d0340428db86","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-04T18:36:20.627Z","event":"exit","session_id":"200b3fe6-8664-47d8-b265-d0340428db86","page":"booking-wax/time","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-04T18:36:15.342Z","event":"exit","session_id":"200b3fe6-8664-47d8-b265-d0340428db86","page":"booking-wax/date","duration_seconds":10,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
