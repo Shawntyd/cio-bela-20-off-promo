@@ -2681,3 +2681,4 @@
 {"ts":"2026-11-04T22:09:09.663Z","event":"view","session_id":"605de32c-9b93-4b86-896f-881f5f837e24","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-04T22:09:15.249Z","event":"view","session_id":"605de32c-9b93-4b86-896f-881f5f837e24","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-04T22:09:46.211Z","event":"view","session_id":"605de32c-9b93-4b86-896f-881f5f837e24","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-04T22:09:55.758Z","event":"view","session_id":"605de32c-9b93-4b86-896f-881f5f837e24","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
