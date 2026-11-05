@@ -2745,3 +2745,4 @@
 {"ts":"2026-11-05T16:02:51.761Z","event":"view","session_id":"a61c7b29-e537-497e-88a3-c2da0dbecd93","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T16:11:05.110Z","event":"view","session_id":"91faf21f-7722-4f91-8168-51de14bec47e","page":"/promotions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T16:11:11.178Z","event":"view","session_id":"91faf21f-7722-4f91-8168-51de14bec47e","page":"/promotions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-05T16:24:16.456Z","event":"view","session_id":"09c985e4-b69c-4962-a042-a82c1cc97c17","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
