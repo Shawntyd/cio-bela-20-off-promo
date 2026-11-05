@@ -2741,3 +2741,4 @@
 {"ts":"2026-11-05T15:44:57.643Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T15:47:17.917Z","event":"view","session_id":"dad3adac-449d-4fe9-8662-986c5f37209f","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T15:47:22.431Z","event":"view","session_id":"dad3adac-449d-4fe9-8662-986c5f37209f","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-05T16:02:47.957Z","event":"view","session_id":"a61c7b29-e537-497e-88a3-c2da0dbecd93","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
