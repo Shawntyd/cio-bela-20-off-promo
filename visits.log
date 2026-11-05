@@ -2747,3 +2747,4 @@
 {"ts":"2026-11-05T16:11:11.178Z","event":"view","session_id":"91faf21f-7722-4f91-8168-51de14bec47e","page":"/promotions","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T16:24:16.456Z","event":"view","session_id":"09c985e4-b69c-4962-a042-a82c1cc97c17","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-05T16:24:19.515Z","event":"view","session_id":"09c985e4-b69c-4962-a042-a82c1cc97c17","page":"/contact-us","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-05T17:06:37.788Z","event":"view","session_id":"7cb80b84-83f0-4a7b-bc6e-d9391afcf992","page":"/waxing-by-service","duration_seconds":"","referrer":"https://www.ciobelasalons.com/waxing-by-service","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
