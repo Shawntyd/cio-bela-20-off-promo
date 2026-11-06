@@ -2816,3 +2816,4 @@
 {"ts":"2026-11-06T12:42:17.560Z","event":"view","session_id":"9e647156-5976-442e-a51e-fe8c75224b0d","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T12:42:20.941Z","event":"view","session_id":"9e647156-5976-442e-a51e-fe8c75224b0d","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T12:57:09.790Z","event":"view","session_id":"a1c0ee40-3913-4288-8f89-e24276275dfc","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-06T13:12:11.368Z","event":"view","session_id":"6e3a87b3-e869-4a45-9894-2efe57f57502","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
