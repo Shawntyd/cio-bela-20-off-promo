@@ -2929,3 +2929,4 @@
 {"ts":"2026-11-06T21:32:46.651Z","event":"view","session_id":"14164e20-bc6b-44d2-a6e9-f1d76277f457","page":"booking-nail-svc/client-info","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T21:32:48.583Z","event":"view","session_id":"14164e20-bc6b-44d2-a6e9-f1d76277f457","page":"booking-nail-svc/waiver","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T21:32:46.662Z","event":"exit","session_id":"14164e20-bc6b-44d2-a6e9-f1d76277f457","page":"booking-nail-svc/waiver","duration_seconds":39,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-06T21:32:48.580Z","event":"exit","session_id":"14164e20-bc6b-44d2-a6e9-f1d76277f457","page":"booking-nail-svc/client-info","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
