@@ -2851,3 +2851,4 @@
 {"ts":"2026-11-06T15:15:35.915Z","event":"exit","session_id":"4493c851-1936-40d4-a0bf-1e502dc80bda","page":"booking-nail-svc/date","duration_seconds":14,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T15:32:42.213Z","event":"view","session_id":"0abd4316-da93-4dc0-b14f-62db8c943d24","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T15:32:52.545Z","event":"view","session_id":"0abd4316-da93-4dc0-b14f-62db8c943d24","page":"/xtreme-lashes-flashcure-uv-light","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-06T15:39:24.193Z","event":"view","session_id":"22457b44-c73c-4079-87f5-c7821154789e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
