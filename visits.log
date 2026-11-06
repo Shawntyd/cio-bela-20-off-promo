@@ -2799,3 +2799,4 @@
 {"ts":"2026-11-06T05:02:34.129Z","event":"exit","session_id":"64a73fb2-ab70-430f-9701-1bf3e1601f70","page":"/booking/wax-by-artist","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T05:02:41.482Z","event":"exit","session_id":"64a73fb2-ab70-430f-9701-1bf3e1601f70","page":"booking-wax/services-addons","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-06T05:02:43.615Z","event":"view","session_id":"64a73fb2-ab70-430f-9701-1bf3e1601f70","page":"booking-wax/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-06T05:03:36.140Z","event":"view","session_id":"64a73fb2-ab70-430f-9701-1bf3e1601f70","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
