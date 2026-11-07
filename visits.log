@@ -2985,3 +2985,4 @@
 {"ts":"2026-11-07T12:38:01.610Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-07T12:38:04.347Z","event":"view","session_id":"bab6d428-9f89-45fd-a089-de6153a45b22","page":"/home","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-07T12:38:07.225Z","event":"view","session_id":"bab6d428-9f89-45fd-a089-de6153a45b22","page":"/home","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-07T13:21:27.638Z","event":"view","session_id":"ba2ebef7-d86c-4ae2-af0c-33f6bbee47c7","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
