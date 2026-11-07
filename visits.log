@@ -3011,3 +3011,4 @@
 {"ts":"2026-11-07T16:18:05.222Z","event":"view","session_id":"e7542a0f-e64a-4656-9d0a-3537f555e732","page":"booking-lash/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-07T16:18:17.618Z","event":"view","session_id":"e7542a0f-e64a-4656-9d0a-3537f555e732","page":"booking-lash/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-07T16:18:17.599Z","event":"exit","session_id":"e7542a0f-e64a-4656-9d0a-3537f555e732","page":"booking-lash/date","duration_seconds":12,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-07T16:18:22.091Z","event":"exit","session_id":"e7542a0f-e64a-4656-9d0a-3537f555e732","page":"booking-lash/services-addons","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
