@@ -3086,3 +3086,4 @@
 {"ts":"2026-11-07T22:49:02.477Z","event":"exit","session_id":"d9a206cc-5347-4575-b0e1-f0d12e49d924","page":"booking-nail-svc/deposit","duration_seconds":33,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-07T22:56:37.100Z","event":"view","session_id":"ad87b58e-80aa-41ad-bf1d-024fd729ee8b","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-07T23:09:46.844Z","event":"view","session_id":"9971a8b3-9de5-4fe1-a90c-546383d9268d","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-07T23:23:16.139Z","event":"view","session_id":"d1c8c00b-1964-40f2-ba01-2c8528f8b181","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
