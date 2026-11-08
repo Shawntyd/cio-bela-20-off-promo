@@ -3148,3 +3148,4 @@
 {"ts":"2026-11-08T14:04:39.638Z","event":"view","session_id":"0d3f8aa9-439c-42de-910f-885b20bd19f4","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T14:04:42.692Z","event":"view","session_id":"0d3f8aa9-439c-42de-910f-885b20bd19f4","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T14:05:07.358Z","event":"view","session_id":"0d3f8aa9-439c-42de-910f-885b20bd19f4","page":"/memberships","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-08T14:05:21.756Z","event":"view","session_id":"0d3f8aa9-439c-42de-910f-885b20bd19f4","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
