@@ -3109,3 +3109,4 @@
 {"ts":"2026-11-07T23:52:57.282Z","event":"view","session_id":"f1448275-23c5-4cf4-ac1c-379c395191c8","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T00:31:16.901Z","event":"view","session_id":"42d2343a-a09a-4b75-a6e6-e5909d0b1c93","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T00:31:27.242Z","event":"view","session_id":"42d2343a-a09a-4b75-a6e6-e5909d0b1c93","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-08T01:45:40.547Z","event":"view","session_id":"eeb74cc2-b25a-4880-a9a6-eec535285275","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
