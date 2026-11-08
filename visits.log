@@ -3140,3 +3140,4 @@
 {"ts":"2026-11-08T12:31:41.623Z","event":"view","session_id":"9fbd6ab1-3845-4b01-8fce-6770abc7966d","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T12:31:45.253Z","event":"view","session_id":"9fbd6ab1-3845-4b01-8fce-6770abc7966d","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T13:00:33.556Z","event":"view","session_id":"1486859d-b8b3-48a0-bed9-923f5c6f9a0b","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-11-08T13:01:19.567Z","event":"view","session_id":"9ef6639d-d96b-4e6a-a693-00376cffeb56","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
