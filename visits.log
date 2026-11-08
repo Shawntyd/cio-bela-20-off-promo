@@ -3194,3 +3194,4 @@
 {"ts":"2026-11-08T16:29:21.937Z","event":"view","session_id":"7508c0f6-ba4d-49a2-b265-668f61088797","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T16:29:48.823Z","event":"exit","session_id":"7508c0f6-ba4d-49a2-b265-668f61088797","page":"booking-nail-svc/deposit","duration_seconds":27,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-08T16:31:32.150Z","event":"view","session_id":"293a2f60-07ee-4349-b3a4-f84a1f2e11bf","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-11-08T17:17:52.419Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
