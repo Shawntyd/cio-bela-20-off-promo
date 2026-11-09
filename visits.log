@@ -3321,3 +3321,4 @@
 {"ts":"2026-11-09T20:23:07.518Z","event":"exit","session_id":"953e84cb-e343-4ca6-b031-8bd5804ba9c9","page":"booking-nail/time","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-09T20:25:33.326Z","event":"view","session_id":"9c4c16e5-d085-46ba-a0af-7ce696d3e05f","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-09T20:54:37.561Z","event":"view","session_id":"85289786-2483-4257-a86a-eaddeda2ad90","page":"booking-nail-svc/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-09T20:54:56.943Z","event":"exit","session_id":"85289786-2483-4257-a86a-eaddeda2ad90","page":"booking-nail-svc/time","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
