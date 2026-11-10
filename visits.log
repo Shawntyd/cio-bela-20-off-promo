@@ -3419,3 +3419,4 @@
 {"ts":"2026-11-10T06:19:22.010Z","event":"exit","session_id":"0894f314-b0f2-4782-9789-ec19755df5a7","page":"booking-nail/time","duration_seconds":41,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-10T06:51:31.603Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-10T11:06:31.622Z","event":"view","session_id":"4e434ef3-56d0-4799-9cfc-836a3edfcb43","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-10T11:06:35.815Z","event":"view","session_id":"a157b25b-8ac7-4c36-8532-4727a856528f","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
