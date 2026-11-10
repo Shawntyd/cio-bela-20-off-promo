@@ -3522,3 +3522,4 @@
 {"ts":"2026-11-10T18:14:48.163Z","event":"view","session_id":"9d0ef746-7787-4481-a17f-f23645e53dd5","page":"booking-wax/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-10T18:14:48.109Z","event":"exit","session_id":"9d0ef746-7787-4481-a17f-f23645e53dd5","page":"booking-wax/services-addons","duration_seconds":32,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-10T19:25:16.680Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-10T19:25:18.909Z","event":"view","session_id":"7f26383e-31b9-4faa-92b2-0ffdb5dd266d","page":"/wax-services-selection","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
