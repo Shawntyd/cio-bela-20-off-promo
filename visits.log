@@ -3550,3 +3550,4 @@
 {"ts":"2026-11-10T19:36:35.059Z","event":"view","session_id":"b19af3e8-6084-4670-9a67-a9ac09459073","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-10T19:36:39.661Z","event":"exit","session_id":"b19af3e8-6084-4670-9a67-a9ac09459073","page":"booking-wax/time","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-10T21:29:16.799Z","event":"view","session_id":"f2c071e0-c4ed-48a4-83c2-c15e9db3850e","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-10T21:45:20.048Z","event":"view","session_id":"8d1eb96d-359f-4c46-a9c8-d908964b8ae0","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
