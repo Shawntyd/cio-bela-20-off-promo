@@ -3645,3 +3645,4 @@
 {"ts":"2026-11-11T14:51:33.282Z","event":"view","session_id":"f758d522-5ab0-4a51-906d-025785680870","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T15:14:07.060Z","event":"view","session_id":"85cfc0cf-29aa-459f-b907-708e79000131","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T15:14:26.161Z","event":"view","session_id":"48e7b5cf-29e5-45b6-ac82-2bc0eacb0b06","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T15:14:26.156Z","event":"view","session_id":"34552220-5cea-4051-a876-f4059a8315fb","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
