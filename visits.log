@@ -3635,3 +3635,4 @@
 {"ts":"2026-11-11T13:36:15.610Z","event":"view","session_id":"190b3306-13c0-427b-a074-f4f2e3db22eb","page":"booking-wax/waiver","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T13:36:15.605Z","event":"exit","session_id":"190b3306-13c0-427b-a074-f4f2e3db22eb","page":"booking-wax/client-info","duration_seconds":50,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T13:36:52.228Z","event":"view","session_id":"190b3306-13c0-427b-a074-f4f2e3db22eb","page":"booking-wax/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T13:36:52.227Z","event":"exit","session_id":"190b3306-13c0-427b-a074-f4f2e3db22eb","page":"booking-wax/waiver","duration_seconds":37,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
