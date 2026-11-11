@@ -3744,3 +3744,4 @@
 {"ts":"2026-11-11T21:56:37.952Z","event":"exit","session_id":"8e5f5de8-0f8a-4d7c-8372-39b21d1b2755","page":"booking-nail/date","duration_seconds":7,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-11T22:33:24.937Z","event":"view","session_id":"d48df363-a88c-41a9-8185-60050bb55684","page":"/hair-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T22:35:14.791Z","event":"view","session_id":"db8799a4-db75-4532-a552-6d89e065672d","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T22:36:53.517Z","event":"view","session_id":"02d94fcd-3bef-4fb8-ba5a-cfc502def86a","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
