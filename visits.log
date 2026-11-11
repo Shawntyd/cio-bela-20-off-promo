@@ -3711,3 +3711,4 @@
 {"ts":"2026-11-11T18:03:34.937Z","event":"view","session_id":"81f47931-5c65-4063-88be-1d5c1576e412","page":"booking-nail-svc/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T18:04:30.072Z","event":"exit","session_id":"81f47931-5c65-4063-88be-1d5c1576e412","page":"booking-nail-svc/select-artist","duration_seconds":53,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T18:34:27.051Z","event":"view","session_id":"a86a0fa3-485a-43b5-b29d-2790b5dcb80c","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T20:08:16.101Z","event":"view","session_id":"59ce731b-a416-42df-80d5-7dc43a690956","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
