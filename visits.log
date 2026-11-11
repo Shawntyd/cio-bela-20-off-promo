@@ -3697,3 +3697,4 @@
 {"ts":"2026-11-11T16:49:41.500Z","event":"exit","session_id":"2ceeb9df-284f-49b0-8bbe-6689ee95ccff","page":"booking-nail-svc/deposit","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T17:01:49.126Z","event":"view","session_id":"c882ba3f-a9bc-45dc-9bad-8522800e8dc3","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T17:22:45.895Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T17:45:11.049Z","event":"view","session_id":"f97334cb-e23b-4544-8edf-2ba334c7e126","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
