@@ -3718,3 +3718,4 @@
 {"ts":"2026-11-11T21:31:04.203Z","event":"view","session_id":"5ca9c3e4-f41c-44cf-b0e3-7a22102a3f15","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T21:31:04.133Z","event":"view","session_id":"8e4ab3fa-1bfb-434f-ae3b-8990d5c2051d","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T21:31:13.752Z","event":"exit","session_id":"8e4ab3fa-1bfb-434f-ae3b-8990d5c2051d","page":"booking-nail-svc/select-service","duration_seconds":10,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T21:31:13.741Z","event":"view","session_id":"8e4ab3fa-1bfb-434f-ae3b-8990d5c2051d","page":"booking-nail-svc/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
