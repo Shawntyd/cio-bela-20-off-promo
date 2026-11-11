@@ -3746,3 +3746,4 @@
 {"ts":"2026-11-11T22:35:14.791Z","event":"view","session_id":"db8799a4-db75-4532-a552-6d89e065672d","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T22:36:53.517Z","event":"view","session_id":"02d94fcd-3bef-4fb8-ba5a-cfc502def86a","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-11T22:36:53.874Z","event":"view","session_id":"02d94fcd-3bef-4fb8-ba5a-cfc502def86a","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-11T22:38:08.148Z","event":"view","session_id":"93a6a6fa-9a7a-4618-9f19-77fd5015dfce","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
