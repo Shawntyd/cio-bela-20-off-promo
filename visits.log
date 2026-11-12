@@ -3937,3 +3937,4 @@
 {"ts":"2026-11-12T20:28:18.894Z","event":"view","session_id":"57123e5d-54eb-4f7a-bfe9-ce8f11981b2e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T20:29:13.528Z","event":"view","session_id":"35d7d1aa-7546-4f57-803d-ca9d4ec184d0","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T21:01:22.704Z","event":"view","session_id":"9d23596f-c883-4006-a798-63f45bac978f","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-12T21:10:47.727Z","event":"view","session_id":"40c3a155-b4a0-4576-ae3a-9217631de2fd","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
