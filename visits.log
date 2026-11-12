@@ -3906,3 +3906,4 @@
 {"ts":"2026-11-12T18:42:02.571Z","event":"exit","session_id":"541bee9c-ce0d-40ad-b742-a41bec3e306a","page":"booking-wax/deposit","duration_seconds":35,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:42:02.555Z","event":"deposit_paid","session_id":"541bee9c-ce0d-40ad-b742-a41bec3e306a","page":"booking-wax/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:42:05.736Z","event":"exit","session_id":"894f7f67-d76a-479c-bf47-ad6efc0a344e","page":"booking-nail-svc/time","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-12T18:42:27.519Z","event":"view","session_id":"894f7f67-d76a-479c-bf47-ad6efc0a344e","page":"booking-nail-svc/select-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
