@@ -3872,3 +3872,4 @@
 {"ts":"2026-11-12T18:33:47.518Z","event":"view","session_id":"3e369348-e48b-4a5c-88b3-c4c251d8d1c0","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:33:56.192Z","event":"view","session_id":"4156aea8-76e6-4893-933c-e317c0ce7d1a","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:34:11.940Z","event":"exit","session_id":"3e369348-e48b-4a5c-88b3-c4c251d8d1c0","page":"booking-wax/time","duration_seconds":24,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-12T18:34:41.861Z","event":"view","session_id":"3e369348-e48b-4a5c-88b3-c4c251d8d1c0","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
