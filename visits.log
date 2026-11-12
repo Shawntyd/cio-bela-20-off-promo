@@ -3857,3 +3857,4 @@
 {"ts":"2026-11-12T18:11:23.242Z","event":"view","session_id":"7a85e8ef-00cc-4ca2-8d6d-c4ec27d706da","page":"booking-nail/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:11:23.250Z","event":"exit","session_id":"7a85e8ef-00cc-4ca2-8d6d-c4ec27d706da","page":"/booking/nail-by-artist","duration_seconds":14,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:11:36.736Z","event":"exit","session_id":"7a85e8ef-00cc-4ca2-8d6d-c4ec27d706da","page":"booking-nail/services-addons","duration_seconds":14,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-12T18:32:21.405Z","event":"view","session_id":"de6987aa-2095-4b99-b65c-739a95eb9b96","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
