@@ -3945,3 +3945,4 @@
 {"ts":"2026-11-12T21:12:12.660Z","event":"exit","session_id":"ae356b07-a54b-4c98-be26-86be7ebd08fd","page":"/booking/wax-by-artist","duration_seconds":1,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T21:30:47.292Z","event":"view","session_id":"637e4eeb-0e03-473c-978a-f2f05f2bcefa","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T21:39:18.899Z","event":"view","session_id":"ed28cd28-c62c-4372-bb62-6bcb20807e00","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-11-12T22:42:28.868Z","event":"view","session_id":"dd273ef4-cbfe-4dec-910f-76ab6b3664fa","page":"/lash-artist-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
