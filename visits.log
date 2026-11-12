@@ -3877,3 +3877,4 @@
 {"ts":"2026-11-12T18:34:49.774Z","event":"exit","session_id":"3e369348-e48b-4a5c-88b3-c4c251d8d1c0","page":"/booking/wax-by-artist","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:35:22.930Z","event":"view","session_id":"e757fb7c-24d8-46b7-a486-180ddafb12ad","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-12T18:35:22.972Z","event":"view","session_id":"438b41d5-a1bf-4b5c-8e72-8f3f68280ba5","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-12T18:35:43.243Z","event":"view","session_id":"438b41d5-a1bf-4b5c-8e72-8f3f68280ba5","page":"booking-wax/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
