@@ -4022,3 +4022,4 @@
 {"ts":"2026-11-13T14:41:48.098Z","event":"view","session_id":"e2e17dd6-4b46-4e92-b011-4965a7797828","page":"booking-lash/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T14:41:48.114Z","event":"exit","session_id":"e2e17dd6-4b46-4e92-b011-4965a7797828","page":"/booking/lash-by-artist","duration_seconds":18,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T14:44:41.346Z","event":"view","session_id":"8227d399-e410-4e91-b249-5994e5b71f2a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-13T14:44:51.875Z","event":"view","session_id":"8227d399-e410-4e91-b249-5994e5b71f2a","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
