@@ -3967,3 +3967,4 @@
 {"ts":"2026-11-13T05:50:26.015Z","event":"view","session_id":"4ec29742-df8a-4eca-aea5-60a973e6026c","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T05:50:28.748Z","event":"exit","session_id":"4ec29742-df8a-4eca-aea5-60a973e6026c","page":"/nail-onboarding","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T06:07:25.730Z","event":"view","session_id":"071498b7-448c-4681-b19f-6bd20d953ec1","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-13T06:07:28.917Z","event":"view","session_id":"071498b7-448c-4681-b19f-6bd20d953ec1","page":"/pricing-plans/plans-pricing","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
