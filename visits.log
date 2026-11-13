@@ -3965,3 +3965,4 @@
 {"ts":"2026-11-13T03:06:03.884Z","event":"view","session_id":"b1290931-4c0a-46d2-83fb-bc231e3a7f17","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T05:50:22.771Z","event":"view","session_id":"4ec29742-df8a-4eca-aea5-60a973e6026c","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-13T05:50:26.015Z","event":"view","session_id":"4ec29742-df8a-4eca-aea5-60a973e6026c","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-13T05:50:28.748Z","event":"exit","session_id":"4ec29742-df8a-4eca-aea5-60a973e6026c","page":"/nail-onboarding","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
