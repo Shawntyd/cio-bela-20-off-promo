@@ -4094,3 +4094,4 @@
 {"ts":"2026-11-14T07:40:13.197Z","event":"view","session_id":"b259ec86-4d63-4ec4-8af0-003e3502f1f5","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T08:35:09.527Z","event":"view","session_id":"c72138d2-6451-4177-89e2-9b5b122e4492","page":"/copy-of-artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T08:35:13.513Z","event":"exit","session_id":"c72138d2-6451-4177-89e2-9b5b122e4492","page":"/copy-of-artist-management-portable","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-14T09:28:41.662Z","event":"view","session_id":"579ba6b0-0995-4f40-90e2-9805ec4fe654","page":"/temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
