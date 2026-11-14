@@ -4076,3 +4076,4 @@
 {"ts":"2026-11-14T05:24:37.648Z","event":"view","session_id":"f47bf4cc-87d9-41f2-bd91-588b16758e52","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T05:24:40.355Z","event":"exit","session_id":"f47bf4cc-87d9-41f2-bd91-588b16758e52","page":"/book-lashes","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T05:29:54.264Z","event":"view","session_id":"66f76602-5fe2-4ad5-860e-e9dc7365635e","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-14T05:29:51.969Z","event":"view","session_id":"66f76602-5fe2-4ad5-860e-e9dc7365635e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
