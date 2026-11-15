@@ -4171,3 +4171,4 @@
 {"ts":"2026-11-15T10:01:12.713Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-15T10:01:14.152Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-15T10:42:14.243Z","event":"view","session_id":"ad6ae468-0047-4b00-9d80-eac24ef602b2","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-15T10:48:00.283Z","event":"view","session_id":"d9b590ed-5c9b-4c1a-8541-cd1d20010eac","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
