@@ -4159,3 +4159,4 @@
 {"ts":"2026-11-14T23:30:25.709Z","event":"view","session_id":"89310573-3dac-422f-be10-2662359cf438","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T23:57:49.317Z","event":"view","session_id":"8a277410-7ccd-41e7-8577-fe367c65fae7","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-14T23:57:53.022Z","event":"view","session_id":"8a277410-7ccd-41e7-8577-fe367c65fae7","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-15T00:40:31.953Z","event":"view","session_id":"af356215-280a-45bd-b572-6b4b05844c73","page":"/follow-and-save","duration_seconds":"","referrer":"","utm_source":"station_qr","utm_medium":"offline","utm_campaign":"follow_and_save","utm_content":""}
