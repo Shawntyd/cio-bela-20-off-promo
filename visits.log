@@ -77,3 +77,4 @@
 {"ts":"2026-11-15T21:43:36.561Z","event":"exit","session_id":"311f5ae4-9b0d-48e9-b68d-758486dd949d","page":"booking-wax-svc/select-service","duration_seconds":32,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-15T23:32:06.918Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-15T23:32:07.464Z","event":"view","session_id":"1c11f6e3-f2a1-4317-a404-d698dc63ff52","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T00:09:30.088Z","event":"view","session_id":"d99c2d25-d79c-4ba4-a2b8-5b66c1fde143","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
