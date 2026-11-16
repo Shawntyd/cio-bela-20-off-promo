@@ -134,3 +134,4 @@
 {"ts":"2026-11-16T08:18:29.013Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T08:58:33.599Z","event":"view","session_id":"957afe8c-3cd8-42e8-83cb-c1063337fab0","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T08:58:36.374Z","event":"view","session_id":"957afe8c-3cd8-42e8-83cb-c1063337fab0","page":"/waxing-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T09:28:10.478Z","event":"view","session_id":"49dd7b41-3d76-48bb-becb-1067b7ee50c2","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
