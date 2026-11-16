@@ -144,3 +144,4 @@
 {"ts":"2026-11-16T10:21:56.715Z","event":"view","session_id":"b1c825bf-4e86-41a1-844c-01a169af6a19","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T10:21:58.891Z","event":"exit","session_id":"b1c825bf-4e86-41a1-844c-01a169af6a19","page":"/wax-services","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T10:31:19.859Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T10:31:21.330Z","event":"view","session_id":"23ceeaaf-5a9a-4325-9f67-be9808f015c1","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
