@@ -152,3 +152,4 @@
 {"ts":"2026-11-16T11:26:50.485Z","event":"view","session_id":"c6524804-840c-434b-8fc8-f6f5fa85ab58","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T11:31:46.010Z","event":"view","session_id":"7593b47a-83e3-4968-9b17-5778896dca21","page":"/special-event","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T11:31:48.801Z","event":"view","session_id":"7593b47a-83e3-4968-9b17-5778896dca21","page":"/special-event","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T11:31:50.646Z","event":"exit","session_id":"7593b47a-83e3-4968-9b17-5778896dca21","page":"/special-event","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
