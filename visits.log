@@ -207,3 +207,4 @@
 {"ts":"2026-11-16T17:06:03.585Z","event":"view","session_id":"7143ef49-cee8-413a-857b-9a6aa9440034","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T17:22:25.831Z","event":"view","session_id":"c6a0e0fe-fc25-4202-9e7c-83ee5309e82c","page":"/","duration_seconds":"","referrer":"https://www.google.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T17:22:27.391Z","event":"view","session_id":"c6a0e0fe-fc25-4202-9e7c-83ee5309e82c","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T17:22:33.343Z","event":"view","session_id":"c6a0e0fe-fc25-4202-9e7c-83ee5309e82c","page":"/xtreme-lashes-flashcure-uv-light","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
