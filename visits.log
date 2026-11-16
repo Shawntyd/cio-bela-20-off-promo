@@ -154,3 +154,4 @@
 {"ts":"2026-11-16T11:31:48.801Z","event":"view","session_id":"7593b47a-83e3-4968-9b17-5778896dca21","page":"/special-event","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T11:31:50.646Z","event":"exit","session_id":"7593b47a-83e3-4968-9b17-5778896dca21","page":"/special-event","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T12:28:48.561Z","event":"view","session_id":"cc7ac9a6-bdb7-4d21-aa82-6f9972299e60","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T12:28:50.593Z","event":"view","session_id":"cc7ac9a6-bdb7-4d21-aa82-6f9972299e60","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
