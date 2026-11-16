@@ -221,3 +221,4 @@
 {"ts":"2026-11-16T19:40:58.906Z","event":"view","session_id":"22d59334-edf1-45aa-b55d-677babff5107","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-11-16T19:40:59.279Z","event":"view","session_id":"68f1b9ef-3296-4809-a946-d287ad5a16df","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-11-16T21:00:20.651Z","event":"view","session_id":"845b69fe-65c6-49ce-a598-bb8496db1d10","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T22:49:36.677Z","event":"view","session_id":"914d38e4-0a29-43fd-b255-1853b20b13e5","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
