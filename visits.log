@@ -201,3 +201,4 @@
 {"ts":"2026-11-16T16:44:49.715Z","event":"exit","session_id":"69b20312-1aa1-4a31-bb76-132709f9aee4","page":"/booking/nail-by-artist","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T16:54:09.490Z","event":"view","session_id":"3381bcf3-be7b-4955-86e2-48865a9282bb","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-16T16:54:31.235Z","event":"view","session_id":"3381bcf3-be7b-4955-86e2-48865a9282bb","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-16T16:54:44.223Z","event":"view","session_id":"3381bcf3-be7b-4955-86e2-48865a9282bb","page":"/1eyelashextensionsthewoodland-stx","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
