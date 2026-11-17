@@ -336,3 +336,4 @@
 {"ts":"2026-11-17T07:00:35.807Z","event":"view","session_id":"cc854be3-3955-4872-8642-68b0dfd08a3d","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T07:14:33.289Z","event":"view","session_id":"86d74b6e-5abc-4402-adb6-7d1504fd1a39","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T07:14:38.672Z","event":"exit","session_id":"86d74b6e-5abc-4402-adb6-7d1504fd1a39","page":"/","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-17T09:12:15.977Z","event":"view","session_id":"ff244943-fd57-400c-b4e5-6a93cf8c5dd4","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
