@@ -380,3 +380,4 @@
 {"ts":"2026-11-17T17:58:37.419Z","event":"view","session_id":"c7b91b81-0631-4b3d-9a86-0c15d5669c2d","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T18:26:12.045Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T18:26:25.241Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-17T18:58:15.714Z","event":"view","session_id":"d6b26600-3bb6-4acc-a157-4f4d3f43de98","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
