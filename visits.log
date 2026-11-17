@@ -259,3 +259,4 @@
 {"ts":"2026-11-17T03:07:20.185Z","event":"view","session_id":"62d59130-91fb-40e0-9991-be17170f0744","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T03:17:16.933Z","event":"view","session_id":"b6b1e98c-5c70-4985-80e0-ca1e3f040a2b","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T03:17:36.549Z","event":"view","session_id":"32e3bbbc-053c-4cc1-ad3f-843052109075","page":"/shop","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-17T03:18:01.379Z","event":"view","session_id":"d913b728-30fd-42f0-a9b8-9ee16acfc365","page":"/shop-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
