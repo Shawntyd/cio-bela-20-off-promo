@@ -340,3 +340,4 @@
 {"ts":"2026-11-17T09:14:59.583Z","event":"view","session_id":"ff244943-fd57-400c-b4e5-6a93cf8c5dd4","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T09:48:59.882Z","event":"view","session_id":"602b91ce-1eb5-4bcb-9037-c0921f2fb3a9","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T09:49:12.420Z","event":"view","session_id":"4947b7b6-9ee0-400b-95d3-5d00408a0af6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-17T10:26:21.765Z","event":"view","session_id":"ee3ba9ec-bd28-47f9-b6a6-20f4ed8cb48d","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
