@@ -250,3 +250,4 @@
 {"ts":"2026-11-17T01:46:08.487Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T01:48:09.452Z","event":"view","session_id":"b9ab8211-dee7-4951-9b58-0afcb5e8c784","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-17T01:48:09.629Z","event":"view","session_id":"142f389f-2f41-4dff-9a26-c48e6cfbc6b6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-17T02:01:22.902Z","event":"view","session_id":"a7bacf2d-5498-487d-b33e-a2c6bcb34e3e","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
