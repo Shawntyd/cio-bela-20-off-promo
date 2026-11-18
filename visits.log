@@ -519,3 +519,4 @@
 {"ts":"2026-11-18T18:15:33.206Z","event":"view","session_id":"bdab57a7-ea33-45ad-aa02-59f869383f2f","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:15:35.025Z","event":"view","session_id":"55ce0ed6-cb8c-43da-924b-ca17325c9021","page":"/photo-release","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:15:35.819Z","event":"view","session_id":"bdab57a7-ea33-45ad-aa02-59f869383f2f","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T18:15:39.255Z","event":"view","session_id":"dacfb8bb-b016-40b6-b135-d76b46d94113","page":"/waxing-specialist-form","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
