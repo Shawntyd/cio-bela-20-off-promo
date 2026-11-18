@@ -489,3 +489,4 @@
 {"ts":"2026-11-18T18:14:05.590Z","event":"view","session_id":"8e2af5fa-65ae-48d0-b526-dbc0b64181e1","page":"/copy-of-nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:14:12.372Z","event":"view","session_id":"7f1f32fb-d205-463d-a85c-443eab40bb72","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:14:13.380Z","event":"view","session_id":"91e47575-7ee8-4a25-a692-b67718e8ce5e","page":"/russian-manicure-the-woodlands","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T18:14:17.526Z","event":"exit","session_id":"8e2af5fa-65ae-48d0-b526-dbc0b64181e1","page":"booking-nail-svc/select-service","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
