@@ -492,3 +492,4 @@
 {"ts":"2026-11-18T18:14:17.526Z","event":"exit","session_id":"8e2af5fa-65ae-48d0-b526-dbc0b64181e1","page":"booking-nail-svc/select-service","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:14:24.160Z","event":"view","session_id":"9e43acfe-8531-4db8-82f1-ccd9d467f9d4","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:14:24.951Z","event":"view","session_id":"09f78090-378e-4bc5-88cf-ea0ccafec138","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T18:14:28.092Z","event":"view","session_id":"9e43acfe-8531-4db8-82f1-ccd9d467f9d4","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
