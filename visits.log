@@ -537,3 +537,4 @@
 {"ts":"2026-11-18T18:16:21.202Z","event":"view","session_id":"74a69751-0a71-404f-aebe-9ef83acb805f","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:16:19.661Z","event":"view","session_id":"74a69751-0a71-404f-aebe-9ef83acb805f","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:16:17.463Z","event":"view","session_id":"65fcb656-31a0-47ea-b624-b96836f02323","page":"/temp-nail","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T18:16:26.700Z","event":"exit","session_id":"c921eba4-b4f0-48f1-bd3b-949a9f40f184","page":"/booking/lash-by-artist","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
