@@ -592,3 +592,4 @@
 {"ts":"2026-11-18T20:38:53.817Z","event":"view","session_id":"cc1c17b7-6e73-43b9-96c6-82119b45786b","page":"booking-nail/time","duration_seconds":"","referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-18T20:39:12.688Z","event":"exit","session_id":"cc1c17b7-6e73-43b9-96c6-82119b45786b","page":"booking-nail/time","duration_seconds":19,"referrer":"","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
 {"ts":"2026-11-18T21:06:19.779Z","event":"view","session_id":"32d4f080-0d3b-4644-8a20-a2e9ff46a8f7","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T21:20:19.946Z","event":"view","session_id":"26ec2f9a-faf6-40bf-9afc-8b617b3e4d36","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
