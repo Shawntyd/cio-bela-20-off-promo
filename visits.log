@@ -397,3 +397,4 @@
 {"ts":"2026-11-17T23:38:46.656Z","event":"view","session_id":"d2d16d67-e9ba-4c53-b227-80a14fcc7512","page":"/blog","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T00:41:09.023Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T00:52:24.144Z","event":"view","session_id":"5bd8627b-f01e-4378-bcf3-8e0adf993c2c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T00:59:07.819Z","event":"view","session_id":"7e099e84-0e3c-4812-9fbf-452d7ce24033","page":"booking-nail-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
