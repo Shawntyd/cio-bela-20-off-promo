@@ -534,3 +534,4 @@
 {"ts":"2026-11-18T18:16:13.425Z","event":"view","session_id":"c921eba4-b4f0-48f1-bd3b-949a9f40f184","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:16:14.828Z","event":"view","session_id":"c921eba4-b4f0-48f1-bd3b-949a9f40f184","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T18:16:17.724Z","event":"view","session_id":"c921eba4-b4f0-48f1-bd3b-949a9f40f184","page":"/booking/lash-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T18:16:21.202Z","event":"view","session_id":"74a69751-0a71-404f-aebe-9ef83acb805f","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
