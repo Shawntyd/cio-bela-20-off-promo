@@ -453,3 +453,4 @@
 {"ts":"2026-11-18T13:54:47.120Z","event":"view","session_id":"784ebbce-e778-4d28-8991-17ab439657df","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T13:54:52.183Z","event":"view","session_id":"784ebbce-e778-4d28-8991-17ab439657df","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T13:55:00.860Z","event":"view","session_id":"784ebbce-e778-4d28-8991-17ab439657df","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T14:02:47.663Z","event":"view","session_id":"5f9189a4-630a-436b-b59d-2ab60711b89b","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
