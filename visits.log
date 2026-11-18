@@ -423,3 +423,4 @@
 {"ts":"2026-11-18T07:57:01.729Z","event":"view","session_id":"492d6b28-b01c-44ab-a71d-b5388fc071ec","page":"/book-online","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T07:57:07.290Z","event":"view","session_id":"492d6b28-b01c-44ab-a71d-b5388fc071ec","page":"/book-online","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-18T07:57:07.619Z","event":"view","session_id":"492d6b28-b01c-44ab-a71d-b5388fc071ec","page":"/book-online","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-18T09:32:31.900Z","event":"view","session_id":"7edf109f-9e49-4ef9-bf34-99ace0dd2368","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
