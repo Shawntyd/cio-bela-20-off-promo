@@ -664,3 +664,4 @@
 {"ts":"2026-11-19T12:33:45.112Z","event":"view","session_id":"a7584aef-88fb-4ca3-8e92-ae81ceefa5a7","page":"/waxing-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T12:39:08.001Z","event":"view","session_id":"e7e0cabb-93f8-4fdb-9302-17b007d51cf7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T12:39:10.229Z","event":"view","session_id":"e7e0cabb-93f8-4fdb-9302-17b007d51cf7","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T12:39:19.955Z","event":"view","session_id":"e7e0cabb-93f8-4fdb-9302-17b007d51cf7","page":"/nail-salon-the-woodlands","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
