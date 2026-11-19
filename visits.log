@@ -775,3 +775,4 @@
 {"ts":"2026-11-19T22:30:04.763Z","event":"exit","session_id":"11206698-6d3d-4972-8ae0-ff1706472515","page":"booking-nail-svc/select-artist","duration_seconds":9,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T22:30:59.454Z","event":"view","session_id":"11206698-6d3d-4972-8ae0-ff1706472515","page":"booking-nail-svc/waiver","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T22:30:59.458Z","event":"exit","session_id":"11206698-6d3d-4972-8ae0-ff1706472515","page":"booking-nail-svc/client-info","duration_seconds":55,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T22:31:45.279Z","event":"exit","session_id":"11206698-6d3d-4972-8ae0-ff1706472515","page":"booking-nail-svc/waiver","duration_seconds":46,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
