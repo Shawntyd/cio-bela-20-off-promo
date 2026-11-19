@@ -656,3 +656,4 @@
 {"ts":"2026-11-19T09:29:31.603Z","event":"view","session_id":"57f70a47-ee5f-43d2-9d27-9d5ee0ab9d58","page":"/copy-of-eyelash-extensions-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T09:29:43.474Z","event":"exit","session_id":"57f70a47-ee5f-43d2-9d27-9d5ee0ab9d58","page":"/copy-of-eyelash-extensions-1","duration_seconds":12,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T09:59:59.157Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T10:06:19.028Z","event":"exit","session_id":"311dbb6a-7516-4506-8c6f-d5ad935666e0","page":"/booking/lash-by-artist","duration_seconds":5,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
