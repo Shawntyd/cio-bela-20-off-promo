@@ -753,3 +753,4 @@
 {"ts":"2026-11-19T19:25:26.377Z","event":"view","session_id":"d8e7d0ec-fe56-4a3b-91c4-a70f2aa4e4a2","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T19:25:31.874Z","event":"exit","session_id":"d8e7d0ec-fe56-4a3b-91c4-a70f2aa4e4a2","page":"/nails-by-service","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T20:10:17.570Z","event":"view","session_id":"014c30c7-dd0d-44ab-87b5-2dd3f353679d","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T20:37:11.236Z","event":"view","session_id":"8278839f-8411-4011-9b54-3bac17bc297f","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
