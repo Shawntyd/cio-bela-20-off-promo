@@ -712,3 +712,4 @@
 {"ts":"2026-11-19T14:32:28.042Z","event":"view","session_id":"bf0486ea-f093-4e12-94ed-e9c1df026c48","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T14:32:35.762Z","event":"exit","session_id":"bf0486ea-f093-4e12-94ed-e9c1df026c48","page":"/booking/nail-by-artist","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T14:43:42.548Z","event":"view","session_id":"4e9146a8-424b-4d13-b5d9-763481c20689","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T14:43:51.328Z","event":"view","session_id":"4e9146a8-424b-4d13-b5d9-763481c20689","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
