@@ -655,3 +655,4 @@
 {"ts":"2026-11-19T09:23:16.835Z","event":"view","session_id":"8b888a29-b5d7-4e13-95d0-ea4ca84297d7","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T09:29:31.603Z","event":"view","session_id":"57f70a47-ee5f-43d2-9d27-9d5ee0ab9d58","page":"/copy-of-eyelash-extensions-1","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T09:29:43.474Z","event":"exit","session_id":"57f70a47-ee5f-43d2-9d27-9d5ee0ab9d58","page":"/copy-of-eyelash-extensions-1","duration_seconds":12,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T09:59:59.157Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
