@@ -751,3 +751,4 @@
 {"ts":"2026-11-19T19:08:24.371Z","event":"view","session_id":"21406c67-5667-4856-9932-c3753146fdab","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/contact-us","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T19:08:33.514Z","event":"view","session_id":"21406c67-5667-4856-9932-c3753146fdab","page":"/contact-us","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T19:25:26.377Z","event":"view","session_id":"d8e7d0ec-fe56-4a3b-91c4-a70f2aa4e4a2","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T19:25:31.874Z","event":"exit","session_id":"d8e7d0ec-fe56-4a3b-91c4-a70f2aa4e4a2","page":"/nails-by-service","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
