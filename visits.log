@@ -734,3 +734,4 @@
 {"ts":"2026-11-19T15:22:39.901Z","event":"view","session_id":"8ffa23a7-fcda-41ed-9e1b-060ebcbd39f6","page":"/memberships","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T15:44:03.952Z","event":"view","session_id":"9b6dee1e-6dfa-46f0-9ee7-0794c1257f0d","page":"/hair-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-19T16:06:29.478Z","event":"view","session_id":"bb1965c7-b809-477e-ab8d-f93c9387cb5e","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-19T16:06:35.016Z","event":"view","session_id":"bb1965c7-b809-477e-ab8d-f93c9387cb5e","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
