@@ -964,3 +964,4 @@
 {"ts":"2026-11-20T21:55:42.041Z","event":"exit","session_id":"d54864f5-578d-4827-b265-3e979a9984f7","page":"booking-nail/waiver","duration_seconds":42,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T21:56:05.245Z","event":"deposit_paid","session_id":"d54864f5-578d-4827-b265-3e979a9984f7","page":"booking-nail/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T21:56:05.244Z","event":"exit","session_id":"d54864f5-578d-4827-b265-3e979a9984f7","page":"booking-nail/deposit","duration_seconds":23,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-20T22:46:58.245Z","event":"view","session_id":"bb7ae77d-df52-460f-9edd-5794111d9e93","page":"/booking/nail-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
