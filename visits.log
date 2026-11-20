@@ -848,3 +848,4 @@
 {"ts":"2026-11-20T04:16:52.445Z","event":"exit","session_id":"41eb4787-c1cc-4ecf-87ac-45f6e7505df9","page":"booking-nail-svc/select-artist","duration_seconds":90,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T04:30:26.409Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T04:30:25.163Z","event":"view","session_id":"eefa6bab-957b-4265-97ac-81cc7028740d","page":"/","duration_seconds":"","referrer":"https://www.msn.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-20T04:31:54.952Z","event":"view","session_id":"9c6ffa43-5cbb-4eaf-9069-d18cc388364c","page":"/about","duration_seconds":"","referrer":"https://www.linkedin.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
