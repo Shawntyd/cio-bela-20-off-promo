@@ -919,3 +919,4 @@
 {"ts":"2026-11-20T20:45:02.580Z","event":"exit","session_id":"766b7ef6-ddda-4c99-9fe5-affe093a22da","page":"booking-wax-svc/time","duration_seconds":23,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T20:45:43.407Z","event":"exit","session_id":"766b7ef6-ddda-4c99-9fe5-affe093a22da","page":"booking-wax-svc/select-artist","duration_seconds":41,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-20T20:56:13.340Z","event":"view","session_id":"647bf283-01dd-475d-a74d-9dbbc89df2fe","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-20T21:34:42.504Z","event":"view","session_id":"e9e0c1e1-9ba9-4410-8251-7f55dce3dde7","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
