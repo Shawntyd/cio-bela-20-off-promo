@@ -1022,3 +1022,4 @@
 {"ts":"2026-11-21T02:37:01.822Z","event":"exit","session_id":"f533eb91-e675-4d24-a686-1a62b0d438fe","page":"booking-nail-svc/client-info","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T03:05:44.029Z","event":"view","session_id":"a051f672-23eb-4f0b-ab9c-789c99c1161b","page":"/copy-of-artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T03:29:12.519Z","event":"view","session_id":"b3a5f417-b968-4288-82cb-4c05b21c5ba0","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-21T04:49:06.272Z","event":"view","session_id":"e76237b2-6bd3-4233-b576-63d1a3b6911c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
