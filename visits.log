@@ -990,3 +990,4 @@
 {"ts":"2026-11-21T00:59:06.003Z","event":"exit","session_id":"3f2a49a6-a955-437c-95dd-02f4260ee2d2","page":"booking-nail-svc/select-service","duration_seconds":65,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T00:59:06.409Z","event":"view","session_id":"3f2a49a6-a955-437c-95dd-02f4260ee2d2","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/copy-of-nails-by-service","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T02:23:52.053Z","event":"view","session_id":"814b68c8-a4d9-43e1-a30d-5ef1a7a2e047","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-21T02:23:55.271Z","event":"view","session_id":"814b68c8-a4d9-43e1-a30d-5ef1a7a2e047","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
