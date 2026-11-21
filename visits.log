@@ -1024,3 +1024,4 @@
 {"ts":"2026-11-21T03:29:12.519Z","event":"view","session_id":"b3a5f417-b968-4288-82cb-4c05b21c5ba0","page":"/nails-by-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T04:49:06.272Z","event":"view","session_id":"e76237b2-6bd3-4233-b576-63d1a3b6911c","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-21T06:31:34.434Z","event":"view","session_id":"f1a3eb16-c9d7-4e61-b585-da10b4aec75c","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-21T07:52:34.194Z","event":"view","session_id":"d46f6a7f-3445-4ac1-80c9-0a943df366cd","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
