@@ -1470,3 +1470,4 @@
 {"ts":"2026-11-23T19:33:55.647Z","event":"view","session_id":"3441e0c9-1058-423e-b661-7298169557a4","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T19:34:15.232Z","event":"view","session_id":"6cd3a423-826b-4051-ab3c-ff51cd5764a5","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
 {"ts":"2026-11-23T20:19:24.306Z","event":"view","session_id":"95003afc-0b0c-4afe-851e-6dfe0f38a16a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T20:21:07.808Z","event":"view","session_id":"66f5c4c8-e805-41da-8833-044c84442d14","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
