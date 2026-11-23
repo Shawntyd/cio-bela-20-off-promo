@@ -1162,3 +1162,4 @@
 {"ts":"2026-11-23T01:08:28.154Z","event":"exit","session_id":"c50ac379-f44f-4714-9890-4e3fb6872712","page":"booking-nail-svc/select-service","duration_seconds":21,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T01:09:39.772Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T01:09:41.258Z","event":"view","session_id":"9ee51644-0005-43af-a9fb-fbcb4b65278c","page":"/nail-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T01:09:41.170Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
