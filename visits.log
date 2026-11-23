@@ -1320,3 +1320,4 @@
 {"ts":"2026-11-23T06:45:44.095Z","event":"view","session_id":"90cbafac-82d6-4bb1-82b7-3c9fb5eaf5df","page":"booking-lash/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T06:45:47.924Z","event":"exit","session_id":"90cbafac-82d6-4bb1-82b7-3c9fb5eaf5df","page":"booking-lash/date","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T06:45:47.939Z","event":"view","session_id":"90cbafac-82d6-4bb1-82b7-3c9fb5eaf5df","page":"booking-lash/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T06:46:11.372Z","event":"view","session_id":"90cbafac-82d6-4bb1-82b7-3c9fb5eaf5df","page":"/booking/lash-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
