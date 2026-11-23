@@ -1375,3 +1375,4 @@
 {"ts":"2026-11-23T16:23:20.640Z","event":"view","session_id":"4853992a-458b-49f8-939e-5dd0c3a233c2","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T16:37:14.377Z","event":"view","session_id":"4853992a-458b-49f8-939e-5dd0c3a233c2","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T16:58:18.103Z","event":"view","session_id":"88b5a12e-d462-46a5-bc0e-d119fd260792","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T16:58:49.193Z","event":"exit","session_id":"88b5a12e-d462-46a5-bc0e-d119fd260792","page":"/copy-of-nails-by-artist","duration_seconds":31,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
