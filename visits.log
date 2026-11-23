@@ -1291,3 +1291,4 @@
 {"ts":"2026-11-23T05:59:35.991Z","event":"view","session_id":"5358c0ae-7f09-458d-a23d-b5ba4990bf36","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T05:59:40.371Z","event":"view","session_id":"5358c0ae-7f09-458d-a23d-b5ba4990bf36","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T05:59:55.273Z","event":"exit","session_id":"5358c0ae-7f09-458d-a23d-b5ba4990bf36","page":"/","duration_seconds":20,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T06:17:22.777Z","event":"view","session_id":"ce3dd250-235b-4128-a289-707cf8c55dde","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
