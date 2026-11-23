@@ -1445,3 +1445,4 @@
 {"ts":"2026-11-23T18:28:01.948Z","event":"view","session_id":"c4184aa4-1b6e-4d5e-8857-01cc140e8c6d","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T18:28:31.977Z","event":"view","session_id":"c4184aa4-1b6e-4d5e-8857-01cc140e8c6d","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T18:31:53.313Z","event":"view","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T18:32:00.555Z","event":"view","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"/wax-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
