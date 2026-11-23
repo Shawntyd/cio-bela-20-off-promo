@@ -1299,3 +1299,4 @@
 {"ts":"2026-11-23T06:17:51.621Z","event":"exit","session_id":"0b8ce470-4c22-454e-a880-0872efacb8c3","page":"/booking/wax-by-artist","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T06:17:51.635Z","event":"view","session_id":"0b8ce470-4c22-454e-a880-0872efacb8c3","page":"booking-wax/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T06:17:58.239Z","event":"exit","session_id":"0b8ce470-4c22-454e-a880-0872efacb8c3","page":"booking-wax/services-addons","duration_seconds":7,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T06:21:47.643Z","event":"view","session_id":"a2eef22b-0601-467d-a64d-4b68fb899a27","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
