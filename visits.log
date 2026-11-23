@@ -1457,3 +1457,4 @@
 {"ts":"2026-11-23T18:32:50.878Z","event":"exit","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"booking-wax/time","duration_seconds":3,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T18:32:55.273Z","event":"exit","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"booking-wax/date","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T18:32:55.278Z","event":"view","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"booking-wax/time","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T18:32:59.428Z","event":"exit","session_id":"732347f0-1d52-40e9-a50d-a7241bc93e00","page":"booking-wax/time","duration_seconds":4,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
