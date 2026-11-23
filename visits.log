@@ -1472,3 +1472,4 @@
 {"ts":"2026-11-23T20:19:24.306Z","event":"view","session_id":"95003afc-0b0c-4afe-851e-6dfe0f38a16a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T20:21:07.808Z","event":"view","session_id":"66f5c4c8-e805-41da-8833-044c84442d14","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T20:23:40.431Z","event":"view","session_id":"8b1f301b-921f-42c9-bfac-dc41925e17ff","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T21:01:16.383Z","event":"view","session_id":"db2899cf-10ed-43f4-b4de-b387592ecc4e","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
