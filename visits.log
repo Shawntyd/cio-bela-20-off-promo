@@ -1377,3 +1377,4 @@
 {"ts":"2026-11-23T16:58:18.103Z","event":"view","session_id":"88b5a12e-d462-46a5-bc0e-d119fd260792","page":"/copy-of-nails-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T16:58:49.193Z","event":"exit","session_id":"88b5a12e-d462-46a5-bc0e-d119fd260792","page":"/copy-of-nails-by-artist","duration_seconds":31,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T17:07:06.540Z","event":"view","session_id":"b20a50ba-5ff6-48ac-9386-c2e11a0c44eb","page":"/hair-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T17:09:52.941Z","event":"view","session_id":"30537150-7319-4b5f-9376-35b5b4a4845a","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
