@@ -1226,3 +1226,4 @@
 {"ts":"2026-11-23T01:16:18.906Z","event":"view","session_id":"ddc31645-dd17-4e12-89fd-c98fea103447","page":"booking-nail-svc/waiver","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T01:17:03.761Z","event":"exit","session_id":"ddc31645-dd17-4e12-89fd-c98fea103447","page":"booking-nail-svc/waiver","duration_seconds":45,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-23T01:17:03.760Z","event":"view","session_id":"ddc31645-dd17-4e12-89fd-c98fea103447","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-23T01:18:24.687Z","event":"exit","session_id":"ddc31645-dd17-4e12-89fd-c98fea103447","page":"booking-nail-svc/deposit","duration_seconds":81,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
