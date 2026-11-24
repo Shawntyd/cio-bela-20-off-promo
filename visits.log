@@ -1539,3 +1539,4 @@
 {"ts":"2026-11-24T12:02:06.081Z","event":"view","session_id":"74fb65d1-c7ae-48ae-917d-c3be14983440","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T12:45:03.001Z","event":"view","session_id":"caacf8ea-d128-4db2-b60f-74600cd571a9","page":"/join-our-team","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T13:32:14.854Z","event":"view","session_id":"95e7398a-eb94-4673-bc2f-c66a5ff3a8e7","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
+{"ts":"2026-11-24T13:59:23.224Z","event":"view","session_id":"a8475e4f-71e7-4776-a633-fa6ab00d16a0","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
