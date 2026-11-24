@@ -1587,3 +1587,4 @@
 {"ts":"2026-11-24T18:13:05.565Z","event":"exit","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/services-addons","duration_seconds":16,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T18:13:05.578Z","event":"view","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T18:13:11.849Z","event":"exit","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/date","duration_seconds":6,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-24T18:25:14.751Z","event":"view","session_id":"9d996151-fce5-4b67-8e6a-31f108190c56","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
