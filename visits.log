@@ -1547,3 +1547,4 @@
 {"ts":"2026-11-24T14:54:30.224Z","event":"view","session_id":"6058fbf1-2a90-4e0b-bb3a-af9f35dde718","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-24T15:54:59.101Z","event":"view","session_id":"8d632d78-4271-4f6a-bcc9-1f54707528d5","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T16:34:01.858Z","event":"exit","session_id":"10b089c0-0e0c-41b5-99b2-6200c8c47ed1","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-24T16:34:01.871Z","event":"view","session_id":"10b089c0-0e0c-41b5-99b2-6200c8c47ed1","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
