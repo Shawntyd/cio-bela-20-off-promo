@@ -1549,3 +1549,4 @@
 {"ts":"2026-11-24T16:34:01.858Z","event":"exit","session_id":"10b089c0-0e0c-41b5-99b2-6200c8c47ed1","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T16:34:01.871Z","event":"view","session_id":"10b089c0-0e0c-41b5-99b2-6200c8c47ed1","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T16:34:14.354Z","event":"view","session_id":"10b089c0-0e0c-41b5-99b2-6200c8c47ed1","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-24T16:47:13.122Z","event":"view","session_id":"573e078f-c310-47dc-9be8-f35b23cacd7b","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
