@@ -1579,3 +1579,4 @@
 {"ts":"2026-11-24T18:12:10.139Z","event":"exit","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"/booking/nail-by-artist","duration_seconds":2,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T18:12:10.154Z","event":"view","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-24T18:12:44.912Z","event":"view","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-24T18:12:44.944Z","event":"exit","session_id":"ae31d5c1-db67-47d2-8be2-515d0903824e","page":"booking-nail/services-addons","duration_seconds":35,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
