@@ -1628,3 +1628,4 @@
 {"ts":"2026-11-25T03:18:32.204Z","event":"view","session_id":"203bca69-26ca-4806-8296-1947665bd0b6","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-25T03:28:51.862Z","event":"view","session_id":"a9d8833a-96c2-4a0b-8af5-2281888c0666","page":"/hair-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-25T03:51:25.184Z","event":"view","session_id":"1468ebda-50cd-4dc7-913e-d3349b9a3ac2","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-25T03:51:28.244Z","event":"view","session_id":"1468ebda-50cd-4dc7-913e-d3349b9a3ac2","page":"/artist-management-portable","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
