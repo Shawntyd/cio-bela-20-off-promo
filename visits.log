@@ -1675,3 +1675,4 @@
 {"ts":"2026-11-25T13:59:43.318Z","event":"exit","session_id":"e3903ceb-1fdf-40f8-acbf-372ab57895ab","page":"/booking/wax-by-artist","duration_seconds":2,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-25T13:59:52.171Z","event":"exit","session_id":"e3903ceb-1fdf-40f8-acbf-372ab57895ab","page":"booking-wax/services-addons","duration_seconds":9,"referrer":"","utm_source":"ig","utm_medium":"social","utm_campaign":"","utm_content":"link_in_bio"}
 {"ts":"2026-11-25T14:20:32.109Z","event":"view","session_id":"d057b724-0bf9-407a-a894-154fd2e2345a","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-25T14:36:26.287Z","event":"view","session_id":"92f1e0f0-6c9d-461b-abee-d193c0d8a445","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
