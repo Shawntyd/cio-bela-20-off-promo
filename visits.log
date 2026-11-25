@@ -1682,3 +1682,4 @@
 {"ts":"2026-11-25T14:48:20.335Z","event":"exit","session_id":"b1e8fc32-5ca4-440b-917a-4772ee404fad","page":"booking-nail-svc/select-service","duration_seconds":63,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-25T15:09:31.091Z","event":"view","session_id":"141016ad-fa2d-4f1d-8a9f-67614a28943f","page":"/copy-of-nail-artist-introductory-guide","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-25T15:09:34.736Z","event":"view","session_id":"141016ad-fa2d-4f1d-8a9f-67614a28943f","page":"/copy-of-nail-artist-introductory-guide","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-25T15:16:11.718Z","event":"view","session_id":"abcb86ef-9fa1-4ece-b7a1-90abeed2d5ad","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
