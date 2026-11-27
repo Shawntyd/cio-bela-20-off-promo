@@ -1758,3 +1758,4 @@
 {"ts":"2026-11-26T23:00:40.086Z","event":"view","session_id":"60182db8-4b0f-4320-9371-570281e6e9e3","page":"booking-wax/services-addons","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-26T23:00:40.084Z","event":"exit","session_id":"60182db8-4b0f-4320-9371-570281e6e9e3","page":"/booking/wax-by-artist","duration_seconds":12,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-26T23:01:12.373Z","event":"exit","session_id":"60182db8-4b0f-4320-9371-570281e6e9e3","page":"booking-wax/services-addons","duration_seconds":32,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T00:19:30.687Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
