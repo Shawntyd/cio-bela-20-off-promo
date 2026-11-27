@@ -1859,3 +1859,4 @@
 {"ts":"2026-11-27T03:22:55.511Z","event":"view","session_id":"dc228574-b98a-454e-9d44-b18141d81a93","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:23:32.117Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:23:33.378Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/book-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T03:23:33.902Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/booking/lash-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
