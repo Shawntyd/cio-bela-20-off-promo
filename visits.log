@@ -1785,3 +1785,4 @@
 {"ts":"2026-11-27T03:00:54.360Z","event":"view","session_id":"1d980319-e3d7-4415-854e-a50b32d70f72","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:02:35.341Z","event":"view","session_id":"03d1b40f-0d8f-4359-8fb5-a132a5e166a9","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:02:36.822Z","event":"view","session_id":"03d1b40f-0d8f-4359-8fb5-a132a5e166a9","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T03:02:53.128Z","event":"view","session_id":"03d1b40f-0d8f-4359-8fb5-a132a5e166a9","page":"/professional-development","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
