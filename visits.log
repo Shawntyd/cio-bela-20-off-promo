@@ -1944,3 +1944,4 @@
 {"ts":"2026-11-27T22:18:28.870Z","event":"view","session_id":"88ce90c5-752d-4a0b-ad5e-4037d9460f74","page":"booking-nail-svc/deposit","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T22:18:39.527Z","event":"exit","session_id":"88ce90c5-752d-4a0b-ad5e-4037d9460f74","page":"booking-nail-svc/deposit","duration_seconds":11,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T22:19:57.805Z","event":"deposit_paid","session_id":"88ce90c5-752d-4a0b-ad5e-4037d9460f74","page":"booking-nail-svc/deposit-paid","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T23:21:44.175Z","event":"view","session_id":"702ff739-eb23-4ab4-b20d-19cdafbeadc5","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
