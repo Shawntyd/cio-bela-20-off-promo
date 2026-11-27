@@ -1822,3 +1822,4 @@
 {"ts":"2026-11-27T03:13:13.966Z","event":"view","session_id":"4a60ba4f-be59-47d2-8a00-6999860f572c","page":"/hair-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:13:31.116Z","event":"view","session_id":"4a60ba4f-be59-47d2-8a00-6999860f572c","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:14:13.041Z","event":"view","session_id":"55494ea8-b9a8-421b-be38-006d470391f4","page":"/wax-services","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T03:14:30.181Z","event":"view","session_id":"55494ea8-b9a8-421b-be38-006d470391f4","page":"/cart-page","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
