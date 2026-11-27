@@ -1763,3 +1763,4 @@
 {"ts":"2026-11-27T00:44:26.783Z","event":"view","session_id":"2bc49446-506f-499e-85c5-b18ab7e6731c","page":"/booking/wax-by-artist","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T00:44:34.337Z","event":"exit","session_id":"2bc49446-506f-499e-85c5-b18ab7e6731c","page":"/booking/wax-by-artist","duration_seconds":8,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T01:14:28.450Z","event":"view","session_id":"0792ddd9-0e6f-446b-ad41-1895350689c8","page":"/booth","duration_seconds":"","referrer":"","utm_source":"booth_qr","utm_medium":"offline","utm_campaign":"booth","utm_content":""}
+{"ts":"2026-11-27T02:42:49.210Z","event":"view","session_id":"0caea215-ae57-4f13-a857-db9b48a8b72c","page":"/","duration_seconds":"","referrer":"","utm_source":"chatgpt.com","utm_medium":"","utm_campaign":"","utm_content":""}
