@@ -1838,3 +1838,4 @@
 {"ts":"2026-11-27T03:17:17.721Z","event":"view","session_id":"ab888bbc-8dfe-483c-8e5c-33f7d57cf958","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:17:52.461Z","event":"view","session_id":"fe19bc7e-e6dd-41f7-ae71-4e7b864db824","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:17:53.853Z","event":"view","session_id":"fe19bc7e-e6dd-41f7-ae71-4e7b864db824","page":"/permanent-jewelry","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T03:18:10.123Z","event":"view","session_id":"fe19bc7e-e6dd-41f7-ae71-4e7b864db824","page":"/tanning","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
