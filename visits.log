@@ -1864,3 +1864,4 @@
 {"ts":"2026-11-27T03:23:48.515Z","event":"exit","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/booking/lash-by-artist","duration_seconds":15,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:23:49.635Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/shawntavia-lashes","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-27T03:24:26.215Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-27T03:24:27.080Z","event":"view","session_id":"e5a080b3-b0ec-49eb-98fc-fd01bb79fc73","page":"/nail-services-cio-bela","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
