@@ -2075,3 +2075,4 @@
 {"ts":"2026-11-28T16:06:24.440Z","event":"view","session_id":"3fb4ce25-0e75-4790-be82-816df6ef90f1","page":"/","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T16:06:34.495Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T16:06:36.007Z","event":"view","session_id":"","page":"","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-28T16:25:13.770Z","event":"view","session_id":"5b3a1a1c-5e4a-4eab-ae46-beca263e0634","page":"/","duration_seconds":"","referrer":"https://l.instagram.com/","utm_source":"instagram","utm_medium":"social","utm_campaign":"bio_link","utm_content":"link_in_bio"}
