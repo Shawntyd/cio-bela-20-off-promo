@@ -1984,3 +1984,4 @@
 {"ts":"2026-11-28T10:19:45.523Z","event":"view","session_id":"ab490b11-abb4-47b5-b66b-d63f182e4538","page":"booking-wax-svc/select-service","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T10:20:06.565Z","event":"view","session_id":"ab490b11-abb4-47b5-b66b-d63f182e4538","page":"booking-wax-svc/date","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T10:20:06.555Z","event":"exit","session_id":"ab490b11-abb4-47b5-b66b-d63f182e4538","page":"booking-wax-svc/select-service","duration_seconds":21,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-28T10:20:55.624Z","event":"exit","session_id":"ab490b11-abb4-47b5-b66b-d63f182e4538","page":"booking-wax-svc/date","duration_seconds":49,"referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
