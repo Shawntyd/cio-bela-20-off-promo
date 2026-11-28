@@ -1965,3 +1965,4 @@
 {"ts":"2026-11-28T05:15:33.476Z","event":"view","session_id":"c05e3c2e-8bfd-441b-86af-4917598438c3","page":"/hair-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T06:12:36.550Z","event":"view","session_id":"52934d02-4678-4ad8-af7d-50b615313f7c","page":"/internal-links","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T06:12:52.030Z","event":"view","session_id":"52934d02-4678-4ad8-af7d-50b615313f7c","page":"/wax-consultation-viewer","duration_seconds":"","referrer":"https://www.ciobelasalons.com/internal-links","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-28T06:30:26.197Z","event":"view","session_id":"bf05d479-e67c-4861-a9ab-a89f99c8fd5f","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
