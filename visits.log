@@ -1955,3 +1955,4 @@
 {"ts":"2026-11-28T02:30:59.258Z","event":"view","session_id":"961c7d52-d293-40d5-8ddc-be520362fd99","page":"/","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T02:31:07.834Z","event":"view","session_id":"961c7d52-d293-40d5-8ddc-be520362fd99","page":"/memberships","duration_seconds":"","referrer":"https://www.ciobelasalons.com/","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
 {"ts":"2026-11-28T02:31:38.975Z","event":"view","session_id":"961c7d52-d293-40d5-8ddc-be520362fd99","page":"/hair-services","duration_seconds":"","referrer":"https://www.ciobelasalons.com/memberships","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
+{"ts":"2026-11-28T02:31:49.455Z","event":"view","session_id":"23b58791-d9be-4d48-95b8-c7b06abff70a","page":"/waxing-onboarding","duration_seconds":"","referrer":"","utm_source":"","utm_medium":"","utm_campaign":"","utm_content":""}
